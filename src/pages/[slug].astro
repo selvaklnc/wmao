@@ -87,7 +87,7 @@ const relatedPosts = allPosts
             <h1>{post.data.title}</h1>
             <p class="text-sm opacity-70">
               {new Date(post.data.date).toDateString()} · {author?.data?.name ?? "Unknown Author"}
-            </p>            <!-- {coverImage && <img src={coverImage} alt={title} class="mt-4 rounded-xl" loading="lazy" />} -->
+            </p>          
   
             {post.data.summary && (
               <p class="bluebox">

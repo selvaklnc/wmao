@@ -6,8 +6,14 @@ import "../styles/global.css";
 const {
   title = "Wikimint",
   description = "",
+  image = "https://www.wikimint.com/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp", // fallback image
   noindex = false, // default false if not given in md
 } = Astro.props;
+
+
+const url = Astro.site
+  ? new URL(Astro.url.pathname.replace(/\.html$/, ""), Astro.site).toString()
+  : undefined;
 
 ---
 
@@ -17,12 +23,15 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={Astro.url} />
-    {noindex 
+    {url && <link rel="canonical" href={url} />}
+
+
+      {noindex 
       ? <meta name="robots" content="noindex, nofollow" /> 
       : <meta name="robots" content="index, follow" />
     }
     
+
 
 {import.meta.env.PROD && (
 <!-- Google Tag Manager -->
@@ -36,6 +45,21 @@ const {
  <!-- End Google Tag Manager -->
  </>
 )}
+
+<!-- Open Graph -->
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Wikimint" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+{url && <meta property="og:url" content={url} />}
+<meta property="og:image" content={image} />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+
 
 <slot name="head" />
   </head>

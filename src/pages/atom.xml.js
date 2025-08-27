@@ -15,8 +15,8 @@ export async function GET({ site }) {
   const xml = `<?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
       <title>${escapeXML("Wikimint Blog")}</title>
-      <link href="${site}atom.xml" rel="self"/>
-      <link href="${site}">
+      <link href="${site}atom.xml" rel="self" />
+      <link href="${site}" />
       <updated>${new Date().toISOString()}</updated>
       <id>${site}</id>
       ${posts
@@ -24,7 +24,7 @@ export async function GET({ site }) {
           (post) => `
         <entry>
           <title>${escapeXML(post.data.title)}</title>
-          <link href="${site}${post.slug}">
+          <link href="${site}${post.slug}" />
           <id>${site}${post.slug}</id>
           <updated>${
             post.data.date

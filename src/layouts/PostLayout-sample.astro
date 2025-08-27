@@ -4,7 +4,7 @@ import "../styles/global.css";
 
 const { frontmatter, url } = Astro.props;
 const {
-  title, description, date, updatedDate, coverImage, canonical,
+  title, description, date, updatedDate, image, canonical,
   tags, toc, learnPoints, relatedResources, faq, author
 } = frontmatter;
 ---
@@ -13,7 +13,7 @@ const {
     <link rel="canonical" href={canonical ?? url?.href} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    {coverImage && <meta property="og:image" content={coverImage} />}
+    {image && <meta property="og:image" content={image} />}
     <meta name="twitter:card" content="summary_large_image" />
     <!-- Article JSON-LD -->
     <script type="application/ld+json">
@@ -25,7 +25,7 @@ const {
         datePublished: date,
         dateModified: updatedDate ?? date,
         author: [{ "@type":"Person", name: author }],
-        image: coverImage ? [coverImage] : undefined,
+        image: image ? [image] : undefined,
         mainEntityOfPage: canonical ?? url?.href
       })}
     </script>
@@ -53,7 +53,7 @@ const {
         <header class="not-prose mb-6">
           <h1>{title}</h1>
           <p class="text-sm opacity-70">{new Date(date).toDateString()} · {author}</p>
-          {coverImage && <img src={coverImage} alt={title} class="mt-4 rounded-xl" loading="lazy" />}
+          {image && <img src={image} alt={title} class="mt-4 rounded-xl" loading="lazy" />}
         </header>
 
         {frontmatter.summary && (

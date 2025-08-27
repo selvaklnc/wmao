@@ -17,7 +17,7 @@ const allPosts = (await getCollection("posts"))
   const frontmatter = {
   title: "Master Personal Finance, Business Growth, Digital Marketing",
   description: "Get insights on personal finance, money management, business growth tips, digital marketing, entrepreneurship from the expert articles on Wikimint blog magazine",
-  image: "https://www.wikimint.com/images/about-cover.jpg",
+  image: "https://www.wikimint.com/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp",
   tags: ["about", "business", "finance"],
   author: "Wikimint Team",
 };
@@ -32,13 +32,13 @@ const allPosts = (await getCollection("posts"))
         "@graph": [
           {
             "@type": "WebSite",
-            "@id": "https://www.wikimint.com/#website",
-            "url": "https://www.wikimint.com/",
+            "@id": "https://www.wikimint.com#website",
+            "url": "https://www.wikimint.com",
             "name": "Wikimint",
             "description": "Mastering Financial Freedom, Personal Finance and Business Strategies",
             "inLanguage": "en-US",
             "publisher": {
-              "@id": "https://www.wikimint.com/#organization"
+              "@id": "https://www.wikimint.com#organization"
             },
             "potentialAction": {
               "@type": "SearchAction",
@@ -51,9 +51,9 @@ const allPosts = (await getCollection("posts"))
           },
           {
             "@type": "Organization",
-            "@id": "https://www.wikimint.com/#organization",
+            "@id": "https://www.wikimint.com#organization",
             "name": "Wikimint",
-            "url": "https://www.wikimint.com/",
+            "url": "https://www.wikimint.com",
             "logo": {
               "@type": "ImageObject",
               "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbwjrlQVoF9bOh6gNaqEWGjknNoJm7lhY2Jvc7r0ZQ3vDh0o3ZwFM1TuU7FQyUuuACFZLoYZvs8BggxMmQ9usiabMWfpefqhMWXL-bGg_w_KAGE1urvCEZlyOgFof6oHw2tPJ9aoty8lC1jNYQdERMOffe77jvQfrE22OYdA3kH3OIwgcvyt6B646kZQ_-/s320/wikimint.png",
@@ -63,11 +63,12 @@ const allPosts = (await getCollection("posts"))
               "caption": "Wikimint Logo"
             },
             "image": {
-              "@id": "https://www.wikimint.com/#organizationLogo"
+              "@id": "https://www.wikimint.com#organizationLogo"
             },
             "sameAs": [
               "https://www.facebook.com/wikimintofficial",
               "https://twitter.com/wikimint",
+              "https://instagram.com/wikimintofficial",
               "https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA",
               "https://www.linkedin.com/company/wikimintofficial",
               "https://www.wikimint.com",
@@ -89,25 +90,25 @@ const allPosts = (await getCollection("posts"))
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Personal Finance",
-                "item": "https://www.wikimint.com/2025/03/personal-finance-wealth-guide"
+                "item": "https://www.wikimint.com/personal-finance-wealth-guide"
               },
               {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Passive Income Ideas",
-                "item": "https://www.wikimint.com/2025/03/passive-income-ideas" 
+                "item": "https://www.wikimint.com/passive-income-ideas" 
               },
               {
                 "@type": "ListItem",
                 "position": 4,
                 "name": "Business Guide",
-                "item": "https://www.wikimint.com/2025/02/startup-business-guide" 
+                "item": "https://www.wikimint.com/startup-business-guide" 
               },
               {
                 "@type": "ListItem",
                 "position": 5,
                 "name": "Online Business Ideas",
-                "item": "https://www.wikimint.com/2023/09/best-online-business-ideas"  
+                "item": "https://www.wikimint.com/best-online-business-ideas"  
               },
               {
                 "@type": "ListItem",
@@ -119,7 +120,7 @@ const allPosts = (await getCollection("posts"))
                 "@type": "ListItem",
                 "position": 7,
                 "name": "Digital marketing",
-                "item": "https://www.wikimint.com/2025/02/digital-marketing-strategy" 
+                "item": "https://www.wikimint.com/digital-marketing-strategy" 
               }
             ]
           },
@@ -183,41 +184,41 @@ const allPosts = (await getCollection("posts"))
   </section>
 
 
-  <section class="pb-10">
+  <section class="pb-12 mb-5">
     <!-- SEO-optimized heading about core topics -->
-    <h2 class="text-2xl md:text-3xl font-semibold pb-3 border-b-2 border-gray-200 mb-8">
+    <h2 class="text-2xl md:text-3xl font-bold pb-4 border-b border-gray-400 mb-8">
       Expert insights to grow wealth and business
     </h2>
   
     <!-- 4-column responsive cards -->
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
       <!-- Card 1: Personal finance -->
-      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
-        <h3 class="text-lg font-medium mb-2">Personal finance</h3>
+      <div class="col-span-12 md:col-span-3 bg-gray-100  border border-gray-300 shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-3 pb-3 border-b-2 border-gray-300">Personal finance</h3>
         <p class="text-gray-700">
           Practical guidance to budget, save, and invest for secure futures.
         </p>
       </div>
   
       <!-- Card 2: Business Growth -->
-      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
-        <h3 class="text-lg font-medium mb-2">Business Growth</h3>
+      <div class="col-span-12 md:col-span-3 bg-gray-100  border border-gray-300 shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2 pb-3 border-b-2 border-gray-300">Business Growth</h3>
         <p class="text-gray-700">
           Actionable tactics to scale operations, increase revenue, and build resilience.
         </p>
       </div>
   
       <!-- Card 3: Marketing Strategies -->
-      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
-        <h3 class="text-lg font-medium mb-2">Marketing Strategies</h3>
+      <div class="col-span-12 md:col-span-3 bg-gray-100  border border-gray-300 shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2 pb-3 border-b-2 border-gray-300">Marketing Strategies</h3>
         <p class="text-gray-700">
           Data driven campaigns, brand positioning, and conversion focused growth techniques.
         </p>
       </div>
   
       <!-- Card 4: Money -->
-      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
-        <h3 class="text-lg font-medium mb-2">Money</h3>
+      <div class="col-span-12 md:col-span-3 bg-gray-100  border border-gray-300 shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2 pb-3 border-b-2 border-gray-300">Money</h3>
         <p class="text-gray-700">
           Insights on wealth building, passive income, taxation, and smart investing.
         </p>

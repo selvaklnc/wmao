@@ -11,7 +11,6 @@ const basePostSchema = z.object({
   toc: z.boolean().default(false),
   summary: z.string().optional(),
   updatedDate: z.coerce.date().optional(),
-  coverImage: z.string().optional(),
   canonical: z.string().optional(),
   faq: z
     .array(

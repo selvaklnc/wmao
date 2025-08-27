@@ -15,48 +15,50 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
 <footer class="bg-gray-100 text-gray-900 mt-12">
   <!-- First Row -->
-  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 px-6 py-10">
+  <div class="grid grid-cols-2 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto px-6 py-10">
     <!-- Pages -->
-    <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
-      <!-- First column -->
-      <div class="col-span-1 md:col-span-2">
-        <ul class="space-y-2">
-          <li><a href="/" class="hover:text-gray-500">Home</a></li>
-          <li><a href="/about" class="hover:text-gray-500">About</a></li>
-          <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
-          <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
-          <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
-        </ul>
+    <div class="col-span-1 md:col-span-5">
+      <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
+        <!-- First column -->
+        <div class="col-span-1 md:col-span-2">
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-gray-500">Home</a></li>
+            <li><a href="/about" class="hover:text-gray-500">About</a></li>
+            <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
+            <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
+            <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
+          </ul>
+        </div>
+      
+        <!-- Second column -->
+        <div class="col-span-1 md:col-span-2">
+          <ul class="space-y-2">
+            <li><a href="/business" class="hover:text-gray-500">Business</a></li>
+            <li><a href="/marketing" class="hover:text-gray-500">Marketing</a></li>
+            <li><a href="/finance" class="hover:text-gray-500">Finance</a></li>
+            <li><a href="/money" class="hover:text-gray-500">Money</a></li>
+            <li><a href="/economy" class="hover:text-gray-500">Economy</a></li>
+          </ul>
+        </div>
+      
+        <!-- Third column -->
+        <div class="col-span-2 md:col-span-3">
+          <ul class="space-y-2">
+            <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
+            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
+            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
+            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
+            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
+          </ul>
+        </div>
       </div>
-    
-      <!-- Second column -->
-      <div class="col-span-1 md:col-span-2">
-        <ul class="space-y-2">
-          <li><a href="/business" class="hover:text-gray-500">Business</a></li>
-          <li><a href="/marketing" class="hover:text-gray-500">Marketing</a></li>
-          <li><a href="/finance" class="hover:text-gray-500">Finance</a></li>
-          <li><a href="/money" class="hover:text-gray-500">Money</a></li>
-          <li><a href="/economy" class="hover:text-gray-500">Economy</a></li>
-        </ul>
-      </div>
-    
-      <!-- Third column -->
-      <div class="col-span-2 md:col-span-3">
-        <ul class="space-y-2">
-          <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
-          <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
-          <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
-          <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
-          <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
-        </ul>
-      </div>
+      
     </div>
-    
     
 
     <!-- Categories -->
 
-    <div>
+    <div class="col-span-1 md:col-span-4">
         <h3 class="text-lg font-semibold mb-3">Advertisement Disclaimer</h3>
         <p class="text-md">We display ads promoting third party websites. We do not have any partnership with them. We do not recommend to invest or pay or join the websites displayed in the ads unless you know well that they are trusted.</p>
       </div>
@@ -64,7 +66,7 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
 
   <!-- Disclaimer -->
-  <div>
+  <div class="col-span-1 md:col-span-3">
    
 
     <p class="mb-0 flex">
@@ -86,7 +88,7 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
     </p>
 
      <!-- Copyright -->
-  <p class="text-md my-6">&copy; {year} Wikimint. All rights reserved.</p>
+  <p class="text-sm my-6">&copy; {year} Wikimint. All rights reserved.</p>
 
 
   <!-- Social Icons -->
