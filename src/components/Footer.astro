@@ -1,7 +1,8 @@
 ---
 // get all blog posts
 import { getCollection } from "astro:content";
-const posts = await getCollection("blog");
+const posts = await getCollection("posts");
+
 const year = new Date().getFullYear();
 // count posts per category
 const categories = posts.reduce((acc: Record<string, number>, post) => {

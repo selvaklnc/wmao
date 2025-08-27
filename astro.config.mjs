@@ -3,17 +3,18 @@ import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 
-// RSS helper
-import rss from "@astrojs/rss";
-
 export default defineConfig({
-  site: "https://www.wikimint.com",
+  site: "https://www.wikimint.com", // REQUIRED for sitemap
+  trailingSlash: "never",
+  output: "static",
+  build: {
+    format: "file", // output flat .html files
+  },
   integrations: [
     tailwind(),
     mdx(),
     sitemap({
-      entryLimit: 5000,
-      sitemapName: "sitemap.xml", // force filename
+      entryLimit: 5000, // ✅ valid
     }),
   ],
   markdown: {
@@ -21,10 +22,10 @@ export default defineConfig({
       [
         "remark-toc",
         {
-          heading: null,   // no extra "Table of contents" heading
-          tight: true,     // cleaner <ul>
-        }
-      ]
-    ]
-  }
+          heading: null,
+          tight: true,
+        },
+      ],
+    ],
+  },
 });
