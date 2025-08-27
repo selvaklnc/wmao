@@ -1,0 +1,325 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import PostCard from "../components/PostCard.astro";
+import Sidebar from "../components/Sidebar.astro";
+import { Image } from 'astro:assets';
+import { getImage } from "astro:assets";
+
+
+
+// Load posts
+const posts = await getCollection("posts");
+
+const allPosts = (await getCollection("posts"))
+  .sort((a,b)=> new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+  const frontmatter = {
+  title: "title",
+  description: "description",
+  image: "https://www.wikimint.com/images/about-cover.jpg",
+  tags: ["about", "business", "finance"],
+  author: "Wikimint Team",
+};
+---
+<BaseLayout frontmatter={frontmatter}>
+  <Fragment slot="head">
+
+
+    <script type='application/ld+json'>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.wikimint.com/#website",
+            "url": "https://www.wikimint.com/",
+            "name": "Wikimint",
+            "description": "Mastering Financial Freedom, Personal Finance and Business Strategies",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://www.wikimint.com/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.wikimint.com/search?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.wikimint.com/#organization",
+            "name": "Wikimint",
+            "url": "https://www.wikimint.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbwjrlQVoF9bOh6gNaqEWGjknNoJm7lhY2Jvc7r0ZQ3vDh0o3ZwFM1TuU7FQyUuuACFZLoYZvs8BggxMmQ9usiabMWfpefqhMWXL-bGg_w_KAGE1urvCEZlyOgFof6oHw2tPJ9aoty8lC1jNYQdERMOffe77jvQfrE22OYdA3kH3OIwgcvyt6B646kZQ_-/s320/wikimint.png",
+              "@id": "https://www.wikimint.com/#organizationLogo",
+              "width": 520,
+              "height": 130,
+              "caption": "Wikimint Logo"
+            },
+            "image": {
+              "@id": "https://www.wikimint.com/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.facebook.com/wikimintofficial",
+              "https://twitter.com/wikimint",
+              "https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA",
+              "https://www.linkedin.com/company/wikimintofficial",
+              "https://www.wikimint.com",
+              "https://github.com/wikimint"
+            ],
+            "email": "support@wikimint.com"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://www.wikimint.com/#breadcrumblist",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.wikimint.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Personal Finance",
+                "item": "https://www.wikimint.com/2025/03/personal-finance-wealth-guide"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Passive Income Ideas",
+                "item": "https://www.wikimint.com/2025/03/passive-income-ideas" 
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Business Guide",
+                "item": "https://www.wikimint.com/2025/02/startup-business-guide" 
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Online Business Ideas",
+                "item": "https://www.wikimint.com/2023/09/best-online-business-ideas"  
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Investment Strategies",
+                "item": "https://www.wikimint.com/investment-strategies-future-growth"  
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "Digital marketing",
+                "item": "https://www.wikimint.com/2025/02/digital-marketing-strategy" 
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.wikimint.com/#webpage",
+            "name": "Wikimint",
+            "url": "https://www.wikimint.com",
+            "description": "Wikimint is one of the largest personal finance, business and digital marketing related reference resource site for students and entrepreneurs with easy to understand articles on all topics for mastering the basics and beyond.",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://sk.wikimint.com#author",
+            "name": "Selvakumaran Krishnan",
+            "url": "https://sk.wikimint.com",
+            "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCaNSPC2QRZ1n2lmwYpIg82y-mq3JqcYqdsy4O4wc7NLjX5gvv80-9aQYMq5O2v8HenklNsnxO9ASHMjsgi_pMmUex1sJJhV0OTXEtho0VB0nxSYBWbeFA-CS3i2J-k0bkGGJpPTjSpfUVT8dWdl95lFRZbv8DJ3Dd08FILllHqZ_uzgZXSpFS4uDjjAaI/s1600/selvakumaran-krishnan-founder-of-wikimint-creative-writer-developer-wikimint.webp",
+            "sameAs": [
+              "https://linkedin.com/in/selvakumaran-krishnan",
+              "https://facebook.com/selvakumarank",
+              "https://twitter.com/selvakumarankri",
+              "https://profiles.wordpress.org/selvaklnc/"
+            ],
+            "description": "A hard worker passionate about web designing, online publishing, blog writing, code programming, SEO, digital marketing, and framework development. I started on my journey in web designing in 2008, exploring various web 2.0 platforms, and later delved into code programming in 2014. Since then, I have witnessed the evolution of several open-source libraries, tools, themes, templates, datasets, plugins, widgets, and frameworks for web development. Along the path of honing my skills and knowledge, I have also undertaken numerous freelance projects, including WordPress sites, SEO, digital marketing, and web-related products.",
+            "jobTitle": "Full Stack Developer, Blogger, Creative Writer, Founder of Wikimint",
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "Annamalai University",
+                "sameAs": "https://annamalaiuniversity.ac.in/index.php"
+              }
+            ],
+            "knowsAbout": [
+              {
+                "@type": "Thing",
+                "name": "WordPress",
+                "url": "https://wordpress.org",
+                "sameAs": ["https://en.wikipedia.org/wiki/WordPress"]
+              },
+              { "@type": "Thing", "name": "Web Development" },
+              { "@type": "Thing", "name": "Digital Marketing" },
+              { "@type": "Thing", "name": "SEO" },
+              { "@type": "Thing", "name": "Blogging" },
+              { "@type": "Thing", "name": "Content Marketing" }
+            ]
+          }
+        ]
+      }
+      </script>
+  </Fragment>
+  <!-- Hero -->
+  <section class="grid md:grid-cols-2 gap-8 pb-10 items-center">
+    <div>
+      <h1><span class="font-normal">Mastering Financial Freedom</span><br/> Personal Finance, Business and Marketing Strategies</h1>
+      <p class="mt-4 text-lg opacity-80">Whether you’re looking to take control of your finances or explore fresh business ideas, we’re here to guide you every step of the way. Dive into expert tips, practical advice, and real-life strategies to help you build wealth, manage money smarter, and turn your entrepreneurial dreams into reality.
+      </p>
+    </div>
+    <div class="w-full">
+      <Image src="/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp" alt="Wikimint" width={799} height={450} loading="lazy" class="w-100" />
+    </div>
+  </section>
+
+
+
+  <!-- Feed + Sidebar -->
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+    <div class="col-span-12 md:col-span-7">
+      <h2 class="border-b border-gray-300 pb-2 text-xl font-bold">
+        Your Trusted Source for Business Insights and Strategies
+      </h2>
+            <p>Discover the latest in business trends, insights, and innovations with Wikimint magazine. Stay ahead with expert articles, industry news, and in-depth analyses tailored for business professionals and entrepreneurs.
+      </p>
+      <ul id="posts-container" class="mt-12 space-y-10 not-prose">
+        {posts
+          .filter((post) => !post.data.noindex)
+          .slice(0, 6)
+          .map((post) => (
+            <li class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+              <!-- Image -->
+              <div class="col-span-12 md:col-span-4">
+                <img
+                  src={
+                    post.data.image
+                      ? post.data.image.startsWith("http")
+                        ? post.data.image
+                        : `/assets/images/blog/${post.data.image}`
+                      : "/assets/images/blog/default.jpg"
+                  }
+                  alt={post.data.title}
+                  class="w-full h-full object-cover rounded-lg"
+                />
+              </div>
+      
+              <!-- Text content -->
+              <div class="col-span-12 md:col-span-8 flex flex-col justify-center">
+                <a href={`/${post.slug}`} class="hover:text-wmblue">
+                  <h3 class="text-lg md:text-xl font-semibold mb-1 text-black line-clamp-2">
+                    {post.data.title}
+                  </h3>
+                </a>
+      
+                <p class="text-sm md:text-base text-gray-500 mb-2 line-clamp-2">
+                  By {post?.data?.author ?? "Unknown Author"} ·{" "}
+                  {post?.data?.date ? new Date(post.data.date).toDateString() : ""}
+                </p>
+      
+                <p class="text-sm md:text-base text-gray-700 line-clamp-2">
+                  {post.data.description}
+                </p>
+              </div>
+            </li>
+          ))}
+      </ul>
+      
+      
+      
+      <div class="text-center my-10">
+        <button id="load-more" class="px-4 py-2 bg-wmblue text-white rounded-md w-full">
+          Load More
+        </button>
+      </div>
+      
+    </div>
+    <div class="col-span-12 md:col-span-5">
+      <Sidebar />
+    </div>
+  </section>
+<!-- Simple client-side paginator using prebuilt JSON -->
+<script type="module">
+  const postsContainer = document.getElementById("posts-container");
+  const loadMoreBtn = document.getElementById("load-more");
+
+  let allPosts = [];
+  let currentIndex = 6; // already rendered 6
+  const perPage = 6;
+
+  async function fetchPosts() {
+    if (allPosts.length === 0) {
+      const res = await fetch("/posts.json");
+      allPosts = await res.json();
+    }
+  }
+
+  function renderPost(post) {
+  let rawImage = "";
+
+  if (post.data && post.data.image) {
+    rawImage = post.data.image;
+  } else if (post.image) {
+    rawImage = post.image;
+  }
+
+  const imageSrc = rawImage && rawImage.trim() !== ""
+    ? (rawImage.startsWith("http")
+        ? rawImage
+        : `/assets/images/blog/${rawImage}`)
+    : "/assets/images/blog/default.jpg";
+
+  return `
+    <li class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+      <div class="col-span-12 md:col-span-4">
+        <img src="${imageSrc}" 
+             alt="${post.title || "Post"}" 
+             class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <div class="col-span-12 md:col-span-8">
+        
+          <a href="/${post.slug}" class="hover:text-wmblue">
+            <h3 class="text-xl font-medium mb-1 text-black line-clamp-2">
+            ${post.title || ""}
+          </h3>
+            </a>
+        
+        <p class="text-sm text-gray-500 mb-2">
+          By ${post.author || "Unknown"} · ${post.date ? new Date(post.date).toDateString() : ""}
+        </p>
+        <p class="text-base text-gray-700 line-clamp-2">${post.description || ""}</p>
+      </div>
+    </li>`;
+}
+
+
+
+  async function loadPosts() {
+    await fetchPosts();
+    const slice = allPosts.slice(currentIndex, currentIndex + perPage);
+    slice.forEach((post) => {
+      postsContainer.insertAdjacentHTML("beforeend", renderPost(post));
+    });
+    currentIndex += perPage;
+
+    // hide button when no more posts
+    if (currentIndex >= allPosts.length) {
+      loadMoreBtn.style.display = "none";
+    }
+  }
+
+  // ✅ Load posts only on button click
+  loadMoreBtn.addEventListener("click", loadPosts);
+</script>
+
+
+</BaseLayout>

@@ -1,0 +1,348 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Sidebar from "../components/Sidebar.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+
+  return posts.map((post) => ({
+    params: { slug: (post as any).slug }, // ✅ silence TS
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings, remarkPluginFrontmatter } = await post.render();
+
+const { content, data } = Astro.props;
+
+// fetch author by slug (new API)
+const author = await getEntry("authors", post.data.author);
+
+// Generate simple TOC
+const toc = headings;
+
+// ✅ Get all posts for navigation + related
+const allPosts = await getCollection("posts");
+
+// Sort posts by date
+allPosts.sort((a, b) => new Date(a.data.date).getTime() - new Date(b.data.date).getTime());
+
+// Find current index
+const index = allPosts.findIndex((p) => p.slug === post.slug);
+
+// Previous & next post
+const prevPost = index > 0 ? allPosts[index - 1] : null;
+const nextPost = index < allPosts.length - 1 ? allPosts[index + 1] : null;
+
+// Related posts by category (excluding current)
+const relatedPosts = allPosts
+  .filter(
+    (p) =>
+      p.data.category === post.data.category &&
+      p.slug !== post.slug
+  )
+  .slice(0, 3); // limit to 3
+---
+
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  
+
+    <!-- 3-Column Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+      <div class="col-span-12 md:col-span-7">
+
+      
+  <nav class="breadcrumbs border-b border-gray-400 pb-4 mb-5" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="https://www.wikimint.com" itemprop="item">
+        <span itemprop="name" class="text-wmblue">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </span>
+  
+   
+        <span> » </span>
+        <span class="label" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href={`/${post.data.category.toLowerCase()}`} itemprop="item">
+            <span itemprop="name"  class="text-wmblue">{post.data.category}</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </span>
+      </>
+  
+    <span> » </span>
+    <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{post.data.title}</span>
+      <meta itemprop="position" content={post.data.category ? "3" : "2"} />
+    </span>
+  </nav>
+  
+
+
+        <article class="prose lg:prose-xl max-w-none">
+          
+            <h1>{post.data.title}</h1>
+            <p class="text-sm opacity-70">
+              {new Date(post.data.date).toDateString()} · {author?.data?.name ?? "Unknown Author"}
+            </p>            <!-- {coverImage && <img src={coverImage} alt={title} class="mt-4 rounded-xl" loading="lazy" />} -->
+  
+            {post.data.summary && (
+              <p class="bluebox">
+                {post.data.summary}
+              </p>
+            )}
+
+          {toc && (
+            <div class="wmdTOC graybox">
+              <button>
+                Table of Contents
+                <span>
+                  [<a rel="nofollow" onclick="mbtToggle2()" id="Tog">Hide</a>]
+                </span>
+              </button>
+              <div id="wmdTOC" style="display:block;">
+                <Fragment set:html={toc} />
+              </div>
+            </div>
+          )}
+      
+          <div class="post-content">
+            <Content />
+          
+      
+            {post.data.faq && post.data.faq.length > 0 && (
+              <section class="my-8">
+                <h2>Frequently Asked Questions</h2>
+            
+                <div class="numbered-h3 faq">
+                  <!-- First 6 FAQ with schema markup -->
+                  <div itemscope itemtype="https://schema.org/FAQPage">
+                    {post.data.faq.slice(0, 6).map((item: { q: string; a: string }) => (
+                      <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                        <div itemprop="name">
+                          <h3>{item.q}</h3>
+                        </div>
+                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                          <div itemprop="text">
+
+                            {item.a.match(/<\/?[a-z][\s\S]*>/i) ? (
+                                <div set:html={item.a}></div>
+                              ) : (
+                                <p set:html={item.a}></p>
+                              )}
+                            </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+            
+                  <!-- Remaining FAQ (no schema) -->
+                  {post.data.faq.length > 6 && (
+                    post.data.faq.slice(6).map((item: { q: string; a: string }) => (
+                      <div>
+                        <h3>{item.q}</h3>
+                        {item.a.match(/<\/?[a-z][\s\S]*>/i) ? (
+                            <div set:html={item.a}></div>
+                          ) : (
+                            <p set:html={item.a}></p>
+                          )}
+                      </div>
+                    ))
+                  )}
+                </div>
+              </section>
+            )}
+            
+          </div>  
+      
+            {author && (
+              <div class="about-author not-prose mt-8 p-5 border border-wmblue flex items-center gap-7" itemscope itemtype="https://schema.org/Person">
+                
+                <!-- Left: Avatar -->
+                <div class="w-1/4">
+                  <img 
+                    src={author.data.image} 
+                    alt={author.data.name} 
+                    width={150}
+                    height={150}
+                    class="author-avatar rounded-md object-cover" 
+                    itemprop="image" 
+                    loading="lazy" 
+                  />
+                </div>
+            
+                <!-- Right: Text -->
+                <div class="w-3/4">
+                  <h3 class="author-name">
+                    <span class="text-wmblue font-semibold text-xl">Written by </span>
+                    <a href="https://www.wikimint.com" itemprop="url" rel="author noopener" target="_blank" class="text-wmblue hover:underline">
+                      <span itemprop="name" class="text-wmblue font-semibold text-xl">{author.data.name}</span>
+                    </a>
+                  </h3>
+                  <p class="author-description text-gray-700 pt-3 line-clamp-3" itemprop="description">
+                    {author.data.bio}
+                  </p>
+            
+                  {author.data.socials && (
+                    <ul class="author-socials flex gap-3 pt-2">
+                      {author?.data?.socials?.map((s: { label: string; url: string }) => (
+                        <li>
+                          <a 
+                            href={s.url} 
+                            target="_blank" 
+                            rel="noopener nofollow" 
+                            itemprop="sameAs" 
+                            class="text-sm text-blue-500 hover:underline"
+                          >
+                            {s.label}
+                          </a>
+                        </li>
+                      ))}
+
+                    </ul>
+                  )}
+                </div>
+              </div>
+            )}
+            
+
+  
+<!-- Prev / Next Navigation -->
+<nav class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+  {prevPost && (
+    <a 
+      href={`/${prevPost.slug}/`} 
+      class="flex items-top justify-start p-4 border border-gray-400 hover:bg-gray-50"
+    >
+      <span class="mr-4 mt-2 text-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+</svg>
+      </span>
+      <span class="text-blue-600 font-medium">{prevPost.data.title}</span>
+    </a>
+  )}
+
+  {nextPost && (
+    <a 
+      href={`/${nextPost.slug}/`} 
+      class="flex items-top justify-end p-4 border border-gray-400 hover:bg-gray-50"
+    >
+      <span class="text-blue-600 font-medium">{nextPost.data.title}</span>
+      <span class="ml-3 mt-2 text-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+</svg>  
+      </span>
+    </a>
+  )}
+</nav>
+
+
+<!-- Related Posts -->
+{relatedPosts.length > 0 && (
+  <section class="my-10 not-prose">
+    <h2 class="text-xl font-semibold mb-4">Related Posts</h2>
+    <ul class="space-y-3">
+      {relatedPosts.map((rel) => (
+        <li>
+          <a href={`/${rel.slug}`} class="text-wmblue hover:underline">
+            {rel.data.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+
+
+        <!-- Comments placeholder -->
+        <section class="not-prose mt-12">
+          <h2 class="text-xl font-semibold">Comments</h2>
+          <p class="opacity-70">Comments feature coming soon.</p>
+        </section>
+      </div>
+  
+  
+      <!-- Column 3: Sticky Bottom Ads (25%) -->
+      <div class="col-span-12 md:col-span-5">
+          <Sidebar/>
+        </div>
+      </div>
+  
+    </div>
+
+    <script is:inline>
+      document.addEventListener("DOMContentLoaded", () => {
+        const postBody = document.querySelector(".post-content");
+        const tocContainer = document.getElementById("wmdTOC");
+        const toggle = document.getElementById("Tog");
+        if (!postBody || !tocContainer) return;
+      
+        const headings = postBody.querySelectorAll("h2, h3, h4, h5, h6");
+        if (!headings.length) return;
+      
+        // Root list
+        const rootOl = document.createElement("ol");
+        let currentLevel = 2; // start at H2
+        const stack = [rootOl];
+        let counter = 0;
+      
+        const slugify = (txt) =>
+          txt.trim()
+            .toLowerCase()
+            .replace(/\s+/g, "-")
+            .replace(/[^a-z0-9-_]/g, "");
+      
+        headings.forEach((h) => {
+          const level = parseInt(h.tagName[1], 10);
+          const text = h.textContent || "";
+          const id = `${slugify(text)}-${++counter}`;
+          h.id = id;
+      
+          // climb up or down the stack
+          if (level > currentLevel) {
+            for (let i = 0; i < level - currentLevel; i++) {
+              // ensure there is a <li> to nest under
+              const parentList = stack[stack.length - 1];
+              let parentLi = parentList.lastElementChild;
+              if (!parentLi) {
+                parentLi = document.createElement("li");
+                parentList.appendChild(parentLi);
+              }
+              const newOl = document.createElement("ol");
+              parentLi.appendChild(newOl);
+              stack.push(newOl);
+            }
+          } else if (level < currentLevel) {
+            for (let i = 0; i < currentLevel - level; i++) stack.pop();
+          }
+          currentLevel = level;
+      
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = `#${id}`;
+          a.rel = "nofollow";
+          a.textContent = text;
+          li.appendChild(a);
+          stack[stack.length - 1].appendChild(li);
+        });
+      
+        tocContainer.innerHTML = "";
+        tocContainer.appendChild(rootOl);
+      
+        // toggle
+        toggle.addEventListener("click", function () {
+          const visible = tocContainer.style.display !== "none";
+          tocContainer.style.display = visible ? "none" : "block";
+          this.textContent = visible ? "Show" : "Hide";
+        });
+      });
+      </script>
+      
+
+
+</BaseLayout>

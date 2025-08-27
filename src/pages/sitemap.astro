@@ -1,0 +1,40 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const frontmatter = {
+  title: "HTML Sitemap - Wikimint",
+  description: "Learn more about Wikimint...",
+  canonical: "https://www.wikimint.com/about",
+  coverImage: "https://www.wikimint.com/images/about-cover.jpg",
+  tags: ["about", "business", "finance"],
+  author: "Wikimint Team",
+};
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+---
+
+<PageLayout frontmatter={frontmatter}>
+
+      <h1 class="text-2xl font-bold mb-4">HTML Sitemap</h1>
+      <p class="mb-6">Browse all posts and pages on Wikimint.</p>
+
+      <h2 class="text-xl font-semibold mb-2">Blog Posts</h2>
+      <ol class="list-disc pl-6 space-y-2">
+        {posts.map((post) => (
+          <li>
+            <a href={`/posts/${post.slug}/`} class="text-blue-600 hover:underline">
+              {post.data.title}
+            </a>
+          </li>
+        ))}
+      </ol>
+
+      <h2 class="text-xl font-semibold mt-6 mb-2">Static Pages</h2>
+      <ol class="list-disc pl-6 space-y-2">
+        <li><a href="/" class="text-blue-600 hover:underline">Home</a></li>
+        <li><a href="/about" class="text-blue-600 hover:underline">About</a></li>
+        <li><a href="/contact" class="text-blue-600 hover:underline">Contact</a></li>
+      </ol>
+
+</PageLayout>

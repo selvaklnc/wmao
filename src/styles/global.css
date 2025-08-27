@@ -1,0 +1,249 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bluebox, .ull-learn {
+    @apply bg-blue-50 border border-2 border-blue-300 px-5 py-4;
+  }
+  .graybox, .rel-res {
+    @apply bg-gray-50 border border-2 border-gray-300 px-5 py-4;
+  }
+  .greenbox {
+    @apply bg-green-50 text-green-900 border border-green-200 p-4 rounded-lg;
+  }
+  .redbox {
+    @apply bg-red-50 text-red-900 border border-red-200 p-4 rounded-lg;
+  }
+  .warningbox {
+    @apply bg-yellow-50 text-yellow-900 border border-yellow-200 p-4 rounded-lg;
+  }
+  .soon{
+    @apply text-red-700;
+  }
+
+}
+
+@layer base {
+
+  p,h2,h3,h4,h5,h6,span,a,div,ul,li{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  body {
+  line-height: 1.6 ! important;
+  overflow-x: hidden !important;
+  background-color: #ffffff !important;
+  word-wrap: break-word !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a{
+  text-decoration:none ! important;
+}
+article li::marker{
+color:#000000 ! important;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  margin: 0 0 15px;
+  color: #4b4949;
+}
+
+h1{
+    position: relative ! important;
+    display: block ! important;
+    margin: 0 0 13px ! important;
+    font-weight:500 ! important;
+    line-height: normal ! important;
+    margin-bottom: 0.5em ! important;
+    clear: left ! important;
+    font-family: georgia, "Times New Roman", serif ! important;
+}
+h1{
+  font-size: 2.6em ! important;
+}
+article img{
+  width:100%;
+  height:auto;
+}
+article h1{
+  font-size: 2.2em ! important;
+}
+@media (max-width: 440px) {
+  article h1 {
+      font-size: 25px ! important;
+      line-height: 35px ! important;
+  }
+}
+h2 {
+  font-size: 24px ! important;
+}
+h3{font-size:21px ! important;}
+h4{font-size:18px ! important;}
+article h2{
+  color: #336699 ! important;
+    margin-top: 30px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+    line-height:35px ! important;
+}
+figure{
+  padding: 0px ! important;
+margin-block-start: 0px;
+margin-block-end: 0px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+figcaption {
+font-style: italic;
+text-align: center;
+color: #555;
+margin-top: 5px;
+}
+
+
+  /* Reset the counter for the parent element */
+  .numbered-h6{
+    counter-reset: h4-counter;
+}
+.numbered-h5{
+    counter-reset: h4-counter;
+}
+.numbered-h4{
+    counter-reset: h4-counter;
+}
+.numbered-h3{
+    counter-reset: h3-counter;
+}
+.numbered-h2 {
+    counter-reset: h2-counter;
+}
+
+article h3{
+margin-top:20px;
+}
+h3.author-name{
+margin:0px ! important;
+}
+article ul,
+article ol{
+margin-bottom:20ox;
+}
+/* Style the ::before pseudo-element to display the counter */
+.numbered-h6 h6::before  {
+    counter-increment: h6-counter;
+    content: counter(h6-counter) ". ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.numbered-h5 h5::before  {
+    counter-increment: h5-counter;
+    content: counter(h5-counter) ". ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+   .numbered-h4 h4::before  {
+    counter-increment: h4-counter;
+    content: counter(h4-counter) ". ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.numbered-h3 h3::before  {
+    counter-increment: h3-counter;
+    content: counter(h3-counter) ". ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+.numbered-h2 h2::before   {
+    counter-increment: h2-counter;
+    content: counter(h2-counter) ". ";
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.highlight{
+  background:var(--wm-light);
+border-left: 3px solid var(--wm-primary);
+  padding:15px;
+  padding-left:30px;
+  font-style: italic;
+  font-weight:medium;
+  font-size:18px;
+  color: var(--text-secondary);
+  }
+
+  .faq h3{font-size:large;
+    border-bottom:1px solid #ccc;
+    padding:5px;
+    margin-bottom:5px;
+    font-style: italic;
+    background: #eee;
+    } 
+
+    article a{
+      color:#0080ff ! important;
+    }
+  /*TOC starts*/
+  .wmdTOC{
+    /* border: 3px solid #ccc;
+    background-color: #f5f5f5; */
+    color: #555;
+    /* line-height: 1.4em;
+    margin: 30px auto;
+    padding: 30px; */
+  } 
+    .wmdTOC button{background: #f5f5f5;
+    font-size: 22px;
+    position: relative;
+    outline: none;
+    border: none;
+    color: #333;
+    padding: 0px;
+    }.mbtTOC2 button a {color:#0080ff; padding:0px 2px;cursor:pointer ! important;}
+    .wmdTOC button a:hover{ text-decoration:underline ! important; }
+    .wmdTOC button span {font-size:15px; margin:0px 10px ! important; }
+    .wmdTOC li{list-style-type: none ! important;list-style-type: none ! important;}
+    .wmdTOC li a {color:#333333 ! important; text-decoration:none; font-size:17px ! important;}
+    .wmdTOC li a:hover {text-decoration: underline;}.mbtTOC2 li li {margin:4px 0px ! important;}
+    .wmdTOC li li a{ color:#555555 ! important; font-size:15px ! important;}
+    .wmdTOC ol{counter-reset:section1;list-style:none ! important;}
+    .wmdTOC ol ol{counter-reset:section2 ! important;}
+    .wmdTOC ol ol ol{counter-reset:section3 ! important;}
+    .wmdTOC ol ol ol ol{counter-reset:section4 ! important;}
+    .wmdTOC ol ol ol ol ol{counter-reset:section5 ! important;}
+    .wmdTOC li:before{content: counter(section1) ! important;
+    counter-increment: section1 ! important;
+    position: relative ! important;
+    padding: 0 10px 0 0 ! important;
+    font-size: 18px ! important;
+    margin-left: -20px ! important;}
+    .wmdTOC li li:before{content:counter(section1) "." counter(section2) ! important;counter-increment:section2 ! important;font-size:14px ! important;}
+    .wmdTOC li li li:before{content:counter(section1) "."counter(section2) "." counter(section3) ! important;counter-increment:section3 ! important;}
+    .wmdTOC li li li li:before{content:counter(section1) "."counter(section2) "."counter(section3) "." counter(section4) ! important;counter-increment:section4 ! important;}
+    .wmdTOC li li li li li:before{content:counter(section1) "."counter(section2) "."counter(section3) "." counter(section4)"." counter(section5) ! important;counter-increment:section5 ! important;}
+    .point1{
+    margin-top: 15px;
+    }
+      #wmdTOC{display:none;}
+   
+   
+      article p:second-child::first-letter{
+    font-size: 60px;
+        float: left;
+        margin-top: 12px;
+        margin-right: 9px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        font-weight: 900;
+      }
+    /*TOC ends*/
+      
+
+}
+
