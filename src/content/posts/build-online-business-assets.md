@@ -8,22 +8,22 @@ category: "Business"
 tags: ["business","marketing"]
 summary: "If you've ever tried making money online, you know how tempting it is to chase the next shiny object - an affiliate launch, an ad campaign, or some viral hack. But let's be honest: how many of those methods are built to last?"
 faq:
-    q: What are online business assets?
+  - q: What are online business assets?
     a: Online business assets are digital tools or platforms you own or control that provide ongoing value - like a website, email list, digital product, or online community.
 
-    q: Why are assets important in online business?
+  - q: Why are assets important in online business?
     a: Assets offer long-term stability. Unlike short-term strategies like paid ads, assets generate traffic, income, or engagement without needing constant input.
 
-    q: Is social media an online asset?
+  - q: Is social media an online asset?
     a: Not directly. You can grow an audience there, but since you don't control the platform, it's risky to rely on it fully. Use social media to guide people to your own platforms like your website or email list.
 
-    q: How do I start building my first digital asset?
+  - q: How do I start building my first digital asset?
     a: Start by creating a simple website or blog, and offer a free lead magnet to grow your email list. Select timeless topics that offer long-term value to your audience.
 
-    q: Can affiliate marketing be an asset?
+  - q: Can affiliate marketing be an asset?
     a: <a href="/affiliate-marketing-business-easy-steps">Affiliate marketing</a> is only effective if it's linked to an asset you control, such as a blog post, YouTube video, or email list. Promoting links alone without building your own platform isn't a lasting strategy.
 
-    q: What's the most valuable asset in an online business?
+  - q: What's the most valuable asset in an online business?
     a: Your email list is often considered the most valuable asset. It gives you direct access to your audience, unaffected by search engines or social media changes.
 ---
 

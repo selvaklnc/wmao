@@ -9,19 +9,19 @@ tags: ["business","technology"]
 summary: "Automation is driving major changes in the hospitality industry. As automation in the hospitality industry continues to evolve, it is helping hotels improve their operations and how they treat their guests. This article investigates how automation is influencing hospitality in many ways and making improvements to both guest services and the level of care."
 
 faq:
-    q: What is hotel automation?
+  - q: What is hotel automation?
     a: Many new guest services, like check-in, check-out, food delivery, and messages, are now performed by technology, instead of hotel employees.
 
-    q: How does automation enhance the guest experience?
+  - q: How does automation enhance the guest experience?
     a: Because of automation, services are tailored, responses to guest queries are fast, and all interactions are smooth, which results in better satisfaction for guests.
 
-    q: What are the cost implications of implementing automation in hotels?
+  - q: What are the cost implications of implementing automation in hotels?
     a: Though automation costs at the start, it assists in lowering expenses over time thanks to less labor needed and higher operating efficiency.
 
-    q: Can automation replace human staff in hotels?
+  - q: Can automation replace human staff in hotels?
     a: From handling routine responsibilities, automation supports staff in giving their guests a better, more individualized experience.
 
-    q: Is hotel automation suitable for all types of hotels?
+  - q: Is hotel automation suitable for all types of hotels?
     a: Yes, perfectly fitting automation solutions can be found for smaller boutique hotels as well as big hotel chains. By involving automation properly, hotels can innovate guest services, run more smoothly, and keep up with advancing technology.
 ---
 
