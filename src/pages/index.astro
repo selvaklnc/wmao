@@ -22,7 +22,7 @@ const allPosts = (await getCollection("posts"))
   author: "Wikimint Team",
 };
 ---
-<BaseLayout frontmatter={frontmatter}>
+<BaseLayout title={frontmatter.title} description={frontmatter.description}>
   <Fragment slot="head">
 
 

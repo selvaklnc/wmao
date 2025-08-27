@@ -3,7 +3,12 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
-const { title = "Wikimint", description = "" } = Astro.props;
+const {
+  title = "Wikimint",
+  description = "",
+  noindex = false, // default false if not given in md
+} = Astro.props;
+
 ---
 
 <html lang="en">
@@ -12,6 +17,12 @@ const { title = "Wikimint", description = "" } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={Astro.url} />
+    {noindex 
+      ? <meta name="robots" content="noindex, nofollow" /> 
+      : <meta name="robots" content="index, follow" />
+    }
+    
 
 {import.meta.env.PROD && (
 <!-- Google Tag Manager -->
@@ -26,6 +37,7 @@ const { title = "Wikimint", description = "" } = Astro.props;
  </>
 )}
 
+<slot name="head" />
   </head>
   <body>
     <Header />

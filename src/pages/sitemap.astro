@@ -23,7 +23,7 @@ const posts = await getCollection("posts");
       <ol class="list-disc pl-6 space-y-2">
         {posts.map((post) => (
           <li>
-            <a href={`/posts/${post.slug}/`} class="text-blue-600 hover:underline">
+            <a href={`/${post.slug}`} class="text-blue-600 hover:underline">
               {post.data.title}
             </a>
           </li>

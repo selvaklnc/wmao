@@ -214,7 +214,7 @@ const relatedPosts = allPosts
 <nav class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
   {prevPost && (
     <a 
-      href={`/${prevPost.slug}/`} 
+      href={`/${prevPost.slug}`} 
       class="flex items-top justify-start p-4 border border-gray-400 hover:bg-gray-50"
     >
       <span class="mr-4 mt-2 text-lg">
@@ -228,7 +228,7 @@ const relatedPosts = allPosts
 
   {nextPost && (
     <a 
-      href={`/${nextPost.slug}/`} 
+      href={`/${nextPost.slug}`} 
       class="flex items-top justify-end p-4 border border-gray-400 hover:bg-gray-50"
     >
       <span class="text-blue-600 font-medium">{nextPost.data.title}</span>
