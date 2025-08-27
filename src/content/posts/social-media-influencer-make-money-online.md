@@ -16,7 +16,7 @@ Curious about how this works? Let's dive into how social media influencers [make
 Who is a Social Media Influencer?
 ---------------------------------
 
-A social media influencer is someone who has built a loyal following on [social platforms](https://developer.wikimint.com/top-social-media-networking-sites) like Instagram, TikTok, or YouTube by creating engaging content. They have the power to influence their audience's opinions, buying decisions, and interests. Think of it this way: influencers are the new-age word-of-mouth marketers, but on a much bigger scale.
+A social media influencer is someone who has built a loyal following on [social platforms](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html) like Instagram, TikTok, or YouTube by creating engaging content. They have the power to influence their audience's opinions, buying decisions, and interests. Think of it this way: influencers are the new-age word-of-mouth marketers, but on a much bigger scale.
 
 Social media influencers make money by sharing their passion and products with their followers. Whether it's through sponsored posts, [promoting affiliate products](https://www.wikimint.com/promote-affiliate-products), or selling their own stuff—there's plenty of ways to cash in. It's all about creating value and building trust!
 

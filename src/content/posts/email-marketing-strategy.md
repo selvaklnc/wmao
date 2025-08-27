@@ -31,7 +31,7 @@ Introduction: Why Email Marketing Matters for Lead Generation
 
 Imagine you own a small online store selling handmade candles. You're getting website visitors, but they leave without buying. How do you bring them back? This is where email marketing becomes your secret weapon.
 
-Email marketing helps businesses stay connected with potential customers, build relationships, and drive conversions. Unlike [social media](https://developer.wikimint.com/top-social-media-networking-sites), where algorithms control visibility, emails land directly in your audience's inbox. Studies show that for every $1 spent on email marketing, businesses generate an average of $42 in return.
+Email marketing helps businesses stay connected with potential customers, build relationships, and drive conversions. Unlike [social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), where algorithms control visibility, emails land directly in your audience's inbox. Studies show that for every $1 spent on email marketing, businesses generate an average of $42 in return.
 
 But here's the catch—without the right strategy, emails can go unread or even land in spam. That's why you need a step-by-step email marketing strategy to generate business leads effectively.
 

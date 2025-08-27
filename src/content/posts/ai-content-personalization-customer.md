@@ -23,7 +23,7 @@ In the past, employees had to figure out what customers wanted. They worked hard
 Why AI Personalisation Matters
 ------------------------------
 
-Customers are glad when they feel understood. According to a study, three-quarters of people prefer brands that personalise their experience ([Forbes](https://www.forbes.com/sites/shephyken/14/the-personalized-customer-experience-customers-want-you-to-know-them/)).
+Customers are glad when they feel understood. According to a study, three-quarters of people prefer brands that personalise their experience Forbes.
 
 They hope for services that are right for their requirements. Thanks to artificial intelligence, this is possible because data can be examined at high speed. It shows companies what their customers enjoy. Consequently, clients are happier, which helps the company achieve higher sales.
 

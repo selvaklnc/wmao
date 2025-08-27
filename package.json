@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && powershell -Command \"Remove-Item dist\\sitemap-index.xml; Rename-Item dist\\sitemap-0.xml sitemap.xml\"",
+    "build": "astro build && node postbuild.js",
     "preview": "astro preview",
     "astro": "astro"
   },

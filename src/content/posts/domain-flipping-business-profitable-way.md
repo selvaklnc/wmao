@@ -39,7 +39,7 @@ Now that you're intrigued by the prospect of domain flipping, let's explore how 
 2.  **Choosing the Right Domains**: When selecting domains, opt for names that are short, memorable, and easy to spell. Generic, keyword-rich domains tend to perform well. Avoid copyrighted or trademarked terms, as they can lead to legal complications.
 3.  **Domain Registration**: Register your chosen domains through a reputable registrar like GoDaddy, Namecheap, or Google Domains. Look for discounts and promotions to minimize initial costs.
 4.  **Enhance Value**: Increase the perceived value of your domains by creating a professional landing page for each. A well-designed website can make your domain more appealing to potential buyers.
-5.  **Listing and Marketing**: List your domains on popular domain marketplaces such as Sedo, Flippa, or Afternic. Utilize [social media](https://developer.wikimint.com/top-social-media-networking-sites), [email marketing](https://www.wikimint.com/email-marketing-strategy), and online forums to promote your domains.
+5.  **Listing and Marketing**: List your domains on popular domain marketplaces such as Sedo, Flippa, or Afternic. Utilize [social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), [email marketing](https://www.wikimint.com/email-marketing-strategy), and online forums to promote your domains.
 6.  **Patience and Persistence**: Domain flipping is not a get-rich-quick scheme. It requires patience and persistence. Some domains may take time to find the right buyer, so don't get discouraged.
 
 Tips for Success

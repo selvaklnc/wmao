@@ -89,7 +89,7 @@ Marketing internationally requires a different approach. A _one-size-fits-all_ s
 
 Tips for successful global marketing:
 
-*   **Leverage digital marketing** – Use [social media](https://developer.wikimint.com/top-social-media-networking-sites), [SEO](https://developer.wikimint.com/important-seo-techniques-to-increase), and content marketing to reach international audiences.
+*   **Leverage digital marketing** – Use [social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), [SEO](https://developer.wikimint.com/2017/05/important-seo-techniques-to-increase.html), and content marketing to reach international audiences.
 *   **Personalize campaigns** – Tailor messages based on cultural preferences.
 *   **Influencer collaborations** – Partner with local influencers for credibility.
 

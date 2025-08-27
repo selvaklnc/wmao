@@ -15,8 +15,8 @@ const allPosts = (await getCollection("posts"))
   .sort((a,b)=> new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
   const frontmatter = {
-  title: "title",
-  description: "description",
+  title: "Master Personal Finance, Business Growth, Digital Marketing",
+  description: "Get insights on personal finance, money management, business growth tips, digital marketing, entrepreneurship from the expert articles on Wikimint blog magazine",
   image: "https://www.wikimint.com/images/about-cover.jpg",
   tags: ["about", "business", "finance"],
   author: "Wikimint Team",
@@ -183,6 +183,49 @@ const allPosts = (await getCollection("posts"))
   </section>
 
 
+  <section class="pb-10">
+    <!-- SEO-optimized heading about core topics -->
+    <h2 class="text-2xl md:text-3xl font-semibold pb-3 border-b-2 border-gray-200 mb-8">
+      Expert insights to grow wealth and business
+    </h2>
+  
+    <!-- 4-column responsive cards -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+      <!-- Card 1: Personal finance -->
+      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2">Personal finance</h3>
+        <p class="text-gray-700">
+          Practical guidance to budget, save, and invest for secure futures.
+        </p>
+      </div>
+  
+      <!-- Card 2: Business Growth -->
+      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2">Business Growth</h3>
+        <p class="text-gray-700">
+          Actionable tactics to scale operations, increase revenue, and build resilience.
+        </p>
+      </div>
+  
+      <!-- Card 3: Marketing Strategies -->
+      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2">Marketing Strategies</h3>
+        <p class="text-gray-700">
+          Data driven campaigns, brand positioning, and conversion focused growth techniques.
+        </p>
+      </div>
+  
+      <!-- Card 4: Money -->
+      <div class="col-span-12 md:col-span-3 bg-gray-100 rounded-xl border shadow-sm p-5 hover:shadow-md transition-shadow">
+        <h3 class="text-lg font-medium mb-2">Money</h3>
+        <p class="text-gray-700">
+          Insights on wealth building, passive income, taxation, and smart investing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
 
   <!-- Feed + Sidebar -->
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">

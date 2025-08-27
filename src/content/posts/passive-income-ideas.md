@@ -68,13 +68,13 @@ Let's explore tried and tested passive income ideas that thousands have used suc
 
 ### Start a Blog or Niche Website
 
-Yes, blogging still works - and it's powerful. [](http://www.wikimint.com/start-blogging-make-money)Starting a blog or niche [website](https://developer.wikimint.com/what-is-website-amazing-facts-need-to) lets you share your expertise while building a steady stream of online income. With the right content strategy and SEO, you can monetize through ads, affiliate links, and sponsored posts. It's a long-term digital asset that grows with consistent effort and audience engagement.
+Yes, blogging still works - and it's powerful. [](http://www.wikimint.com/start-blogging-make-money)Starting a blog or niche [website](https://developer.wikimint.com/2018/05/what-is-website-amazing-facts-need-to.html) lets you share your expertise while building a steady stream of online income. With the right content strategy and SEO, you can monetize through ads, affiliate links, and sponsored posts. It's a long-term digital asset that grows with consistent effort and audience engagement.
 
 **Why It Works**: Once your blog starts ranking on Google, it can pull in traffic day and night. For growing a good traffic for your blog, you need to put little [digital marketing](http://www.wikimint.com/digital-marketing-strategy) efforts, but easy and interesting. With monetization tools like ads (Google AdSense), affiliate links, or even digital products, you can keep earning from old posts.
 
 **Example**: A food blogger who reviews kitchen gadgets earns from Amazon affiliate links every time someone clicks and buys - even at 2 a.m.
 
-**Action Tip**: Pick a specific niche (e.g., pet grooming tips, camping gear reviews), create valuable content, and use [SEO strategies](https://developer.wikimint.com/important-seo-metrics-websites) to rank in search engines.
+**Action Tip**: Pick a specific niche (e.g., pet grooming tips, camping gear reviews), create valuable content, and use [SEO strategies](https://developer.wikimint.com/2024/09/important-seo-metrics-websites.html) to rank in search engines.
 
 ### Create an Online Course
 

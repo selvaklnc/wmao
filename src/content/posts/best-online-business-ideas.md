@@ -431,7 +431,7 @@ Discover answers to common questions about online business ideas in India, inclu
 
 *   Choose a specific business idea or niche that you are passionate about, have expertise in, and that solves a problem for customers. Research the competition.
 *   Register your business name and establish a legal business entity like an LLC. Obtain necessary licenses and permits.
-*   Set up business basics like a website, email, [social media accounts](https://developer.wikimint.com/top-social-media-networking-sites), and branding assets. Have a way to accept payments.
+*   Set up business basics like a website, email, [social media accounts](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), and branding assets. Have a way to accept payments.
 *   Build an audience by creating valuable content and leveraging social media. Start establishing authority and visibility.
 *   Develop your first product or service and ensure it provides excellent value. Ask for feedback from objective sources.
 

@@ -474,7 +474,7 @@ Pick something that suits your interests and skills:
 
 #### Network with Other Builders:
 
-Find effective [social media pltforms](https://developer.wikimint.com/top-social-media-networking-sites) like Facebook groups, Reddit threads, or local meetups around financial independence. Surround yourself with others who are minding their own business too. [Strong networks and building professional relationships](http://www.wikimint.com/business-relationships-networking) can significantly boost your financial and business knowledge.
+Find effective [social media pltforms](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html) like Facebook groups, Reddit threads, or local meetups around financial independence. Surround yourself with others who are minding their own business too. [Strong networks and building professional relationships](http://www.wikimint.com/business-relationships-networking) can significantly boost your financial and business knowledge.
 
 ### Kiyosaki's Favorite Rule: Pay Yourself First
 

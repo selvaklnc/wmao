@@ -109,7 +109,7 @@ Here's a breakdown of digital assets you can start growing through smart [digita
 
 ### 1\. Your Website (Your Digital Home)
 
-*   Well-crafted [website](https://developer.wikimint.com/what-is-website-amazing-facts-need-to) or blog content can attract organic visitors for years to come.
+*   Well-crafted [website](https://developer.wikimint.com/2018/05/what-is-website-amazing-facts-need-to.html) or blog content can attract organic visitors for years to come.
 *   Monetize through ads, affiliate links, digital products, or services.
 
 **Pro Tip**: Use long-tail keywords and answer search intent. Think: **how to build online assets for business** instead of just **online business assets**.
@@ -167,7 +167,7 @@ Focus on topics that will always be relevant. Tools like AnswerThePublic or Goog
 
 ### Use Multiple Traffic Sources
 
-Don't rely only on Google or social media. Use SEO, email, [social media platforms](https://developer.wikimint.com/top-social-media-networking-sites), and referrals to diversify.
+Don't rely only on Google or social media. Use SEO, email, [social media platforms](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), and referrals to diversify.
 
 ### Update Your Assets
 

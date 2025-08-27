@@ -148,7 +148,7 @@ In order to create a digital footprint, your online presence and to proficiently
 
 1.  **Domain and Hosting:** Select a domain name that suits both your blog niche and your brand identity. Select a reliable hosting provider to ensure your website is accessible 24/7.
 2.  **Content Creation:** Develop high-quality, informative, and engaging content related to your niche. Consistent content creation establishes your authority and attracts organic traffic.
-3.  **Optimize for SEO:** Implement search engine optimization (SEO) techniques to improve your website's visibility on search engines. This includes on-page SEO optimization, off-page site promotion, keyword research and backlink building, and [many other SEO techniques](https://developer.wikimint.com/important-seo-techniques-to-increase).
+3.  **Optimize for SEO:** Implement search engine optimization (SEO) techniques to improve your website's visibility on search engines. This includes on-page SEO optimization, off-page site promotion, keyword research and backlink building, and [many other SEO techniques](https://developer.wikimint.com/2017/05/important-seo-techniques-to-increase.html).
 4.  **User-Friendly Design:** Create a user-friendly website design that enhances the user experience. Ensure that your website is mobile-responsive for accessibility on all devices.
 
 ### Step 4: Create Valuable Content
@@ -165,7 +165,7 @@ The cornerstone of your affiliate marketing business is content. Your content mu
 Without traffic, your affiliate marketing business won't thrive. There are various white hat methods to organically generate traffic to your blog or website:
 
 1.  **SEO:** Continue to optimize your content for search engines to attract organic traffic over time.
-2.  **Social Media Marketing:** Share your content on [social media platforms](https://developer.wikimint.com/top-social-media-networking-sites) to reach a broader audience. Engage with your followers and build a community.
+2.  **Social Media Marketing:** Share your content on [social media platforms](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html) to reach a broader audience. Engage with your followers and build a community.
 3.  **Paid Advertising:** Consider running paid advertising campaigns on platforms like Google Ads or Facebook Ads to drive targeted traffic to your website.
 4.  **Guest Posting:** Periodically, write quality guest posts and publish them to reputable blogs and websites in your niche. This can help you establish authority and direct traffic to your site through backlinks.
 

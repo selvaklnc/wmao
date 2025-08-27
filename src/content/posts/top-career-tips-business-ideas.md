@@ -42,7 +42,7 @@ Make sure to include online networking! This is where your LinkedIn page will he
 
 A good personal brand is an asset in today's highly competitive job market. It allows you to be seen and advertises your unique value. Brand is important whether you are looking for a job or establishing a successful company.
 
-Begin by finding what makes you unique: [creativity](https://www.wikimint.com/unlocking-power-of-creative-thinking), problem-solving, or leadership. From there, promote the online world: [social media](https://developer.wikimint.com/top-social-media-networking-sites), [blogging](https://www.wikimint.com/start-blogging-make-money), or any other platform talking about that sector, with consistent updates on insights, success stories, and accomplishments.
+Begin by finding what makes you unique: [creativity](https://www.wikimint.com/unlocking-power-of-creative-thinking), problem-solving, or leadership. From there, promote the online world: [social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html), [blogging](https://www.wikimint.com/start-blogging-make-money), or any other platform talking about that sector, with consistent updates on insights, success stories, and accomplishments.
 
 A powerful personal brand builds trust and becomes much more enticing to potential employers, clients, and partners.
 

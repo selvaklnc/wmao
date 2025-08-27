@@ -244,7 +244,7 @@ It depends on your strategy, consistency, and niche. While some affiliates start
 
 ### Can I promote affiliate products on social media?
 
-Absolutely! [Social media](https://developer.wikimint.com/top-social-media-networking-sites) is a great place to drive traffic to your presell or squeeze page. Instead of dropping links everywhere, share valuable posts, success stories, and invite people to learn more via your landing page.
+Absolutely! [Social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html) is a great place to drive traffic to your presell or squeeze page. Instead of dropping links everywhere, share valuable posts, success stories, and invite people to learn more via your landing page.
 
 ### How do I build an email list using affiliate marketing?
 

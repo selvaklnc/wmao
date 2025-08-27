@@ -29,7 +29,7 @@ Infographic highlighting the benefits of business networking and building strong
 
 ### Unlocking New Opportunities
 
-Networking helps you discover job offers, partnerships, investments, and mentorship opportunities that you might never find on job boards or [social media](https://developer.wikimint.com/top-social-media-networking-sites). The right connection can introduce you to decision-makers who can change the trajectory of your [career or business](http://www.wikimint.com/top-career-tips-business-ideas).
+Networking helps you discover job offers, partnerships, investments, and mentorship opportunities that you might never find on job boards or [social media](https://developer.wikimint.com/2023/10/top-social-media-networking-sites.html). The right connection can introduce you to decision-makers who can change the trajectory of your [career or business](http://www.wikimint.com/top-career-tips-business-ideas).
 
 ### Building Credibility and Trust
 
