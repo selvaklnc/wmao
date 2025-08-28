@@ -13,9 +13,9 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 ---
 
 
-<footer class="bg-gray-100 text-gray-900 mt-12">
+<footer class="bg-gray-100 text-gray-900 mt-10">
   <!-- First Row -->
-  <div class="grid grid-cols-2 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto px-6 py-10">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto px-6 py-12">
     <!-- Pages -->
     <div class="col-span-1 md:col-span-5">
       <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
@@ -58,18 +58,71 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
     <!-- Categories -->
 
-    <div class="col-span-1 md:col-span-4">
-        <h3 class="text-lg font-semibold mb-3">Advertisement Disclaimer</h3>
-        <p class="text-md">We display ads promoting third party websites. We do not have any partnership with them. We do not recommend to invest or pay or join the websites displayed in the ads unless you know well that they are trusted.</p>
+    <div class="col-span-1 md:col-span-3">
+      <div class="h-card text-sm leading-normal" itemscope itemtype="http://schema.org/Organization">
+        <p>
+          <span class="p-name org font-bold" itemprop="name">Wikimint</span>
+        </p>
+        <hr class="border my-2"/>
+
+        <p class="p-adr h-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span class="p-street-address" itemprop="streetAddress">Saraswathi Nagar, Neelankarai</span>, 
+          <span class="p-locality" itemprop="addressLocality">Chennai</span>,  
+          <span class="p-region" itemprop="addressRegion">Tamil Nadu</span>,  
+          <span class="p-postal-code" itemprop="postalCode">600115</span>, 
+          <span class="p-country-name" itemprop="addressCountry">India</span>
+        </p>
+      <hr class="border my-2"/>
+        <p class="flex items-center gap-1">
+          <!-- Envelope Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+               stroke="currentColor" class="w-4 h-4">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 
+                     2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 
+                     0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 
+                     0 00-2.25 2.25m19.5 0v.243a2.25 2.25 
+                     0 01-1.07 1.916l-7.5 4.615a2.25 2.25 
+                     0 01-2.36 0L3.32 8.91a2.25 2.25 
+                     0 01-1.07-1.916V6.75" />
+          </svg>
+          <a class="u-email ms-2" href="mailto:support&#64;wikimint&#46;com" itemprop="email">
+            support&#64;wikimint&#46;com
+          </a>
+        </p>
+      
+        <p class="flex items-center gap-1">
+          <!-- Phone Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+               stroke="currentColor" class="w-4 h-4">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M2.25 6.75c0 8.284 6.716 15 
+                     15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372a1.125 
+                     1.125 0 00-.852-1.091l-4.423-1.106a1.125 
+                     1.125 0 00-1.173.417l-.97 1.293a12.035 
+                     12.035 0 01-5.52-5.52l1.293-.97a1.125 
+                     1.125 0 00.417-1.173L7.963 
+                     3.102a1.125 1.125 0 00-1.091-.852H5.25A2.25 
+                     2.25 0 003 4.5v2.25z" />
+          </svg>
+          <a class="p-tel ms-2" 
+             href="tel:+91&#52;&#52;&#51;&#53;&#55;&#48;&#55;&#48;&#49;&#52;" 
+             itemprop="telephone">
+            +91 &#52;&#52; &#51;&#53;&#55;&#48; &#55;&#48;&#49;&#52;
+          </a>
+        </p>
+      </div>
       </div>
 
 
 
   <!-- Disclaimer -->
-  <div class="col-span-1 md:col-span-3">
+  <div class="col-span-1 md:col-span-4">
    
 
-    <p class="mb-0 flex">
+    <p class="mb-5 flex">
       <a href="/sitemap" class="mr-2">
         <img src="https://img.shields.io/badge/HTML-5-red?logo=html5&logoColor=white&style=flat-square" alt="HTML Badge" />
       </a>
@@ -87,6 +140,7 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
       </a>
     </p>
 
+    
      <!-- Copyright -->
   <p class="text-sm my-6">&copy; {year} Wikimint. All rights reserved.</p>
 
@@ -151,38 +205,4 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
 </footer>
 
-<script is:inline>
-  document.addEventListener("DOMContentLoaded", function () {
-  let lastScrollTop = 0;
-  const headerMenu = document.querySelector(".header");
-
-  // Scroll detection
-  window.addEventListener("scroll", function () {
-    let st = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (st > lastScrollTop) {
-      // scroll down → fadeOut
-      headerMenu.style.transition = "opacity 0.3s ease";
-      headerMenu.style.opacity = "0";
-      headerMenu.style.pointerEvents = "none";
-    } else {
-      // scroll up → fadeIn
-      headerMenu.style.transition = "opacity 0.3s ease";
-      headerMenu.style.opacity = "1";
-      headerMenu.style.pointerEvents = "auto";
-    }
-    lastScrollTop = st <= 0 ? 0 : st; // avoid negative scroll
-  });
-
-  // Handle [data-link],[data-url]
-  document.querySelectorAll("[data-link],[data-url]").forEach(function (el) {
-    el.addEventListener("click", function () {
-      let url = el.getAttribute("data-link") || el.getAttribute("data-url");
-      if (url) {
-        window.open(url, "_blank");
-      }
-    });
-  });
-});
-
-</script>
+<script src="/assets/js/script.js" defer></script>

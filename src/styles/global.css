@@ -22,7 +22,18 @@
   .soon{
     @apply text-red-700;
   }
-
+  .highlight {
+    @apply bg-gray-100 border-l-4 border-wmblue px-4 py-5 pl-8 italic font-medium text-lg text-gray-600;
+  }
+  .pfi-card-img {
+    @apply w-[90px] h-[90px] p-3 bg-white border border-gray-300 rounded-lg object-cover;
+  }
+  .pfi-card-h3 {
+    @apply text-lg font-semibold text-gray-900;
+  }
+  .pfi-card-p {
+    @apply text-gray-800 line-clamp-2;
+  }
 }
 
 @layer base {
@@ -167,16 +178,6 @@ margin-bottom:20ox;
     margin-right: 5px;
 }
 
-.highlight{
-  background:var(--wm-light);
-border-left: 3px solid var(--wm-primary);
-  padding:15px;
-  padding-left:30px;
-  font-style: italic;
-  font-weight:medium;
-  font-size:18px;
-  color: var(--text-secondary);
-  }
 
   .faq h3{font-size:large;
     border-bottom:1px solid #ccc;
