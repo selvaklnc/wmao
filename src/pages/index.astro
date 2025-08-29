@@ -175,8 +175,7 @@ const allPosts = (await getCollection("posts"))
   <section class="grid md:grid-cols-2 gap-8 pb-10 items-center">
     <div>
       <h1><span class="font-normal">Mastering Financial Freedom</span><br/> Personal Finance, Business and Marketing Strategies</h1>
-      <p class="mt-4 text-lg opacity-80">Whether you’re looking to take control of your finances or explore fresh business ideas, we’re here to guide you every step of the way. Dive into expert tips, practical advice, and real-life strategies to help you build wealth, manage money smarter, and turn your entrepreneurial dreams into reality.
-      </p>
+      <p class="mt-4 text-lg opacity-80">Whether you’re looking to take control of your finances or explore business growth ideas or marketing strategies, welcome. Dive into expert tips, practical advice, and real-life strategies to help you build wealth, manage money smarter, and turn your entrepreneurial dreams into reality. Visit <a href="/sitemap">sitemap here</a> to explore all the available resources.</p>
     </div>
     <div class="w-full">
       <Image src="/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp" alt="Wikimint" width={799} height={450} loading="lazy" class="w-100" />
@@ -239,10 +238,14 @@ const allPosts = (await getCollection("posts"))
       <ul id="posts-container" class="mt-12 space-y-10 not-prose">
         {posts
           .filter((post) => !post.data.noindex)
+          .sort(
+            (a, b) =>
+              new Date(b.data.date ?? 0).getTime() -
+              new Date(a.data.date ?? 0).getTime()
+          )
           .slice(0, 6)
           .map((post) => (
             <li class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
-              <!-- Image -->
               <div class="col-span-12 md:col-span-4">
                 <img
                   src={
@@ -257,7 +260,6 @@ const allPosts = (await getCollection("posts"))
                 />
               </div>
       
-              <!-- Text content -->
               <div class="col-span-12 md:col-span-8 flex flex-col justify-center">
                 <a href={`/${post.slug}`} class="hover:text-wmblue">
                   <h3 class="text-lg md:text-xl font-semibold mb-1 text-black line-clamp-2">
@@ -267,7 +269,7 @@ const allPosts = (await getCollection("posts"))
       
                 <p class="text-sm md:text-base text-gray-500 mb-2 line-clamp-2">
                   By {post?.data?.author ?? "Unknown Author"} ·{" "}
-                  {post?.data?.date ? new Date(post.data.date).toDateString() : ""}
+                  {post?.data?.date ? new Date(post.data.date ?? 0).toDateString() : ""}
                 </p>
       
                 <p class="text-sm md:text-base text-gray-900 line-clamp-2">
@@ -277,6 +279,7 @@ const allPosts = (await getCollection("posts"))
             </li>
           ))}
       </ul>
+      
       
       
       
@@ -307,7 +310,7 @@ const allPosts = (await getCollection("posts"))
     <!-- Item 1 -->
     <div class="flex gap-4 items-start">
       <img
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOTF6wjVDDsmDmvtTBfEwGJJs991MfsEQdWGEAklDwB67BW-GzCj6-sEfu7opL0O0-53C_eQBO22tWihF4r_N5pzR-KErZGpyxJ5Chc4MKlYfmaxldlBfkYT4noSpQ2A-AwI4ZCoQxfJ62ZyPqko8JUJOfv5lN3xKe21hUJlMWYweGm_QW0HQLKau6olEg/s1600-rw/personal-finance-literacy.webp"
+        src="/assets/images/personal-finance-literacy.webp"
         alt="Master personal finance by learning to budget, save, invest, and manage debt wisely to build financial security and achieve your short- and long-term goals."
         title="Essential Personal Finance Tips for a Secure Future"
         class="pfi-card-img"
@@ -326,7 +329,7 @@ const allPosts = (await getCollection("posts"))
     <!-- Item 2 -->
     <div class="flex gap-4 items-start">
       <img
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj1pyCbepBx_AJFXENkpLAZTMsyJh23qOvS4A0jFN-CPWe-jVfzBAQqQSWhoQP3K9Nep69-PiKhyphenhyphenkSRipxd2SxHVKBd-oyakFoepvj5xBX7m3DwbWIkOA380BiOAVHpf2F2a9hifsJRTsHnLpL2kSzhj1zHMBC6sjLfkBaCIsmOkWjSontlV3YybiNCy-a/s1600-rw/investing-strategies-ideas.webp"
+        src="/assets/images/investing-strategies-ideas.webp"
         alt="Explore smart investing strategies to grow your wealth, manage risk, diversify your portfolio, and make informed financial decisions for long-term success."
         title="Top Investing Strategies to Grow Your Wealth"
         class="pfi-card-img"
@@ -345,7 +348,7 @@ const allPosts = (await getCollection("posts"))
     <!-- Item 3 -->
     <div class="flex gap-4 items-start">
       <img
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMGKpPv7i_EgV004fG7U_yPGyMlS5La2a4CB76fOEVKfWRqHVdmqcMM_VKt1AulPq02beaA7rr31tfeAixmPYGnJ21YQgYYE21BxpaHVa4NNmi7_jtqOHqTfdpEYpyzxES33s8jNmWHuGpx43pUozVaAhWfVKrgErMWyQvZJVFJNn3JOeFwP2THTkvf3FY/s1600-rw/how-tocalculate-net-worth.webp"
+        src="/assets/images/how-tocalculate-net-worth.webp"
         alt="Understand how to calculate your net worth by evaluating your assets and liabilities to assess financial health and plan for future financial goals effectively."
         title="How to Calculate Your Net Worth: A Simple Guide"
         class="pfi-card-img"
@@ -364,7 +367,7 @@ const allPosts = (await getCollection("posts"))
   <!-- Tax Saving Methods -->
   <div class="flex gap-4 items-start">
     <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkRBTpSpffAbh8VrSsgu4D5dqSM-QUs66xF4vHLdWCl2Y30FCVuztuAcil3B6q24lfjKB530wEagpHSw0xObxyHniAToAW6CFezbw9T8UhSb36VppJ2aSF0wm3uuFnbLcSuSDc4Ok7_QU4B28P26RqngRI_8w8r85qDbNPUjMCT-pqju0nF-f2z_ZtBo7W/s1600-rw/ways-to-save-tax.webp"
+      src="/assets/images/ways-to-save-tax.webp"
       alt="Discover effective and legal tax saving methods including deductions, exemptions, investments, and smart planning to reduce your income tax burden efficiently."
       width="90"
       height="90"
@@ -385,7 +388,7 @@ const allPosts = (await getCollection("posts"))
   <!-- Passive Income Ideas -->
   <div class="flex gap-4 items-start">
     <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynpZyaY0UQezq2Y9VNadaoa82q1M3OFXtzp8SFdYjKDQI2l_XpQ7oIilqXlHgql08ZH27Z6vFlkkSPNep-L87GMLdsQ6ggLdPcXnGAF_dEVRzu5NXc-uezoMp-lrI2A22r9XhpysL19JZP7d6Yq6IZjKWWOuscDXa_3ySgJAnfvVCBcxzAiigO7l6elOr/s1600-rw/generate-passive-income-ideas.webp"
+      src="/assets/images/generate-passive-income-ideas.webp"
       alt="Explore top passive income ideas to earn money while you sleep—includes investments, digital products, affiliate marketing, and real estate strategies."
       width="90"
       height="90"
@@ -406,7 +409,7 @@ const allPosts = (await getCollection("posts"))
   <!-- Stock Market Investing -->
   <div class="flex gap-4 items-start">
     <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxkhThCyLLUfL3NWdCbJAoCgPzwVZEifxoPcmRcksUruCpbasM_9jlrxPnhb45Y_yYqD9UK6swIBQPXZQ0kCpBk6f5zP5KfXiZRNZ-97Z2fL4ChDFBLLzRhGm1zdVqBAowU2IEwcalH63y-PmzcHFWPVNpIBExftjruDP_N3am2Gs7HoiCfx-9lGdEBGU8/s1600-rw/stock-market-investments.webp"
+      src="/assets/images/stock-market-investments.webp"
       alt="Learn the essentials of stock market investing including strategies, risk management, and long-term wealth building tips for smart financial growth."
       width="90"
       height="90"
@@ -438,7 +441,7 @@ const allPosts = (await getCollection("posts"))
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
     <!-- Left Feature -->
     <div class="md:pr-5">
-      <a href="http://www.wikimint.com/2023/09/best-online-business-ideas">
+      <a href="http://www.wikimint.com/best-online-business-ideas">
         <img 
           class="w-full rounded-lg shadow-sm border border-gray-200"
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOFaNETseNqluunbDKpwXGRp3XjVAhLn-0IkYWaGvgOELjOSzWgA-aGyg6_5MLnzf1vJYRhj9LaPgIGXJiJsX99lfWUOpBGnkj4gExUvxc9-s31nduN2g10HpkZUwwBy4ZyP9XazLa4HZ9XnJhU32jxohMorQOZtNmHMhI2pMARj9Jyp8r1ZcdiUPtuTys/s1600-rw/online-business-ideas-make-money-without-investment.webp" 

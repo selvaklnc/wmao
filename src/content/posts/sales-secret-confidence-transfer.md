@@ -9,8 +9,6 @@ tags: ["business","marketing","skills"]
 summary: "The Secret Behind Every Sale: It's All About Transferring Confidence"
 ---
 
-====================================================================
-
 When it comes to boosting sales, most people think the secret lies in clever copywriting, eye-catching ads, or more website traffic. But the real reason people don't buy often comes down to one simple yet powerful truth: a lack of confidence. Whether you're selling a product, growing your email list, or promoting an offer, the key to conversion is transferring belief - belief in yourself, your product, and your buyer.
 
 In this article, we'll break down what it really means that sales is a transfer of confidence, and how understanding this core principle can dramatically increase your results. Get ready to explore a fresh, human-centered approach to selling that builds trust, inspires action, and leads to long-term success.
@@ -198,6 +196,8 @@ Frequently Asked Questions About Confidence-Based Selling
 
 If you're still wrapping your head around the idea that "sales is a transfer of confidence," you're not alone. It's a fresh way to look at selling - and one that works like magic once you really get it. Below are some common questions people ask when shifting from traditional selling tactics to this more trust-centered approach. Let's break it down so you can start applying these ideas with clarity and confidence.
 
+<div class="faq numbered-h3">
+
 ### What does "sales is a transfer of confidence" really mean?
 
 It means successful selling happens when you transfer your belief in the product - and your buyer's ability to succeed with it - to them. It's not about pressure; it's about trust.
@@ -237,3 +237,4 @@ Definitely, [social proof](https://www.nutshell.com/blog/social-proof-in-sales) 
 ### How long does it take to build enough confidence to see results?
 
 It varies by audience and offer. But with consistency, authenticity, and real value, you'll often see momentum in just a few weeks.
+</div>

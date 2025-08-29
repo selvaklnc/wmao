@@ -203,11 +203,8 @@ faq:
   
   <ul>
     <li>Coinbase</li>
-  
     <li>Binance</li>
-  
     <li>Kraken</li>
-  
     <li>Bitstamp</li>
   </ul>
   
@@ -218,7 +215,6 @@ faq:
   
   <ul>
     <li><strong>Hot wallets</strong> (online, easier to use, but less secure)</li>
-  
     <li><strong>Cold wallets</strong> (offline, super secure)</li>
   </ul>
   
@@ -229,12 +225,9 @@ faq:
   
   <h3>Learn and Stay Updated</h3>
   <p>Follow credible sources like:</p>
-  
   <ul>
     <li>CoinDesk</li>
-  
     <li>CoinTelegraph</li>
-  
     <li>Crypto Twitter accounts</li>
   </ul>
   
