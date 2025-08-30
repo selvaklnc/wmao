@@ -1,7 +1,9 @@
 ---
-title: "Anaconda | All about anaconda snakes"
-description: "The snake, Anaconda is also called as green anaconda, common anaconda, giant anaconda, common water boa or sucuri. The generic name of anaconda is Eu"
-image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Green_Anaconda_001.jpg"
+title: "Anaconda Snakes – Facts, Species & Habitat Insights"
+description: "Learn all about anacondas, including green and giant anacondas, their species, habitats, behavior, and interesting facts about these giant snakes."
+h1: "Anaconda Snakes: Species, Behavior, and Natural Habitat"
+
+image: "Green_Anaconda_001.webp"
 date: "2021-10-08"
 author: "selvakumaran-krishnan"
 category: "Nature"
@@ -11,7 +13,7 @@ summary: "The snake, Anaconda is also called as green anaconda, common anaconda,
 
 Anacondas are of boa species commonly found in South America. \[[S1](#s1)\]
 
-![Anaconda | All about anaconda snakes. Explore fascinating facts about anacondas, their habitat, behavior, diet, and survival skills in the wild.](https://upload.wikimedia.org/wikipedia/commons/c/c2/Green_Anaconda_001.jpg "Anaconda: Everything You Need to Know About This Giant Snake")
+![Anaconda | All about anaconda snakes. Explore fascinating facts about anacondas, their habitat, behavior, diet, and survival skills in the wild.](/assets/images/blog/Green_Anaconda_001.webp "Anaconda: Everything You Need to Know About This Giant Snake")
 
 Learn all about anacondas, their massive size, hunting techniques, and life in the wild.
 

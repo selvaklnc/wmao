@@ -1,7 +1,9 @@
 ---
-title: "How to Safeguard Digital Sanctity: Protecting Privacy on the Internet"
-description: "In an increasingly interconnected world, where our lives are intertwined with the digital realm, the protection of online privacy has bec"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Facebook_Privacy_Settings_%284500010439%29.jpg/1024px-Facebook_Privacy_Settings_%284500010439%29.jpg"
+title: "Safeguard Digital Privacy – Protect Your Information Online"
+description: "Learn how to protect your privacy on the internet. Discover tips, tools, and best practices to maintain digital security and safeguard personal information."
+h1: "How to Protect Your Privacy and Maintain Digital Security Online"
+
+image: "digital-privacy.webp"
 date: "2023-09-24"
 author: "selvakumaran-krishnan"
 category: "Internet"
@@ -9,7 +11,7 @@ tags: ["internet"]
 summary: "In an increasingly interconnected world, where our lives are intertwined with the digital realm, the protection of online privacy has become a paramount concern. As we share more and more of our personal information online, safeguarding our digital identities from prying eyes, data breaches, and surveillance has never been more critical."
 ---
 
-![Essential tips to safeguard digital sanctity and protect online privacy through secure browsing, encryption, and cybersecurity best practices.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Facebook_Privacy_Settings_%284500010439%29.jpg/1024px-Facebook_Privacy_Settings_%284500010439%29.jpg "How to Safeguard Digital Sanctity: Protecting Privacy on the Internet")
+![Essential tips to safeguard digital sanctity and protect online privacy through secure browsing, encryption, and cybersecurity best practices.](/assets/images/blog/digital-privacy.webp "How to Safeguard Digital Sanctity: Protecting Privacy on the Internet")
 
 Learn how to safeguard your digital presence and enhance online privacy with advanced security measures and safe internet practices.
 

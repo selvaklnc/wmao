@@ -1,7 +1,9 @@
 ---
-title: "The Toda People of Ooty: Guardians of the Nilgiris"
-description: "Hidden amidst the lush green landscapes of the Nilgiri Hills in southern India lies a unique and culturally rich community known as the Toda people. O"
-image: "https://upload.wikimedia.org/wikipedia/commons/9/97/Toda_Hut.JPG"
+title: "The Toda People of Ooty – Cultural Guardians of the Nilgiris"
+description: "Explore the Toda people of Ooty, their unique culture, traditions, and history. Discover how this indigenous community preserves the heritage of the Nilgiris."
+h1: "Toda People of Ooty: Preserving Culture and Traditions in the Nilgiris"
+
+image: "Toda_Hut.webp"
 date: "2023-09-19"
 author: "selvakumaran-krishnan"
 category: "Fashion"
@@ -11,7 +13,7 @@ summary: "Hidden amidst the lush green landscapes of the Nilgiri Hills in southe
 
 Ooty, officially called Udhagamandalam, serves as their ancestral homeland. As we delve into the lives, traditions, and heritage of the Toda people, we uncover a fascinating tale of resilience, harmony with nature, and a vibrant culture that has thrived against the backdrop of the Western Ghats.
 
-![Toda people standing behind a traditional Toda hut in the Nilgiris, showcasing their rich tribal heritage, unique architecture, and cultural legacy.](https://upload.wikimedia.org/wikipedia/commons/9/97/Toda_Hut.JPG "Toda People and Their Traditional Hut in Nilgiris")
+![Toda people standing behind a traditional Toda hut in the Nilgiris, showcasing their rich tribal heritage, unique architecture, and cultural legacy.](/assets/images/blog/Toda_Hut.webp "Toda People and Their Traditional Hut in Nilgiris")
 
 The Toda tribe of the Nilgiris preserves its heritage through traditional huts, distinct customs, and a deep connection to nature.
 
@@ -25,7 +27,7 @@ A Unique Language and Culture
 
 One of the most remarkable aspects of the Toda people is their unique language, known as "Toda." This Dravidian language is distinct from the surrounding Tamil and Kannada languages and serves as a testament to their distinct cultural heritage. The Toda language is orally transmitted, and its preservation is essential for the preservation of their identity.
 
-![Toda women performing a traditional dance, showcasing their rich cultural heritage, vibrant attire, and unique tribal traditions in the Nilgiris.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Dhoda_%28Toda%29Dancers.jpg "Toda Women Performing Traditional Dance in Nilgiris")
+![Toda women performing a traditional dance, showcasing their rich cultural heritage, vibrant attire, and unique tribal traditions in the Nilgiris.](/assets/images/blog/Dhoda-Toda-Dancers.webp "Toda Women Performing Traditional Dance in Nilgiris")
 
 Toda women gracefully perform a traditional dance, celebrating their tribal culture and heritage in the scenic Nilgiris hills.
 
@@ -34,7 +36,7 @@ Toda culture is deeply rooted in their pastoral way of life. Historically, the T
 The Toda Village: Architecture and Lifestyle
 --------------------------------------------
 
-The traditional Toda village, known as "mund," is a striking sight in the Nilgiri Hills. The Toda dwellings are circular huts constructed with bamboo and thatch, known as "dogles." These distinctive structures are well-suited to the region's climate, with a raised floor to keep inhabitants dry during the monsoon season. To discover more about sustainable fashion and its global influence, delve into our article on [Sustainable Fashion: Redefining Style for a Greener Future](https://www.wikimint.com/evolving-fashion-style-greener-future).
+The traditional Toda village, known as "mund," is a striking sight in the Nilgiri Hills. The Toda dwellings are circular huts constructed with bamboo and thatch, known as "dogles." These distinctive structures are well-suited to the region's climate, with a raised floor to keep inhabitants dry during the monsoon season. To discover more about sustainable fashion and its global influence, delve into our article on [Sustainable Fashion: Redefining Style for a Greener Future](/evolving-fashion-style-greener-future).
 
 One of the most iconic elements of the Toda village is the "sacred dairy," or "nail-cowshed." This structure serves as the heart of the village and is the focal point for their religious and cultural activities. The Toda people's close relationship with their buffalo is evident here, as the sacred dairy is where rituals related to buffalo and dairy products take place.
 

@@ -1,7 +1,9 @@
 ---
-title: "How to Calculate Net Worth: What It Is & Why It Matters"
-description: "Ever wondered how rich or broke you actually are? Net worth isn't just for billionaires. It's your personal financial scorecard, and knowing it could"
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3gNbrusOSIFRCiYW4_LtDNo-gVY_3fEwtZI_P62koG9meVQ7aBcv-gvgFL8uT2EXEH6u5HwtpMCUrXwPwpflnjXMGQ8pErh1LykSX9DWqiB7bVn6krt1LkQYq-qzL_fW-fl287wVt6UV757pUU5ZjgOyS9e8Yjs-zHy87466Rbsxoej09Ywk4yoYizQSk/s1600/how-to-calculate-your-net-worth-step-by-step.webp"
+title: "Calculate Net Worth – Personal Finance Guide & Importance"
+description: "Learn how to calculate your net worth and understand its significance. Discover why tracking your finances matters for building wealth and planning your future."
+h1: "Net Worth Calculation: How to Assess Your Financial Health"
+
+image: "how-to-calculate-your-net-worth-step-by-step.webp"
 date: "2025-03-16"
 author: "selvakumaran-krishnan"
 category: "Finance"
@@ -9,7 +11,7 @@ tags: ["finance","skills"]
 summary: "Ever wondered how rich or broke you actually are? Net worth isn't just for billionaires. It's your personal financial scorecard, and knowing it could change how you handle money forever. In this guide, we'll walk you through how to figure out your net worth, why it plays a key role in managing your personal finances, and what steps to take after you've found your number. No fancy jargon - just real talk and smart money moves."
 ---
 
-![Step-by-step guide infographic on how to calculate your net worth by listing assets, liabilities, and determining overall financial position accurately.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3gNbrusOSIFRCiYW4_LtDNo-gVY_3fEwtZI_P62koG9meVQ7aBcv-gvgFL8uT2EXEH6u5HwtpMCUrXwPwpflnjXMGQ8pErh1LykSX9DWqiB7bVn6krt1LkQYq-qzL_fW-fl287wVt6UV757pUU5ZjgOyS9e8Yjs-zHy87466Rbsxoej09Ywk4yoYizQSk/s1600/how-to-calculate-your-net-worth-step-by-step.webp "How to Calculate Your Net Worth – Step-by-Step Financial Guide")
+![Step-by-step guide infographic on how to calculate your net worth by listing assets, liabilities, and determining overall financial position accurately.](/assets/images/blog/how-to-calculate-your-net-worth-step-by-step.webp "How to Calculate Your Net Worth – Step-by-Step Financial Guide")
 
 Learn how to calculate your net worth with this simple step-by-step guide that helps track your financial health and plan smarter money goals.
 
@@ -40,7 +42,7 @@ What is Net Worth?
 
 At its core, **net worth is what you own minus what you owe**. Simple, right?
 
-Think of it like this: If you sold everything you own - your car, your house, your [investments](http://www.wikimint.com/investment-strategies-future-growth) - and paid off every single debt you have, how much would you have left?
+Think of it like this: If you sold everything you own - your car, your house, your [investments](/investment-strategies-future-growth) - and paid off every single debt you have, how much would you have left?
 
 That leftover number is your net worth.
 
@@ -51,7 +53,7 @@ Figuring out your net worth starts with understanding two key components:
 *   **Assets** – Things you own that have monetary worth and value
 *   **Liabilities** – Debts or things you owe
 
-![Understanding assets and liabilities to calculate your net worth accurately with examples of financial statements and personal finance tools](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTopGG-D13H8Iul2d7KZ-WghY2JxmgBOa8UrspORY8dH-r_ZkP8vqId_VoZs4ep00OWL8Ce5C4Rkb5yCgL5k_HhIAZxlGB_lo_EYl_-Ac0xMBZyogvspw8TSudZv2YOf5tJ3nrVj8wZ06Wwu-yMwnBiAWh4nEUBRVt-bZ_HKDd2oHXbZQsbm8rHYmuJp5q/s1600/assets-vs-liabilities-infographic.webp "Assets vs. Liabilities: How to Calculate Your Net Worth Easily - Infographic")
+![Understanding assets and liabilities to calculate your net worth accurately with examples of financial statements and personal finance tools](/assets/images/blog/assets-vs-liabilities-infographic.webp "Assets vs. Liabilities: How to Calculate Your Net Worth Easily - Infographic")
 
 Visual breakdown of assets and liabilities used to determine personal net worth.
 
@@ -64,7 +66,7 @@ Understanding your net worth is like using a roadmap to navigate your financial 
 
 *   **It shows your true financial health.** High income doesn't always mean high net worth. Someone earning $200K a year but drowning in debt may have a lower net worth than someone earning $50K and saving wisely.
 *   **It tracks progress over time.** Net worth gives you a clear way to measure if you're moving forward or backward financially.
-*   **It helps with goal setting.** Want to retire early? Buy a house? [Start a business?](http://www.wikimint.com/startup-business-guide) To create a realistic financial plan, it's essential to understand where your net worth stands.
+*   **It helps with goal setting.** Want to retire early? Buy a house? [Start a business?](/startup-business-guide) To create a realistic financial plan, it's essential to understand where your net worth stands.
 *   **It highlights financial red flags.** A negative net worth can be a wake-up call to rethink spending or tackle debt.
 
 How to Calculate Net Worth (Step-by-Step)
@@ -79,8 +81,8 @@ The first step is to note down anything you own that holds financial value.
 #### Examples of common assets:
 
 *   **Cash** (in checking/savings accounts)
-*   **Investments** ([stocks](http://www.wikimint.com/stock-market-basic-understanding), mutual funds, retirement accounts)
-*   **[Real estate](https://www.wikimint.com/real-estate-investing-money)** (current market value of your home or rental property)
+*   **Investments** ([stocks](/stock-market-basic-understanding), mutual funds, retirement accounts)
+*   **[Real estate](/real-estate-investing-money)** (current market value of your home or rental property)
 *   **Vehicles** (cars, motorcycles - use current resale value)
 *   **Personal valuables** (jewelry, collectibles, electronics)
 *   **Business ownership** (if applicable)
@@ -186,7 +188,7 @@ Okay, you've got your number. Now what? If your net worth is negative or not qui
 
 *   Contribute to retirement accounts
 *   Consider index funds or ETFs
-*   Reinvest [dividends to grow your wealth](http://www.wikimint.com/dividend-stock-market-investment-wealth-strategy)
+*   Reinvest [dividends to grow your wealth](/dividend-stock-market-investment-wealth-strategy)
 
 ### Avoid Lifestyle Inflation
 

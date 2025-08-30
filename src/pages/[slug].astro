@@ -84,9 +84,9 @@ const relatedPosts = allPosts
 
         <article class="prose lg:prose-xl max-w-none">
           
-            <h1>{post.data.title}</h1>
+            <h1>{post.data.h1}</h1>
             <p class="text-sm opacity-70">
-              {new Date(post.data.date).toDateString()} · {author?.data?.name ?? "Unknown Author"}
+              {new Date(post.data.date).toDateString()} · <a href="#author">{author?.data?.name ?? "Unknown Author"}</a>
             </p>          
   
             {post.data.summary && (
@@ -166,12 +166,12 @@ const relatedPosts = allPosts
           </div>  
       
           {author && (
-            <div class="about-author not-prose mt-8 p-5 border border-wmblue flex items-center gap-7 h-card" itemscope itemtype="https://schema.org/Person">
+            <div id="author" class="about-author not-prose mt-8 p-5 border border-wmblue flex items-center gap-7 h-card" itemscope itemtype="https://schema.org/Person">
               
               <!-- Left: Avatar -->
               <div class="w-1/4">
                 <img 
-                  src={author.data.image} 
+                src={`${author.data.image}`}
                   alt={author.data.name} 
                   width={150}
                   height={150}

@@ -3,6 +3,7 @@ import { defineCollection, z } from "astro:content";
 const basePostSchema = z.object({
   title: z.string(),
   description: z.string(),
+  h1: z.string(),
   date: z.coerce.date(),                   // auto convert string → Date
   author: z.string().default("Admin"),     // default if not provided
   image: z.string().optional(),            // optional thumbnail

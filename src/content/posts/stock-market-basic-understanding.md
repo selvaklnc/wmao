@@ -1,7 +1,9 @@
 ---
-title: "Stock Market - Basic understanding of the Indian Stock Market"
-description: "The stock market, often referred to as the equity market, is a platform where buyers and sellers trade shares of publicly listed companies. In India"
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpqyioFcjdxgrF6pLbgwCSqu7vjrx9pTTK1j_I-PDNiXX_np30fTv3crFinHh89uZMtcxErtUjqQdQnj1ybIxRoNcxgd7uPJb325lzQFZR4NlORjp2IpFUcs5xJ_nX6H7b1h0Xfteg7ZctgggNZVtU-R1MJmg_TfVFgh40N_ck5wJJgbrgQMA9iI_dLa7_/s1600/stock-market-basics.jpg"
+title: "Stock Market – Basic Understanding of Indian Equity Market"
+description: "Learn the basics of the Indian stock market. Discover how shares are traded, market dynamics, and essential tips for beginners to start investing wisely."
+h1: "Beginner's Guide to Understanding the Indian Stock Market"
+
+image: "stock-market-basics.webp"
 date: "2024-01-09"
 author: "selvakumaran-krishnan"
 category: "Business"
@@ -9,7 +11,7 @@ tags: ["business","economy"]
 summary: "The stock market, often referred to as the equity market, is a platform where buyers and sellers trade shares of publicly listed companies. In India, the major stock exchanges are the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE)."
 ---
 
-![What is the Stock Market? Basic understanding of the stock market](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpqyioFcjdxgrF6pLbgwCSqu7vjrx9pTTK1j_I-PDNiXX_np30fTv3crFinHh89uZMtcxErtUjqQdQnj1ybIxRoNcxgd7uPJb325lzQFZR4NlORjp2IpFUcs5xJ_nX6H7b1h0Xfteg7ZctgggNZVtU-R1MJmg_TfVFgh40N_ck5wJJgbrgQMA9iI_dLa7_/s1600/stock-market-basics.jpg)
+![What is the Stock Market? Basic understanding of the stock market](/assets/images/blog/stock-market-basics.webp)
 
 In this articles, let us elaborately learn the insights, strategies, and facts about the stock market. These step by step basic understanding and essential topics about the stock market will help you mastering the Stock Market, wealth Creation, and the Indian Stock Market.
 
@@ -30,7 +32,7 @@ Stock indices, such as the Sensex and Nifty, track the performance of a group of
 
 ### Bull and Bear Markets
 
-In a bull market, stocks experience an upward trajectory, marked by rising prices. Conversely, a bear market is defined by a downturn, where stock prices decline. Understanding market trends is crucial for making informed [investment decisions](https://www.wikimint.com/investment-strategies-future-growth).
+In a bull market, stocks experience an upward trajectory, marked by rising prices. Conversely, a bear market is defined by a downturn, where stock prices decline. Understanding market trends is crucial for making informed [investment decisions](/investment-strategies-future-growth).
 
 Why Big Companies Enter the Stock Market
 ----------------------------------------
@@ -76,7 +78,7 @@ Stock trading involves buying and selling stocks over shorter periods to take ad
 
 ### Dividend Income
 
-Certain enterprises share a segment of their earnings with shareholders through [dividend payments](https://www.wikimint.com/dividend-stock-market-investment-wealth-strategy), providing a direct financial reward to those invested in the company. Holding dividend-paying stocks can provide a steady income stream.
+Certain enterprises share a segment of their earnings with shareholders through [dividend payments](/dividend-stock-market-investment-wealth-strategy), providing a direct financial reward to those invested in the company. Holding dividend-paying stocks can provide a steady income stream.
 
 ### Initial Public Offerings (IPOs)
 
@@ -98,7 +100,7 @@ Companies may offer existing shareholders the right to purchase additional share
 
 Companies engage in share buybacks when they reclaim their own shares from the market, a strategic move that influences the company's capital structure and ownership distribution. This can increase the value of remaining shares and is often seen as a positive signal by investors.
 
-![Infographic explaining various stock market earning options, including dividends, bonuses, selling profits, and other strategies for maximizing returns.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoa38_zKziRgjjIhfmWEMBct8URQmCuxWA1x_mPzka6D8IBQ0TYY8MRYT-pL8_y2vzX6460DIEn4d8QSydLGra_3G83A55QQ7xFDd-TQCHz-BzJiEMFi-IdNlsUpeXIc1kR2JQM9e653mPVcRFY14T1E88yV5wzveC6-u9WBUs2hJrjKh7ROORZVDuHHnz/s1600/stock-market-profit-earnings-streams-infographics.webp "Earning Streams in Stock Market - Dividends, Bonuses & More")
+![Infographic explaining various stock market earning options, including dividends, bonuses, selling profits, and other strategies for maximizing returns.](/assets/images/blog/stock-market-profit-earnings-streams-infographics.webp "Earning Streams in Stock Market - Dividends, Bonuses & More")
 
 Other Earning Factors in the Share Market
 -----------------------------------------

@@ -1,7 +1,9 @@
 ---
-title: "Nifty 50 Companies - Backbone of Indian economy | In-Depth Analysis for Maximum Investment Potential"
-description: "The Nifty 50 index is a benchmark index in the Indian stock market that comprises 50 well-established and financially sound companies listed on the Na"
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaCi7NxurRbPirKmMzKQFH1l0fdtf5kcdt1UILREXWJgHI1K904PFP0ueA26BqCxhGpvbF3Ivi_hux_91hxBt6GdfGWmdQ9tB4kq3IKLKiQJgzLtkNAEOSTavVccOQvSMTa8mt0ERc0cdPCo-z0HnrVWg-vg_ihcSwcmbNhN2JkIHlpFnmHnTSt_TmpSf5/s1600/nifty-50-companies-indian-economy.jpg"
+title: "Nifty 50 Companies – In-Depth Analysis & Investment Potential"
+description: "Explore the Nifty 50 companies, key players in the Indian economy. Learn their performance, growth prospects, and investment potential for informed decisions."
+h1: "Comprehensive Analysis of Nifty 50 Companies and Investment Insights"
+
+image: "nifty-50-companies-indian-economy.webp"
 date: "2023-12-25"
 author: "selvakumaran-krishnan"
 category: "Business"
@@ -9,7 +11,7 @@ tags: ["business","economy"]
 summary: "The Nifty 50 index is a benchmark index in the Indian stock market that comprises 50 well-established and financially sound companies listed on the National Stock Exchange of India (NSE). In this article, we will explore the significance of the Nifty 50, shed light on some of its prominent companies, and delve into the factors that make them stand out in the dynamic world of finance."
 ---
 
-![Nifty 50 companies, the backbone of the Indian economy, representing top-performing stocks across key sectors, offering strong investment potential and market stability.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaCi7NxurRbPirKmMzKQFH1l0fdtf5kcdt1UILREXWJgHI1K904PFP0ueA26BqCxhGpvbF3Ivi_hux_91hxBt6GdfGWmdQ9tB4kq3IKLKiQJgzLtkNAEOSTavVccOQvSMTa8mt0ERc0cdPCo-z0HnrVWg-vg_ihcSwcmbNhN2JkIHlpFnmHnTSt_TmpSf5/s1600/nifty-50-companies-indian-economy.jpg "Nifty 50 Companies: In-Depth Analysis for Maximum Investment Potential")
+![Nifty 50 companies, the backbone of the Indian economy, representing top-performing stocks across key sectors, offering strong investment potential and market stability.](/assets/images/blog/nifty-50-companies-indian-economy.webp "Nifty 50 Companies: In-Depth Analysis for Maximum Investment Potential")
 
 An overview of Nifty 50 companies, showcasing their role in India's economic growth and investment landscape.
 
@@ -24,15 +26,15 @@ COMPANY NAME
 
 WIPRO
 
-[Wipro Limited](https://www.wikimint.com/wipro-limited-wipro)
+[Wipro Limited](/wipro-limited-wipro)
 
 HCLTECH
 
-[HCL Technologies Limited](https://www.wikimint.com/hcl-technologies-limited-hcltech)
+[HCL Technologies Limited](/hcl-technologies-limited-hcltech)
 
 BAJAJ-AUTO
 
-[Bajaj Auto Limited](https://www.wikimint.com/bajaj-auto-limited-bajaj-auto)
+[Bajaj Auto Limited](/bajaj-auto-limited-bajaj-auto)
 
 HINDALCO
 
@@ -176,7 +178,7 @@ ITC LIMITED
 
 TCS
 
-[Tata Consultancy Services Limited](https://www.wikimint.com/tata-consultancy-services-limited-tcs)
+[Tata Consultancy Services Limited](/tata-consultancy-services-limited-tcs)
 
 SUNPHARMA
 
@@ -249,11 +251,11 @@ Despite the ever-changing dynamics of the stock market, Nifty 50 companies have 
 Stocks Beyond the Nifty 50
 --------------------------
 
-The Nifty 50 may be a benchmark index, but there are several outstanding stocks outside this index that offer excellent [investment opportunities](https://www.wikimint.com/investment-strategies-future-growth). These stocks come from diverse sectors and provide investors with strong growth potential, stable returns, and portfolio diversification.
+The Nifty 50 may be a benchmark index, but there are several outstanding stocks outside this index that offer excellent [investment opportunities](/investment-strategies-future-growth). These stocks come from diverse sectors and provide investors with strong growth potential, stable returns, and portfolio diversification.
 
 ### Navratna Companies: Government-Backed Performers
 
-[Navratna Companies](https://www.wikimint.com/indian-navratna-companies-economic-growth) like Bharat Electronics Limited (BEL) and Oil India Limited (OIL) are great examples of reliable stocks. Operating in critical sectors such as defense, oil, and engineering, these government-owned enterprises are known for consistent dividends and steady growth. They are ideal for investors seeking stability in their portfolio.
+[Navratna Companies](/indian-navratna-companies-economic-growth) like Bharat Electronics Limited (BEL) and Oil India Limited (OIL) are great examples of reliable stocks. Operating in critical sectors such as defense, oil, and engineering, these government-owned enterprises are known for consistent dividends and steady growth. They are ideal for investors seeking stability in their portfolio.
 
 ### Mid-Cap and Small-Cap Stocks
 

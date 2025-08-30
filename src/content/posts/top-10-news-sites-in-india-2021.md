@@ -1,7 +1,9 @@
 ---
-title: "Top 10 news sites in India 2021"
-description: "After analysing deeply some important factors, we have listed top 10 Indian news websites for the year 2021. A list of India's top 10 news websit"
-image: "https://blogger.googleusercontent.com/img/a/AVvXsEhbkj60HnWX_ms53e40xow3HWWGmB69g-frcePA3GCzXTmzuKMYaEwpSHIH9iLQv70MWbeUN6LhRFyphkwMGDERNcrTWCch0kVS8XcvNcrYLxnsnOIDF9RI1pN53q0g8f3DdVbq-4-5HamCP20CEnndt93Pukc3c2Q1-WaMPRUp3rfk56JyF_9WUbgiyg"
+title: "Top 10 News Sites in India – Best Indian News Websites 2021"
+description: "Discover the top 10 news sites in India for 2021. Explore India’s leading news websites, covering updates, insights, and reliable information across categories."
+h1: "Top 10 Indian News Websites You Should Follow in 2021"
+
+image: "top-10-indian-news-sites-2021.webp"
 date: "2021-11-07"
 author: "selvakumaran-krishnan"
 category: "Business"
@@ -9,7 +11,7 @@ tags: ["business","general"]
 summary: "After analysing deeply some important factors, we have listed top 10 Indian news websites for the year 2021."
 ---
 
-![Explore the top 10 news websites in India for 2021, covering breaking news, politics, business, and entertainment updates.](https://blogger.googleusercontent.com/img/a/AVvXsEhbkj60HnWX_ms53e40xow3HWWGmB69g-frcePA3GCzXTmzuKMYaEwpSHIH9iLQv70MWbeUN6LhRFyphkwMGDERNcrTWCch0kVS8XcvNcrYLxnsnOIDF9RI1pN53q0g8f3DdVbq-4-5HamCP20CEnndt93Pukc3c2Q1-WaMPRUp3rfk56JyF_9WUbgiyg "Top 10 News Websites in India 2021")
+![Explore the top 10 news websites in India for 2021, covering breaking news, politics, business, and entertainment updates.](/assets/images/blog/top-10-indian-news-sites-2021.webp "Top 10 News Websites in India 2021")
 
 A list of India's top 10 news websites in 2021, delivering the latest updates across various categories.
 
@@ -71,4 +73,4 @@ The 22 news websites we have taken are The Times of India, The Economic Times, T
 
 This top 10 list of news websites are filered based on important factors like visitor's traffic, website rank, trust flow, estimated site worth, number of years the site being running, total volume of news content, etc.
 
-If anything false information found in this article or any additional information to be added, please let us know though the comment section below or contact us [here](https://www.wikimint.com/contact)
+If anything false information found in this article or any additional information to be added, please let us know though the comment section below or contact us [here](/contact)

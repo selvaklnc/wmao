@@ -1,7 +1,9 @@
 ---
-title: "Top Most Beautiful American Actresses of 20th century"
-description: "In the enchanting world of Hollywood, where dreams come to life and stories unfold, there exists a realm of timeless beauty and captivating talent"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mila_Kunis_Comic-Con_2012.jpg/1024px-Mila_Kunis_Comic-Con_2012.jpg"
+title: "Top Most Beautiful American Actresses of the 20th Century"
+description: "Explore the most beautiful American actresses of the 20th century. Discover timeless Hollywood icons celebrated for their talent, charm, and captivating screen presence."
+h1: "Iconic American Actresses of the 20th Century You Must Know"
+
+image: "Mila_Kunis_Comic-Con_2012.webp"
 date: "2023-10-09"
 author: "selvakumaran-krishnan"
 category: "Celebrity"
@@ -18,7 +20,7 @@ When it comes to beauty, Hollywood has always been the epitome of glamour and so
 
 ### Mila Kunis
 
-![Mila Kunis, the talented and beautiful American actress known for her roles in Hollywood films and TV shows.](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mila_Kunis_Comic-Con_2012.jpg/1024px-Mila_Kunis_Comic-Con_2012.jpg "Mila Kunis – A Beautiful and Talented American Actress")
+![Mila Kunis, the talented and beautiful American actress known for her roles in Hollywood films and TV shows.](/assets/images/blog/Mila_Kunis_Comic-Con_2012.webp "Mila Kunis – A Beautiful and Talented American Actress")
 
 Mila Kunis, a renowned American actress celebrated for her stunning looks and remarkable performances in Hollywood.
 
@@ -26,7 +28,7 @@ Mila Kunis, the talented American actress, has captured the hearts of audiences 
 
 ### Emma Stone
 
-![Emma Stone, the award-winning American actress known for her versatile performances in Hollywood films.](https://upload.wikimedia.org/wikipedia/commons/3/31/Emma_Stone_at_Maniac_UK_premiere_%28cropped%29.jpg "Emma Stone – A Talented and Charismatic American Actress")
+![Emma Stone, the award-winning American actress known for her versatile performances in Hollywood films.](/assets/images/blog/Emma_Stone.webp "Emma Stone – A Talented and Charismatic American Actress")
 
 Emma Stone, a celebrated American actress recognized for her exceptional talent and captivating screen presence.
 
@@ -34,7 +36,7 @@ Emma Stone was born in 1988. Her girl-next-door charm and infectious smile make 
 
 ### Scarlett Johansson
 
-![Scarlett Johansson, the renowned American actress known for her iconic roles in Hollywood and the Marvel Cinematic Universe.](https://upload.wikimedia.org/wikipedia/commons/3/31/Scarlett_Johansson_2016_TIFF_Premiere.jpg "Scarlett Johansson – A Versatile and Acclaimed Hollywood Actress")
+![Scarlett Johansson, the renowned American actress known for her iconic roles in Hollywood and the Marvel Cinematic Universe.](/assets/images/blog/Scarlett_Johansson_2016_TIFF_Premiere.webp "Scarlett Johansson – A Versatile and Acclaimed Hollywood Actress")
 
 Scarlett Johansson, a globally recognized actress celebrated for her powerful performances and cinematic impact.
 
@@ -42,7 +44,7 @@ Scarlett Johansson, born in 1984, with her alluring looks and magnetic screen pr
 
 ### Jessica Alba
 
-![Jessica Alba, the talented American actress and entrepreneur known for her roles in Hollywood and business ventures.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jessica_Alba_%40_Declare_Yourself_Inauguration_Ball_%28cropped%29.jpg/1024px-Jessica_Alba_%40_Declare_Yourself_Inauguration_Ball_%28cropped%29.jpg "Jessica Alba – Hollywood Star and Successful Entrepreneur")
+![Jessica Alba, the talented American actress and entrepreneur known for her roles in Hollywood and business ventures.](/assets/images/blog/Jessica_Alba_%40_Declare_Yourself_Inauguration_Ball_%28cropped%29.webp "Jessica Alba – Hollywood Star and Successful Entrepreneur")
 
 Jessica Alba, a celebrated actress and businesswoman, known for her impactful performances and entrepreneurial success.
 
@@ -50,7 +52,7 @@ Jessica Alba, the versatile American actress, has charmed audiences with her tal
 
 ### Charlize Theron
 
-![Charlize Theron, the award-winning South African-American actress and producer known for her powerful performances in Hollywood.](https://upload.wikimedia.org/wikipedia/commons/5/5d/Charlize-theron-IMG_6045.jpg "Charlize Theron – Acclaimed Actress and Producer")
+![Charlize Theron, the award-winning South African-American actress and producer known for her powerful performances in Hollywood.](/assets/images/blog/Charlize-theron-IMG_6045.webp "Charlize Theron – Acclaimed Actress and Producer")
 
 Charlize Theron, a versatile actress and producer, recognized for her exceptional talent and strong on-screen presence.
 
@@ -58,7 +60,7 @@ Charlize Theron was born in 1975. Her icy beauty and remarkable acting skills ha
 
 ### Audrey Hepburn
 
-![Audrey Hepburn, the iconic British actress and humanitarian known for her timeless elegance and classic Hollywood performances.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Audrey_Hepburn_a_Breakfast_at_Tiffany%27s.jpg/1024px-Audrey_Hepburn_a_Breakfast_at_Tiffany%27s.jpg "Audrey Hepburn – Legendary Actress and Style Icon")
+![Audrey Hepburn, the iconic British actress and humanitarian known for her timeless elegance and classic Hollywood performances.](/assets/images/blog/Audrey-Hepburn.webp "Audrey Hepburn – Legendary Actress and Style Icon")
 
 Audrey Hepburn, a beloved actress and fashion icon, celebrated for her grace, talent, and humanitarian efforts.
 
@@ -66,7 +68,7 @@ Audrey Hepburn, born in 1929, the epitome of grace and elegance, is undeniably o
 
 ### Grace Kelly
 
-![Grace Kelly, the Hollywood actress turned Princess of Monaco, known for her timeless beauty and elegance.](https://upload.wikimedia.org/wikipedia/commons/9/94/Dial_M_for_Murder1.jpg "Grace Kelly – From Hollywood Royalty to Princess of Monaco")
+![Grace Kelly, the Hollywood actress turned Princess of Monaco, known for her timeless beauty and elegance.](/assets/images/blog/Grace_Kelly.webp "Grace Kelly – From Hollywood Royalty to Princess of Monaco")
 
 Grace Kelly, an iconic actress and Princess of Monaco, admired for her grace, charm, and cinematic legacy.
 
@@ -74,7 +76,7 @@ Before becoming the Princess of Monaco, Grace Kelly, born in 1929, was the reign
 
 ### Elizabeth Taylor
 
-![Elizabeth Taylor, legendary Hollywood actress known for her beauty, talent, and iconic roles in classic films.](https://upload.wikimedia.org/wikipedia/commons/8/86/Elizabeth_Taylor_trailer.jpg "Elizabeth Taylor – A Hollywood Icon with Timeless Glamour")
+![Elizabeth Taylor, legendary Hollywood actress known for her beauty, talent, and iconic roles in classic films.](/assets/images/blog/Elizabeth_Taylor_trailer.webp "Elizabeth Taylor – A Hollywood Icon with Timeless Glamour")
 
 Elizabeth Taylor, an award-winning actress and style icon, celebrated for her captivating performances and elegance.
 
@@ -82,7 +84,7 @@ Elizabeth Taylor was born in 1932. Her violet eyes and magnetic presence made he
 
 ### Marilyn Monroe
 
-![Marilyn Monroe, iconic Hollywood actress and timeless beauty symbol known for her charm and talent.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/MarilynMonroe_-_YankArmyWeekly.jpg/1024px-MarilynMonroe_-_YankArmyWeekly.jpg "Marilyn Monroe – The Legendary Hollywood Icon")
+![Marilyn Monroe, iconic Hollywood actress and timeless beauty symbol known for her charm and talent.](/assets/images/blog/MarilynMonroe_-_YankArmyWeekly.webp/1024px-MarilynMonroe_-_YankArmyWeekly.webp "Marilyn Monroe – The Legendary Hollywood Icon")
 
 Marilyn Monroe, a classic Hollywood star celebrated for her beauty, charisma, and unforgettable performances.
 
@@ -90,7 +92,7 @@ Marilyn Monroe, born in 1926, the ultimate blonde bombshell, exuded sensuality a
 
 ### Angelina Jolie
 
-![Angelina Jolie, award-winning actress, humanitarian, and filmmaker known for her impactful roles and global activism.](https://upload.wikimedia.org/wikipedia/commons/8/83/Angelina_Jolie_at_the_launch_of_the_UK_initiative_on_preventing_sexual_violence_in_conflict%2C_29_May_2012_%28cropped%29.jpg "Angelina Jolie – Renowned Actress and Humanitarian")
+![Angelina Jolie, award-winning actress, humanitarian, and filmmaker known for her impactful roles and global activism.](/assets/images/blog/Angelina-Jolie.webp "Angelina Jolie – Renowned Actress and Humanitarian")
 
 Angelina Jolie, a celebrated Hollywood actress and humanitarian recognized for her talent and global philanthropy.
 
@@ -98,7 +100,7 @@ Angelina Jolie was born in 1975. Her exotic beauty and enigmatic aura have made 
 
 ### Natalie Portman
 
-![Natalie Portman, Academy Award-winning actress known for her versatile roles and contributions to cinema.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Natalie_Portman_Cannes_2008.jpg "Natalie Portman – Acclaimed Actress and Filmmaker")
+![Natalie Portman, Academy Award-winning actress known for her versatile roles and contributions to cinema.](/assets/images/blog/Natalie_Portman_Cannes_2008.webp "Natalie Portman – Acclaimed Actress and Filmmaker")
 
 Natalie Portman, a celebrated actress recognized for her exceptional performances and cinematic impact.
 
@@ -106,7 +108,7 @@ Natalie Portman was born in 1981. Her delicate beauty and intellectual appeal ha
 
 ### Halle Berry
 
-![Halle Berry, Academy Award-winning actress known for her groundbreaking roles and stunning performances.](https://upload.wikimedia.org/wikipedia/commons/5/56/Halle_Berry_by_Gage_Skidmore_2.jpg "Halle Berry – Trailblazing Actress and Hollywood Icon")
+![Halle Berry, Academy Award-winning actress known for her groundbreaking roles and stunning performances.](/assets/images/blog/Halle_Berry_by_Gage_Skidmore_2.webp "Halle Berry – Trailblazing Actress and Hollywood Icon")
 
 Halle Berry, a celebrated actress recognized for her versatility and impact in the film industry.
 
@@ -114,7 +116,7 @@ Halle Berry, born in 1966, made history by becoming the first African American w
 
 ### Megan Fox
 
-![Megan Fox, Hollywood actress known for her stunning looks and action-packed movie roles.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Machine_Gun_Kelly_and_Megan_Fox_%2851914406561%29_%28cropped2%29.jpg/1024px-Machine_Gun_Kelly_and_Megan_Fox_%2851914406561%29_%28cropped2%29.jpg "Megan Fox – Hollywood Star and Action Movie Icon")
+![Megan Fox, Hollywood actress known for her stunning looks and action-packed movie roles.](/assets/images/blog/.webp "Megan Fox – Hollywood Star and Action Movie Icon")
 
 Megan Fox, a talented actress famous for her roles in blockbuster films and her captivating screen presence.
 
@@ -122,7 +124,7 @@ Megan Fox, the stunning American actress, has made a significant mark in Hollywo
 
 ### Olivia Wilde
 
-![Olivia Wilde, Hollywood actress and director known for her talent and captivating performances.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Olivia_Wilde_in_2021_2.jpg/512px-Olivia_Wilde_in_2021_2.jpg "Olivia Wilde – Acclaimed Actress and Visionary Director")
+![Olivia Wilde, Hollywood actress and director known for her talent and captivating performances.](/assets/images/blog/Olivia_Wilde_in_2021_2.webp "Olivia Wilde – Acclaimed Actress and Visionary Director")
 
 Olivia Wilde, a celebrated actress and filmmaker recognized for her dynamic roles and directorial success.
 

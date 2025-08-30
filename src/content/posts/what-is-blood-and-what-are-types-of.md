@@ -1,7 +1,9 @@
 ---
-title: "What is blood and what are the types of blood group?"
-description: "Blood is a fluid tissue. Blood is the medium which transports nutrients, hormones, gasses like oxygen and waste products like carbon-di-oxide througho"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Red_Blood_Cell.jpg/512px-Red_Blood_Cell.jpg"
+title: "What Is Blood – Types of Blood Groups Explained"
+description: "Learn what blood is, its functions, and the different types of blood groups. Understand how blood transports nutrients, oxygen, and waste products in the body."
+h1: "Understanding Blood and Its Various Blood Groups"
+
+image: "Red_Blood_Cell.webp"
 date: "2017-02-06"
 author: "selvakumaran-krishnan"
 category: "Science"
@@ -9,7 +11,7 @@ tags: ["science"]
 summary: "Blood is a fluid tissue. Blood is the medium which transports nutrients, hormones, gasses like oxygen and waste products like carbon-di-oxide throughout the body."
 ---
 
-![Detailed explanation of blood composition and different blood group types with their significance.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Red_Blood_Cell.jpg/512px-Red_Blood_Cell.jpg "What is Blood and What Are the Types of Blood Group?")
+![Detailed explanation of blood composition and different blood group types with their significance.](/assets/images/blog/Red_Blood_Cell.webp "What is Blood and What Are the Types of Blood Group?")
 
 Understanding blood and its different types - A guide to blood group classification.
 

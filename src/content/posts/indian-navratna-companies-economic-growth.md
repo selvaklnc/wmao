@@ -1,7 +1,9 @@
 ---
-title: "Navratna Companies of India: Leading India's Economic Growth"
-description: "Indian Navratna Companies are top-performing government-owned public sector enterprises driving India's economic growth. Navratna companies are recogn"
-image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRkQYnC67lPb_HNqEyggM8x8md2aStzn3p0IdTNcvkjHmYMPmgNfleTJpOGlzY2-tHYZ94ThH17rObS2P12MOH9pQBRZsu1j8Ifp5bU9kUZlzC8FEHd-36NK6iSZO_IwDQ84s6XLceQXLrjfARWi3X_YZEuD88SZo2se9fQUqF3NxDJWvbsfQrofMWrpnq/s1600/indian-navratna-companies.webp"
+title: "Navratna Companies of India – Driving Economic Growth"
+description: "Discover India’s top Navratna companies, their performance, and impact on economic growth. Learn how these public sector enterprises contribute to the nation’s development."
+h1: "Leading Navratna Companies in India and Their Economic Impact"
+
+image: "indian-navratna-companies.webp"
 date: "2025-01-10"
 author: "selvakumaran-krishnan"
 category: "Business"
@@ -14,7 +16,7 @@ Understanding Indian Navratna Companies
 
 Indian Navratna Companies are some of the most significant public sector enterprises (PSEs) in India. These companies play a critical role in the country's economic growth by contributing to infrastructure, technology, and employment. "Navratna," meaning "nine gems," refers to enterprises that hold immense strategic and economic value.
 
-![Discover everything about Indian Navratna companies, their history, achievements, and role in India's economy through this complete guide.](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRkQYnC67lPb_HNqEyggM8x8md2aStzn3p0IdTNcvkjHmYMPmgNfleTJpOGlzY2-tHYZ94ThH17rObS2P12MOH9pQBRZsu1j8Ifp5bU9kUZlzC8FEHd-36NK6iSZO_IwDQ84s6XLceQXLrjfARWi3X_YZEuD88SZo2se9fQUqF3NxDJWvbsfQrofMWrpnq/s1600/indian-navratna-companies.webp "All About Indian Navratna Companies - A Complete Guide")
+![Discover everything about Indian Navratna companies, their history, achievements, and role in India's economy through this complete guide.](/assets/images/blog/indian-navratna-companies.webp "All About Indian Navratna Companies - A Complete Guide")
 
 ### What Are Navratna Companies?
 
@@ -32,7 +34,7 @@ A company must meet specific criteria to earn the prestigious Navratna status:
 ### Eligibility Requirements
 
 1.  **Miniratna Status**: The company must hold Miniratna Category-I status first.
-2.  **Performance Metrics**: A minimum score of 60 out of 100 based on parameters like net profit, total manpower cost, [cost of services](http://www.wikimint.com/reduce-business-expenses), and PSE performance.
+2.  **Performance Metrics**: A minimum score of 60 out of 100 based on parameters like net profit, total manpower cost, [cost of services](/reduce-business-expenses), and PSE performance.
 3.  **Profitability**: Consistent profitability for three years.
 
 ### Operational Freedom
@@ -166,7 +168,7 @@ Navratna Companies and Their Presence in the Stock Market
 
 ### Stock Market Presence of Navratna Companies
 
-Many Navratna Companies are listed on the [Indian stock exchanges](https://www.wikimint.com/stock-market-basic-understanding) like the NSE (National Stock Exchange) and BSE (Bombay Stock Exchange). Examples include Oil India Limited (OIL), Engineers India Limited (EIL), and Bharat Electronics Limited (BEL). These stocks are popular among investors due to their stability and consistent performance.
+Many Navratna Companies are listed on the [Indian stock exchanges](/stock-market-basic-understanding) like the NSE (National Stock Exchange) and BSE (Bombay Stock Exchange). Examples include Oil India Limited (OIL), Engineers India Limited (EIL), and Bharat Electronics Limited (BEL). These stocks are popular among investors due to their stability and consistent performance.
 
 ### Benefits for Shareholders
 
@@ -178,7 +180,7 @@ Navratna Companies operate in essential sectors, ensuring steady demand for thei
 
 #### Dividend Payouts
 
-These companies are known for their consistent and attractive dividend payouts, which make them a preferred choice for income-focused investors. For instance, BEL and OIL have a history of offering [high dividends to shareholders](https://www.wikimint.com/dividend-stock-market-investment-wealth-strategy).
+These companies are known for their consistent and attractive dividend payouts, which make them a preferred choice for income-focused investors. For instance, BEL and OIL have a history of offering [high dividends to shareholders](/dividend-stock-market-investment-wealth-strategy).
 
 #### Government Backing
 
@@ -200,9 +202,9 @@ The future of Navratna Companies' share prices looks promising, driven by factor
 Why Invest in Navratna Companies?
 ---------------------------------
 
-Even though Navratna Companies are not part of the [Nifty 50 index](https://www.wikimint.com/nifty-50-companies-indian-economy-investment-potential), they hold significant importance in diversifying and strengthening any stock portfolio. Investing in Navratna Companies offers a balanced mix of stability, dividends, and growth. These stocks are ideal for risk-averse investors seeking exposure to public sector enterprises that contribute significantly to the Indian economy.
+Even though Navratna Companies are not part of the [Nifty 50 index](/nifty-50-companies-indian-economy-investment-potential), they hold significant importance in diversifying and strengthening any stock portfolio. Investing in Navratna Companies offers a balanced mix of stability, dividends, and growth. These stocks are ideal for risk-averse investors seeking exposure to public sector enterprises that contribute significantly to the Indian economy.
 
-Whether you are a seasoned investor or a beginner, keeping an eye on these companies' market performance can help you make informed [investment decisions](https://www.wikimint.com/investment-strategies-future-growth).
+Whether you are a seasoned investor or a beginner, keeping an eye on these companies' market performance can help you make informed [investment decisions](/investment-strategies-future-growth).
 
 FAQs About Indian Navratna Companies
 ------------------------------------
@@ -231,7 +233,7 @@ Navratna status allows companies greater autonomy for investments, international
 
 ### What challenges do Navratna Companies face?
 
-Challenges include bureaucratic oversight, global competition, and the [need for significant investment](https://www.wikimint.com/raise-funding-options-business) in technological upgrades to stay competitive.
+Challenges include bureaucratic oversight, global competition, and the [need for significant investment](/raise-funding-options-business) in technological upgrades to stay competitive.
 
 ### How do Navratna Companies impact India's economy?
 
