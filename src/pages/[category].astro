@@ -36,6 +36,7 @@ const { Content } = await render(category);
 <BaseLayout 
   title={category.data.title} 
   description={category.data.description}
+  image={`/assets/images/blog/${category.data.image}`}
 >
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
     <main class="col-span-12 md:col-span-7 prose lg:prose-xl max-w-none">

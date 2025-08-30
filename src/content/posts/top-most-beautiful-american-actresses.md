@@ -5,7 +5,7 @@ h1: "Iconic American Actresses of the 20th Century You Must Know"
 
 image: "Mila_Kunis_Comic-Con_2012.webp"
 date: "2023-10-09"
-author: "selvakumaran-krishnan"
+author: "wikimint"
 category: "Celebrity"
 tags: ["celebrity","entertainment"]
 summary: "In the enchanting world of Hollywood, where dreams come to life and stories unfold, there exists a realm of timeless beauty and captivating talent. Over the decades, American cinema has been graced by extraordinary actresses who possess not only mesmerizing looks but also immense acting prowess. These women have not just adorned the silver screen; they have carved their names in the annals of film history with their elegance, grace, and exceptional skills."
@@ -44,7 +44,7 @@ Scarlett Johansson, born in 1984, with her alluring looks and magnetic screen pr
 
 ### Jessica Alba
 
-![Jessica Alba, the talented American actress and entrepreneur known for her roles in Hollywood and business ventures.](/assets/images/blog/Jessica_Alba_%40_Declare_Yourself_Inauguration_Ball_%28cropped%29.webp "Jessica Alba – Hollywood Star and Successful Entrepreneur")
+![Jessica Alba, the talented American actress and entrepreneur known for her roles in Hollywood and business ventures.](/assets/images/blog/Jessica_Alba.webp "Jessica Alba – Hollywood Star and Successful Entrepreneur")
 
 Jessica Alba, a celebrated actress and businesswoman, known for her impactful performances and entrepreneurial success.
 
@@ -84,7 +84,7 @@ Elizabeth Taylor was born in 1932. Her violet eyes and magnetic presence made he
 
 ### Marilyn Monroe
 
-![Marilyn Monroe, iconic Hollywood actress and timeless beauty symbol known for her charm and talent.](/assets/images/blog/MarilynMonroe_-_YankArmyWeekly.webp/1024px-MarilynMonroe_-_YankArmyWeekly.webp "Marilyn Monroe – The Legendary Hollywood Icon")
+![Marilyn Monroe, iconic Hollywood actress and timeless beauty symbol known for her charm and talent.](/assets/images/blog/MarilynMonroe_-_YankArmyWeekly.webp "Marilyn Monroe – The Legendary Hollywood Icon")
 
 Marilyn Monroe, a classic Hollywood star celebrated for her beauty, charisma, and unforgettable performances.
 
@@ -116,7 +116,7 @@ Halle Berry, born in 1966, made history by becoming the first African American w
 
 ### Megan Fox
 
-![Megan Fox, Hollywood actress known for her stunning looks and action-packed movie roles.](/assets/images/blog/.webp "Megan Fox – Hollywood Star and Action Movie Icon")
+![Megan Fox, Hollywood actress known for her stunning looks and action-packed movie roles.](/assets/images/blog/megan-fox.webp "Megan Fox – Hollywood Star and Action Movie Icon")
 
 Megan Fox, a talented actress famous for her roles in blockbuster films and her captivating screen presence.
 

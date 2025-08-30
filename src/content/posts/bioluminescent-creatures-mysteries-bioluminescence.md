@@ -11,7 +11,7 @@ tags: ["nature","science"]
 summary: "Bioluminescence is a captivating phenomenon that illuminates the natural world with its magical glow. It is the ability of certain organisms to produce light through a chemical reaction within their bodies. In this article, we will embark on a journey to uncover the mysteries surrounding bioluminescent creatures and delve into the mesmerizing allure they possess."
 ---
 
-![What is Bioluminescence? Exploring the enchanting world of bioluminescent creatures, their glowing abilities, natural habitats, and the mysteries behind their light production.](/assets/images/blog/Bioluminescent_dinoflagellates.webp "Discover Bioluminescence: The Fascinating Glow of Nature's Living Lights")[](/assets/images/Bioluminescent-dinoflagellates.webp)
+![What is Bioluminescence? Exploring the enchanting world of bioluminescent creatures, their glowing abilities, natural habitats, and the mysteries behind their light production.](/assets/images/blog/Bioluminescent-dinoflagellates.webp "Discover Bioluminescence: The Fascinating Glow of Nature's Living Lights")
 
 Discovering the wonders of bioluminescent creatures and their magical glowing abilities in nature.
 
