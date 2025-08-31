@@ -17,55 +17,17 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
   <!-- First Row -->
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto px-6 py-12">
     <!-- Pages -->
-    <div class="col-span-1 md:col-span-5">
-      <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
-        <!-- First column -->
-        <div class="col-span-1 md:col-span-2">
-          <ul class="space-y-2">
-            <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
-            <li><a href="/about" class="hover:text-gray-500">About</a></li>
-            <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
-            <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
-            <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
-          </ul>
-        </div>
-      
-        <!-- Second column -->
-        <div class="col-span-1 md:col-span-2">
-          <ul class="space-y-2">
-            <li><a href="/business" class="hover:text-gray-500">Business</a></li>
-            <li><a href="/marketing" class="hover:text-gray-500">Marketing</a></li>
-            <li><a href="/finance" class="hover:text-gray-500">Finance</a></li>
-            <li><a href="/money" class="hover:text-gray-500">Money</a></li>
-            <li><a href="/economy" class="hover:text-gray-500">Economy</a></li>
-          </ul>
-        </div>
-      
-        <!-- Third column -->
-        <div class="col-span-2 md:col-span-3">
-          <ul class="space-y-2">
-            <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
-            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
-            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
-            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
-            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-      
-    </div>
-    
 
+    
     <!-- Categories -->
 
     <div class="col-span-1 md:col-span-3">
       <div class="h-card text-sm leading-normal" itemscope itemtype="http://schema.org/Organization">
-        <p>
-          <span class="p-name org font-bold" itemprop="name">Wikimint</span>
-        </p>
-        <hr class="border my-2"/>
-
-        <p class="p-adr h-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <a href="https://www.wikimint.com" class="text-xl font-bold text-wmblue-600">
+            <img alt="Master Personal Finance, Business Growth, Digital Marketing" class="u-logo" data-height="46" data-width="200" width="165" height="38" src="/assets/images/wikimint-logo-200x46.webp">
+          </a>
+        <p class="mt-4 p-adr h-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span class="p-name org" itemprop="name">Wikimint</span>,
           <span class="p-street-address" itemprop="streetAddress">Saraswathi Nagar, Neelankarai</span>, 
           <span class="p-locality" itemprop="addressLocality">Chennai</span>,  
           <span class="p-region" itemprop="addressRegion">Tamil Nadu</span>,  
@@ -115,6 +77,50 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
         </p>
       </div>
       </div>
+
+
+    <div class="col-span-1 md:col-span-5">
+
+      
+      <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
+        
+        <!-- First column -->
+        <div class="col-span-1 md:col-span-2">
+          <ul class="space-y-2">
+            <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
+            <li><a href="/about" class="hover:text-gray-500">About</a></li>
+            <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
+            <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
+            <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
+          </ul>
+        </div>
+      
+        <!-- Second column -->
+        <div class="col-span-1 md:col-span-2">
+          <ul class="space-y-2">
+            <li><a href="/business" class="hover:text-gray-500">Business</a></li>
+            <li><a href="/marketing" class="hover:text-gray-500">Marketing</a></li>
+            <li><a href="/finance" class="hover:text-gray-500">Finance</a></li>
+            <li><a href="/money" class="hover:text-gray-500">Money</a></li>
+            <li><a href="/economy" class="hover:text-gray-500">Economy</a></li>
+          </ul>
+        </div>
+      
+        <!-- Third column -->
+        <div class="col-span-2 md:col-span-3">
+          <ul class="space-y-2">
+            <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
+            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
+            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
+            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
+            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    
+
 
 
 
@@ -204,5 +210,107 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
 
 </footer>
+
+<!-- EMAIL POPUP START -->
+<div id="emailPopup"
+  class="fixed bottom-5 right-5 bg-gradient-to-br from-black to-neutral-900 rounded-xl shadow-2xl p-6 w-[90%] max-w-sm z-[9999999] hidden animate-fade-in-up">
+  
+  <form action="https://www.sendsteed.com/subscribe/" method="post" target="_blank" class="relative">
+    <h2 class="font-semibold text-[#0077b5] mb-2">Join Our Free Newsletter</h2>
+    <p class="text-sm text-white mb-5">
+      Get insights on personal finance, business, and marketing strategy, straight to your inbox.
+    </p>
+
+    <input name="e5735" type="email" required placeholder="Your Email"
+      class="w-full p-2.5 mb-3 border border-gray-300 rounded-md text-sm bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0077b5]" />
+
+    <input name="n5735" type="text" required placeholder="Your Name"
+      class="w-full p-2.5 mb-3 border border-gray-300 rounded-md text-sm bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#0077b5]" />
+
+    <input type="hidden" name="lllid" value="5735">
+    <input type="hidden" name="lluid" value="selvaklnc">
+    <input type="hidden" name="redirect" value="">
+    <input type="hidden" name="source" value="">
+
+    <button type="submit"
+      class="w-full bg-[#0077b5] hover:bg-[#005f91] text-white py-3 px-4 rounded-md text-sm font-medium transition">
+      Subscribe
+    </button>
+
+    <span onclick="closePopup()"
+      class="absolute top-1 right-3 text-white text-3xl cursor-pointer">&times;</span>
+  </form>
+
+  <p class="text-sm text-right text-white mt-4 mb-0">
+    Powered by 
+    <a href="https://sendsteed.com/?r=selvaklnc" target="_blank" rel="nofollow noopener" class="text-sm text-gray-300 hover:text-[#0077b5]">
+      SendSteed
+    </a>
+  </p>
+</div>
+
+
+
+<!-- Overlay -->
+<div id="overlay" 
+  class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<!-- Offcanvas -->
+<div id="offcanvas" 
+  class="fixed top-0 right-0 h-full w-100 bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300">
+  <!-- Header -->
+  <div class="flex justify-between items-center px-5 py-4 border-b">
+    <h2 class="text-lg font-semibold my-0 py-0">Menu</h2>
+    <button class="close-canvas text-gray-500 hover:text-gray-700 text-3xl leading-none">&times;</button>
+  </div>
+  <!-- Content -->
+  <div class="p-4">
+    <div
+    id="searchBar"
+    class="mb-3 bg-gray-300 border shadow p-1 rounded"
+  >
+  <form action="/search" method="get">
+    <input name="q"
+        type="search"
+        placeholder="Search Wikimint..."
+        class="border px-3 py-2 rounded w-64 focus:outline-none focus:ring focus:ring-wmblue-200"
+      />
+    </form>
+  </div>
+
+  <ul class="space-y-2">
+    <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
+    <li><a href="/about" class="hover:text-gray-500">About</a></li>
+    <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
+    <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
+            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
+            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
+            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
+            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
+    <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
+    <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
+  </ul>
+  </div>
+</div>
+
+<!-- Tailwind Animation -->
+<style>
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-in-out;
+}
+</style>
+
+<!-- EMAIL POPUP END -->
+
 
 <script src="/assets/js/script.js" defer></script>

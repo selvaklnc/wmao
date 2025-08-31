@@ -57,6 +57,12 @@
 a{
   text-decoration:none ! important;
 }
+.post-content [data-link]{
+  color:#0d6efd;
+  cursor:pointer;}
+
+  .post-content [data-link]::marker{color:#000000;}
+
 article li::marker{
 color:#000000 ! important;
 }

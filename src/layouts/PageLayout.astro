@@ -6,10 +6,10 @@ import Sidebar from "../components/Sidebar.astro";
 const { frontmatter, url } = Astro.props;
 const {
   title, description, date, updatedDate, image, canonical,
-  tags, toc, learnPoints, relatedResources, faq, author
+  tags, toc, learnPoints, relatedResources, faq, author, noindex
 } = frontmatter;
 ---
-<BaseLayout title={`${title}`} description={description} image={image}>
+<BaseLayout title={`${title}`} description={description} image={image} noindex={noindex}>
 
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
     <main class="col-span-12 md:col-span-7">
