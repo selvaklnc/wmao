@@ -9,6 +9,31 @@ author: "selvakumaran-krishnan"
 category: "Business"
 tags: ["business","marketing"]
 summary: "If you've spent any time in digital marketing, you've likely come across the phrase:"
+faq:
+- q: "What is SendSteed List Manager used for?"
+  a: |
+    <p>SendSteed is an email autoresponder and list management tool by LeadsLeap. It’s used to collect leads, send follow-up emails, broadcast messages, and manage your email list—all for free.</p>
+
+- q: "Is SendSteed really free to use?"
+  a: |
+    <p>Yes, SendSteed is completely free for all LeadsLeap members. You get full access to essential features without monthly fees, and you can upgrade later if you want more advanced tools.</p>
+
+- q: "How does SendSteed help grow my email list fast?"
+  a: |
+    <p>With built-in opt-in forms, email automation, and segmentation tools, SendSteed makes it easy to attract subscribers, follow up with them, and build trust—key steps to growing a responsive email list quickly.</p>
+
+- q: "Is SendSteed better than Mailchimp or GetResponse?"
+  a: |
+    <p>SendSteed offers many features similar to Mailchimp and GetResponse but with zero cost. It’s perfect for those starting out or wanting to manage their email marketing without breaking the bank.</p>
+
+- q: "Does SendSteed support double opt-in and GDPR compliance?"
+  a: |
+    <p>Absolutely! SendSteed uses <a href="https://www.likereply.com/compliance/double-opt-in-process">double opt-in</a> by default, ensuring your list remains clean and GDPR-compliant while also reducing spam complaints.</p>
+
+- q: "Can I use SendSteed to promote affiliate products?"
+  a: |
+    <p>Yes, SendSteed is ideal for affiliate marketers. You can build a targeted list and promote relevant offers through email series and broadcasts while following ethical list-building practices.</p>
+
 ---
 
 **The money is in the list.**
@@ -155,34 +180,6 @@ Unlike many platforms that lure you in with a free plan and then aggressively up
 
 In the next chapter, we'll cover Email Series, how to keep your list warm and engaged with automated pre-created series of emails periodically.
 
-Frequently Asked Questions About SendSteed List Manager
--------------------------------------------------------
-
-Here are some quick answers to common questions about using SendSteed for email marketing and list building. Whether you're a beginner or an experienced marketer, these FAQs will help you get the most out of this powerful free autoresponder tool.
-
-### What is SendSteed List Manager used for?
-
-SendSteed is an email autoresponder and list management tool by LeadsLeap. It's used to collect leads, send follow-up emails, broadcast messages, and manage your email list—all for free.
-
-### Is SendSteed really free to use?
-
-Yes, SendSteed is completely free for all LeadsLeap members. You get full access to essential features without monthly fees, and you can upgrade later if you want more advanced tools.
-
-### How does SendSteed help grow my email list fast?
-
-With built-in opt-in forms, email automation, and segmentation tools, SendSteed makes it easy to attract subscribers, follow up with them, and build trust—key steps to growing a responsive email list quickly.
-
-### Is SendSteed better than Mailchimp or GetResponse?
-
-SendSteed offers many features similar to Mailchimp and GetResponse but with zero cost. It's perfect for those starting out or wanting to manage their email marketing without breaking the bank.
-
-### Does SendSteed support double opt-in and GDPR compliance?
-
-Absolutely! SendSteed uses [double opt-in](https://www.likereply.com/compliance/double-opt-in-process) by default, ensuring your list remains clean and GDPR-compliant while also reducing spam complaints.
-
-### Can I use SendSteed to promote affiliate products?
-
-Yes, SendSteed is ideal for affiliate marketers. You can build a targeted list and promote relevant offers through email series and broadcasts while following ethical list-building practices.
 
 Table of Contents
 -----------------

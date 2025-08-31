@@ -72,6 +72,52 @@ const navLinks = [
 </header>
 
 
+<!-- Overlay -->
+<div id="overlay" 
+  class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+<!-- Offcanvas -->
+<div id="offcanvas" 
+  class="fixed top-0 right-0 h-full w-100 bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300">
+  <!-- Header -->
+  <div class="flex justify-between items-center px-5 py-4 border-b">
+    <h2 class="text-lg font-semibold my-0 py-0">Menu</h2>
+    <button class="close-canvas text-gray-500 hover:text-gray-700 text-3xl leading-none">&times;</button>
+  </div>
+  <!-- Content -->
+  <div class="p-4">
+    <div
+    id="searchBar"
+    class="mb-3 bg-gray-300 border shadow p-1 rounded"
+  >
+  <form action="/search" method="get">
+    <input name="q"
+        type="search"
+        placeholder="Search Wikimint..."
+        class="border px-3 py-2 rounded w-64 focus:outline-none focus:ring focus:ring-wmblue-200"
+      />
+    </form>
+  </div>
+
+  <ul class="space-y-2">
+    <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
+    <li><a href="/about" class="hover:text-gray-500">About</a></li>
+    <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
+    <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
+            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
+            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
+            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
+            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
+    <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
+    <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
+  </ul>
+  </div>
+</div>
+
+
+
+
+
 
 <script>
 </script>

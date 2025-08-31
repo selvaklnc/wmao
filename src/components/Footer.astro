@@ -15,14 +15,14 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
 
 <footer class="bg-gray-100 text-gray-900 mt-10">
   <!-- First Row -->
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto px-6 py-12">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12 max-w-7xl mx-auto px-6 py-12">
     <!-- Pages -->
 
     
     <!-- Categories -->
 
-    <div class="col-span-1 md:col-span-3">
-      <div class="h-card text-sm leading-normal" itemscope itemtype="http://schema.org/Organization">
+    <div class="col-span-1 md:col-span-4 md:pe-5">
+      <div class="h-card text-sm leading-loose" itemscope itemtype="http://schema.org/Organization">
           <a href="https://www.wikimint.com" class="text-xl font-bold text-wmblue-600">
             <img alt="Master Personal Finance, Business Growth, Digital Marketing" class="u-logo" data-height="46" data-width="200" width="165" height="38" src="/assets/images/wikimint-logo-200x46.webp">
           </a>
@@ -79,14 +79,14 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
       </div>
 
 
-    <div class="col-span-1 md:col-span-5">
+    <div class="col-span-1 md:col-span-4">
 
       
-      <div class="grid grid-cols-2 md:grid-cols-7 gap-6 md:gap-10 max-w-7xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-6 md:gap-10 max-w-7xl mx-auto">
         
         <!-- First column -->
         <div class="col-span-1 md:col-span-2">
-          <ul class="space-y-2">
+          <ul class="space-y-3">
             <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
             <li><a href="/about" class="hover:text-gray-500">About</a></li>
             <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
@@ -94,17 +94,7 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
             <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
           </ul>
         </div>
-      
-        <!-- Second column -->
-        <div class="col-span-1 md:col-span-2">
-          <ul class="space-y-2">
-            <li><a href="/business" class="hover:text-gray-500">Business</a></li>
-            <li><a href="/marketing" class="hover:text-gray-500">Marketing</a></li>
-            <li><a href="/finance" class="hover:text-gray-500">Finance</a></li>
-            <li><a href="/money" class="hover:text-gray-500">Money</a></li>
-            <li><a href="/economy" class="hover:text-gray-500">Economy</a></li>
-          </ul>
-        </div>
+    
       
         <!-- Third column -->
         <div class="col-span-2 md:col-span-3">
@@ -248,69 +238,9 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
     </a>
   </p>
 </div>
-
-
-
-<!-- Overlay -->
-<div id="overlay" 
-  class="fixed inset-0 bg-black/50 z-40 hidden"></div>
-
-<!-- Offcanvas -->
-<div id="offcanvas" 
-  class="fixed top-0 right-0 h-full w-100 bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300">
-  <!-- Header -->
-  <div class="flex justify-between items-center px-5 py-4 border-b">
-    <h2 class="text-lg font-semibold my-0 py-0">Menu</h2>
-    <button class="close-canvas text-gray-500 hover:text-gray-700 text-3xl leading-none">&times;</button>
-  </div>
-  <!-- Content -->
-  <div class="p-4">
-    <div
-    id="searchBar"
-    class="mb-3 bg-gray-300 border shadow p-1 rounded"
-  >
-  <form action="/search" method="get">
-    <input name="q"
-        type="search"
-        placeholder="Search Wikimint..."
-        class="border px-3 py-2 rounded w-64 focus:outline-none focus:ring focus:ring-wmblue-200"
-      />
-    </form>
-  </div>
-
-  <ul class="space-y-2">
-    <li><a href="https://www.wikimint.com" class="hover:text-gray-500">Home</a></li>
-    <li><a href="/about" class="hover:text-gray-500">About</a></li>
-    <li><a href="/contact" class="hover:text-gray-500">Contact</a></li>
-    <li><a href="/recommended" class="hover:text-gray-500">Recommended</a></li>
-            <li><a href="/developer-innovation-hub" class="hover:text-gray-500">Developer hub</a></li>
-            <li><a href="/write-for-us" class="hover:text-gray-500">Write for us</a></li>
-            <li><a href="/share-your-story" class="hover:text-gray-500">Share your story</a></li>
-            <li><a href="/sitemap" class="hover:text-gray-500">Sitemap</a></li>
-    <li><a href="/legal#terms" class="hover:text-gray-500">Terms</a></li>
-    <li><a href="/legal#privacy" class="hover:text-gray-500">Privacy</a></li>
-  </ul>
-  </div>
-</div>
-
-<!-- Tailwind Animation -->
-<style>
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fade-in-up {
-  animation: fadeInUp 0.4s ease-in-out;
-}
-</style>
-
 <!-- EMAIL POPUP END -->
+
+
 
 
 <script src="/assets/js/script.js" defer></script>

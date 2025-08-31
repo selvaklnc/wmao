@@ -37,14 +37,12 @@ const allPosts = (await getCollection("posts"))
             "name": "Wikimint",
             "description": "Mastering Financial Freedom, Personal Finance and Business Strategies",
             "inLanguage": "en-US",
-            "publisher": {
-              "@id": "https://www.wikimint.com#organization"
-            },
+            "publisher": { "@id": "https://www.wikimint.com#organization" },
             "potentialAction": {
               "@type": "SearchAction",
               "target": {
                 "@type": "EntryPoint",
-                "urlTemplate": "/search?q={search_term_string}"
+                "urlTemplate": "https://www.wikimint.com/search?q={search_term_string}"
               },
               "query-input": "required name=search_term_string"
             }
@@ -56,110 +54,54 @@ const allPosts = (await getCollection("posts"))
             "url": "https://www.wikimint.com",
             "logo": {
               "@type": "ImageObject",
+              "@id": "https://www.wikimint.com#organizationLogo",
               "url": "https://www.wikimint.com/assets/images/wikimint.webp",
-              "@id": "/#organizationLogo",
               "width": 520,
               "height": 130,
               "caption": "Wikimint Logo"
             },
-            "image": {
-              "@id": "https://www.wikimint.com#organizationLogo"
-            },
+            "image": { "@id": "https://www.wikimint.com#organizationLogo" },
             "sameAs": [
               "https://www.facebook.com/wikimintofficial",
               "https://twitter.com/wikimint",
               "https://instagram.com/wikimintofficial",
               "https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA",
               "https://www.linkedin.com/company/wikimintofficial",
-              "https://www.wikimint.com",
               "https://github.com/wikimint"
             ],
-            "email": "support@wikimint.com"
+            "email": "support@wikimint.com",
+            "founder": { "@id": "https://sk.wikimint.com#author" }
           },
           {
             "@type": "BreadcrumbList",
-            "@id": "/#breadcrumblist",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.wikimint.com"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Personal Finance",
-                "item": "/personal-finance-wealth-guide"
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "name": "Passive Income Ideas",
-                "item": "/passive-income-ideas" 
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "Business Guide",
-                "item": "/startup-business-guide" 
-              },
-              {
-                "@type": "ListItem",
-                "position": 5,
-                "name": "Online Business Ideas",
-                "item": "/best-online-business-ideas"  
-              },
-              {
-                "@type": "ListItem",
-                "position": 6,
-                "name": "Investment Strategies",
-                "item": "/investment-strategies-future-growth"  
-              },
-              {
-                "@type": "ListItem",
-                "position": 7,
-                "name": "Digital marketing",
-                "item": "/digital-marketing-strategy" 
-              }
-            ]
+            "@id": "https://www.wikimint.com#breadcrumblist",
+            "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.wikimint.com" }, { "@type": "ListItem", "position": 2, "name": "Personal Finance", "item": "https://www.wikimint.com/personal-finance-wealth-guide" }, { "@type": "ListItem", "position": 3, "name": "Passive Income Ideas", "item": "https://www.wikimint.com/passive-income-ideas" }, { "@type": "ListItem", "position": 4, "name": "Business Guide", "item": "https://www.wikimint.com/startup-business-guide" }, { "@type": "ListItem", "position": 5, "name": "Online Business Ideas", "item": "https://www.wikimint.com/best-online-business-ideas" }, { "@type": "ListItem", "position": 6, "name": "Investment Strategies", "item": "https://www.wikimint.com/investment-strategies-future-growth" }, { "@type": "ListItem", "position": 7, "name": "Digital marketing", "item": "https://www.wikimint.com/digital-marketing-strategy" } ]
           },
           {
             "@type": "WebPage",
-            "@id": "/#webpage",
+            "@id": "https://www.wikimint.com#webpage",
             "name": "Wikimint",
             "url": "https://www.wikimint.com",
-            "description": "Wikimint is one of the largest personal finance, business and digital marketing related reference resource site for students and entrepreneurs with easy to understand articles on all topics for mastering the basics and beyond.",
-            "inLanguage": "en-US"
+            "description": "Wikimint is one of the largest personal finance, business and digital marketing related reference resource site...",
+            "inLanguage": "en-US",
+            "publisher": { "@id": "https://www.wikimint.com#organization" }
           },
           {
             "@type": "Person",
             "@id": "https://sk.wikimint.com#author",
             "name": "Selvakumaran Krishnan",
             "url": "https://sk.wikimint.com",
-            "image": "/assets/images/selvakumaran-krishnan-founder-of-wikimint-creative-writer-developer-wikimint.webp",
+            "image": "https://www.wikimint.com/assets/images/authors/selvakumaran-krishnan.webp",
             "sameAs": [
               "https://linkedin.com/in/selvakumaran-krishnan",
               "https://facebook.com/selvakumarank",
               "https://twitter.com/selvakumarankri",
               "https://profiles.wordpress.org/selvaklnc/"
             ],
-            "description": "A hard worker passionate about web designing, online publishing, blog writing, code programming, SEO, digital marketing, and framework development. I started on my journey in web designing in 2008, exploring various web 2.0 platforms, and later delved into code programming in 2014. Since then, I have witnessed the evolution of several open-source libraries, tools, themes, templates, datasets, plugins, widgets, and frameworks for web development. Along the path of honing my skills and knowledge, I have also undertaken numerous freelance projects, including WordPress sites, SEO, digital marketing, and web-related products.",
             "jobTitle": "Full Stack Developer, Blogger, Creative Writer, Founder of Wikimint",
-            "alumniOf": [
-              {
-                "@type": "EducationalOrganization",
-                "name": "Annamalai University",
-                "sameAs": "https://annamalaiuniversity.ac.in/index.php"
-              }
-            ],
+            "alumniOf": [{ "@type": "EducationalOrganization", "name": "Annamalai University", "sameAs": "https://annamalaiuniversity.ac.in/index.php" }],
             "knowsAbout": [
-              {
-                "@type": "Thing",
-                "name": "WordPress",
-                "url": "https://wordpress.org",
-                "sameAs": ["https://en.wikipedia.org/wiki/WordPress"]
-              },
+              { "@type": "Thing", "name": "WordPress", "url": "https://wordpress.org", "sameAs": ["https://en.wikipedia.org/wiki/WordPress"] },
               { "@type": "Thing", "name": "Web Development" },
               { "@type": "Thing", "name": "Digital Marketing" },
               { "@type": "Thing", "name": "SEO" },
@@ -169,13 +111,21 @@ const allPosts = (await getCollection("posts"))
           }
         ]
       }
+
       </script>
   </Fragment>
   <!-- Hero -->
   <section class="grid md:grid-cols-2 gap-8 pb-10 items-center">
     <div>
       <h1><span class="font-normal">Mastering Financial Freedom</span><br/> Personal Finance, Business and Marketing Strategies</h1>
-      <p class="mt-4 text-lg opacity-80">Whether you’re looking to take control of your finances or explore business growth ideas or marketing strategies, welcome. Dive into expert tips, practical advice, and real-life strategies to help you build wealth, manage money smarter, and turn your entrepreneurial dreams into reality. Visit <a href="/sitemap">sitemap here</a> to explore all the available resources.</p>
+      <p class="text-lg opacity-80">Whether you’re looking to take control of your finances or explore business growth ideas or marketing strategies, welcome. Dive into expert tips, practical advice, and real-life strategies to help you build wealth, manage money smarter, and turn your entrepreneurial dreams into reality. Visit <a href="/sitemap">sitemap here</a> to explore all the available resources.</p>
+      <form action="/search" method="get">
+        <input name="q"
+            type="search"
+            placeholder="Search Wikimint..."
+            class="bg-gray-100 px-3 w-full py-2 mt-5 border border-gray-500 rounded focus:outline-none focus:ring focus:ring-wmblue-200"
+          />
+        </form>
     </div>
     <div class="w-full">
       <Image src="/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp" alt="Wikimint" width={799} height={450} loading="lazy" class="w-100" />

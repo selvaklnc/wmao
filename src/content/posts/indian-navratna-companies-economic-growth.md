@@ -9,6 +9,47 @@ author: "selvakumaran-krishnan"
 category: "Business"
 tags: ["business","economy"]
 summary: "Indian Navratna Companies are top-performing government-owned public sector enterprises driving India's economic growth. Navratna companies are recognized for their autonomy, profitability, and strategic importance. They operate in critical sectors like defense, oil, aerospace, infrastructure and engineering. Navratna status grants them autonomy for operational freedom, investments and global expansion. Challenges include bureaucratic hurdles, technological upgrades, and global competition. These companies significantly contribute to GDP, infrastructure, and employment."
+faq:
+- q: What are Indian Navratna Companies?
+  a: |
+    <p>Indian Navratna Companies are government-owned public sector enterprises (PSEs) recognized for their high performance, profitability, and strategic importance in driving India's economy.</p>
+
+- q: What is the purpose of Navratna status?
+  a: |
+    <p>The Navratna status provides select PSEs with greater financial and operational autonomy, enabling them to compete globally, invest freely, and drive national growth.</p>
+
+- q: How does a company achieve Navratna status?
+  a: |
+    <p>To achieve Navratna status, a company must have Miniratna-I status, maintain consistent profitability for three years, and score at least 60 out of 100 based on performance metrics like net profit and operational efficiency.</p>
+
+- q: Which sectors do Navratna Companies operate in?
+  a: |
+    <p>Navratna Companies operate in critical sectors such as defense (e.g., BEL), oil and gas (e.g., OIL), aerospace (e.g., HAL), and engineering consultancy (e.g., EIL).</p>
+
+- q: What are the benefits of Navratna status?
+  a: |
+    <p>Navratna status allows companies greater autonomy for investments, international joint ventures, employee benefits, and decision-making, helping them compete globally.</p>
+
+- q: What challenges do Navratna Companies face?
+  a: |
+    <p>Challenges include bureaucratic oversight, global competition, and the <a href="/raise-funding-options-business">need for significant investment</a> in technological upgrades to stay competitive.</p>
+
+- q: How do Navratna Companies impact India's economy?
+  a: |
+    <p>Navratna Companies contribute heavily to GDP, create jobs, and ensure self-reliance in critical sectors like energy, defense, and infrastructure development.</p>
+
+- q: How many Navratna Companies exist in India?
+  a: |
+    <p>As of today, there are several Navratna Companies, including Bharat Electronics Limited (BEL), Hindustan Aeronautics Limited (HAL), Oil India Limited (OIL), and Engineers India Limited (EIL).</p>
+
+- q: Why are Navratna Companies important for India?
+  a: |
+    <p>These companies ensure India's strategic and economic stability by excelling in vital industries and supporting infrastructure, technology, and employment.</p>
+
+- q: Can Navratna Companies lose their status?
+  a: |
+    <p>Yes, companies may lose their Navratna status if they fail to meet profitability or performance criteria set by the government.</p>
+
 ---
 
 Understanding Indian Navratna Companies
@@ -206,50 +247,6 @@ Even though Navratna Companies are not part of the [Nifty 50 index](/nifty-50-co
 
 Whether you are a seasoned investor or a beginner, keeping an eye on these companies' market performance can help you make informed [investment decisions](/investment-strategies-future-growth).
 
-FAQs About Indian Navratna Companies
-------------------------------------
-
-Indian Navratna Companies are some of the most valued and high-performing public sector enterprises in India. These government-owned entities operate in critical sectors like defense, oil, and engineering, driving the nation's economic growth and ensuring self-reliance in essential industries. The term "Navratna," meaning "nine gems," highlights their strategic importance and exceptional performance. Below are some frequently asked questions to help you understand the significance, criteria, and role of these prestigious companies.
-
-### What are Indian Navratna Companies?
-
-Indian Navratna Companies are government-owned public sector enterprises (PSEs) recognized for their high performance, profitability, and strategic importance in driving India's economy.
-
-### What is the purpose of Navratna status?
-
-The Navratna status provides select PSEs with greater financial and operational autonomy, enabling them to compete globally, invest freely, and drive national growth.
-
-### How does a company achieve Navratna status?
-
-To achieve Navratna status, a company must have Miniratna-I status, maintain consistent profitability for three years, and score at least 60 out of 100 based on performance metrics like net profit and operational efficiency.
-
-### Which sectors do Navratna Companies operate in?
-
-Navratna Companies operate in critical sectors such as defense (e.g., BEL), oil and gas (e.g., OIL), aerospace (e.g., HAL), and engineering consultancy (e.g., EIL).
-
-### What are the benefits of Navratna status?
-
-Navratna status allows companies greater autonomy for investments, international joint ventures, employee benefits, and decision-making, helping them compete globally.
-
-### What challenges do Navratna Companies face?
-
-Challenges include bureaucratic oversight, global competition, and the [need for significant investment](/raise-funding-options-business) in technological upgrades to stay competitive.
-
-### How do Navratna Companies impact India's economy?
-
-Navratna Companies contribute heavily to GDP, create jobs, and ensure self-reliance in critical sectors like energy, defense, and infrastructure development.
-
-### How many Navratna Companies exist in India?
-
-As of today, there are several Navratna Companies, including Bharat Electronics Limited (BEL), Hindustan Aeronautics Limited (HAL), Oil India Limited (OIL), and Engineers India Limited (EIL).
-
-### Why are Navratna Companies important for India?
-
-These companies ensure India's strategic and economic stability by excelling in vital industries and supporting infrastructure, technology, and employment.
-
-### Can Navratna Companies lose their status?
-
-Yes, companies may lose their Navratna status if they fail to meet profitability or performance criteria set by the government.
 
 Conclusion
 ----------

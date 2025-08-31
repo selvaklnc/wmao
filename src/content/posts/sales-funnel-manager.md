@@ -9,6 +9,25 @@ author: "selvakumaran-krishnan"
 category: "Business"
 tags: ["business","marketing"]
 summary: "If you've been building multiple pages for different products, offers, or campaigns in LeadsLeap, your Page Manager might start to feel like a messy desktop with too many open tabs. That's where the Funnel Manager comes in, a feature built specifically to help you stay organized, focused, and scalable."
+faq:
+- q: What is the Funnel Manager in LeadsLeap used for?
+  a: Funnel Manager helps you organize your existing pages into structured marketing funnels for better tracking, planning, and sharing across campaigns.
+
+- q: Can I create new landing pages using Funnel Manager?
+  a: No, Funnel Manager doesn't create or edit pages. You'll still need to use Page Manager for building and editing your pages.
+
+- q: Is Funnel Manager available for free LeadsLeap users?
+  a: No, it's a Pro Member feature designed for advanced users who manage multiple campaigns and pages.
+
+- q: How does Funnel Manager improve marketing strategy?
+  a: It helps visualize the customer journey, making it easier to map, analyze, and optimize each stage for better conversion rates.
+
+- q: Can I share my funnels with my team or clients?
+  a: Yes, you can share complete funnels using Share Codes, allowing others to instantly clone your setup and start marketing right away.
+
+- q: Why should affiliate marketers use Funnel Manager?
+  a: It helps organize promotional pages by product or campaign, making updates and scaling affiliate funnels faster and more efficient.
+
 ---
 
 In this chapter of Mastering Online Marketing, we'll explain what the Funnel Manager is, its capabilities and limitations, and how to use it to organize your pages, simplify your workflow, and share your funnel setup with others.
@@ -148,35 +167,6 @@ From hands-on use with dozens of clients and campaigns, Funnel Manager stands ou
 *   Examples of funnel strategies in digital marketing
 *   How funnel optimization can improve conversion rates and customer retention
 *   Best practices for managing and sharing your marketing funnel effectively
-
-Frequently Asked Questions About Funnel Manager
------------------------------------------------
-
-Got questions about using Funnel Manager in LeadsLeap? Here are some quick and clear answers to help you understand how it works and how it can simplify your marketing strategy.
-
-### What is the Funnel Manager in LeadsLeap used for?
-
-Funnel Manager helps you organize your existing pages into structured marketing funnels for better tracking, planning, and sharing across campaigns.
-
-### Can I create new landing pages using Funnel Manager?
-
-No, Funnel Manager doesn't create or edit pages. You'll still need to use Page Manager for building and editing your pages.
-
-### Is Funnel Manager available for free LeadsLeap users?
-
-No, it's a Pro Member feature designed for advanced users who manage multiple campaigns and pages.
-
-### How does Funnel Manager improve marketing strategy?
-
-It helps visualize the customer journey, making it easier to map, analyze, and optimize each stage for better conversion rates.
-
-### Can I share my funnels with my team or clients?
-
-Yes, you can share complete funnels using Share Codes, allowing others to instantly clone your setup and start marketing right away.
-
-### Why should affiliate marketers use Funnel Manager?
-
-It helps organize promotional pages by product or campaign, making updates and scaling affiliate funnels faster and more efficient.
 
 Table of Contents
 -----------------

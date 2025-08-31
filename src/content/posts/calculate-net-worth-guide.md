@@ -9,6 +9,27 @@ author: "selvakumaran-krishnan"
 category: "Finance"
 tags: ["finance","skills"]
 summary: "Ever wondered how rich or broke you actually are? Net worth isn't just for billionaires. It's your personal financial scorecard, and knowing it could change how you handle money forever. In this guide, we'll walk you through how to figure out your net worth, why it plays a key role in managing your personal finances, and what steps to take after you've found your number. No fancy jargon - just real talk and smart money moves."
+faq:
+  - q: |
+      Can net worth be negative?
+    a: |
+      Yes. If your debts outweigh your assets, your net worth is negative. It's common among recent graduates and early career folks. But it's fixable!
+
+  - q: |
+      Does my car count toward my net worth?
+    a: |
+      Yes, but use its current resale value, not what you paid for it.
+
+  - q: |
+      Do personal items like clothes count?
+    a: |
+      Usually not - unless they're high-value (like luxury bags or rare collectibles).
+
+  - q: |
+      How often should I check my net worth?
+    a: |
+      Every 3-6 months is a good rhythm. It helps you stay on track without obsessing.
+
 ---
 
 ![Step-by-step guide infographic on how to calculate your net worth by listing assets, liabilities, and determining overall financial position accurately.](/assets/images/blog/how-to-calculate-your-net-worth-step-by-step.webp "How to Calculate Your Net Worth – Step-by-Step Financial Guide")
@@ -206,24 +227,7 @@ Here are some eye-opening numbers from a recent Federal Reserve Survey:
 
 Translation? Time and consistency matter. Start now, and you'll thank yourself later.
 
-FAQs About Net Worth
---------------------
 
-### Can net worth be negative?
-
-Yes. If your debts outweigh your assets, your net worth is negative. It's common among recent graduates and early career folks. But it's fixable!
-
-### Does my car count toward my net worth?
-
-Yes, but use its current resale value, not what you paid for it.
-
-### Do personal items like clothes count?
-
-Usually not - unless they're high-value (like luxury bags or rare collectibles).
-
-### How often should I check my net worth?
-
-Every 3-6 months is a good rhythm. It helps you stay on track without obsessing.
 
 **You've learned:**
 
