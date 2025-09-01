@@ -38,6 +38,108 @@ const { Content } = await render(category);
   description={category.data.description}
   image={`/assets/images/blog/${category.data.image}`}
 >
+<Fragment slot="head">
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": category.data.title,
+      "description": category.data.description,
+      "url": `https://www.wikimint.com/${category.slug}`,
+      "mainEntity": categoryPosts
+        .sort((a, b) => new Date(b.data.date) - new Date(a.data.date)) // sort by date desc
+        .slice(0, 6) // take latest 6
+        .map((post) => ({
+          "@type": "Article",
+          "headline": post.data.title,
+          "url": `https://www.wikimint.com/${post.slug}`,
+          "datePublished": post.data.date,
+          "description": post.data.description,
+          "image": `https://www.wikimint.com/assets/images/blog/${post.data.image}`
+        }))
+    }, null, 2)}
+  />
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.wikimint.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": category.data.title,
+          "item": `https://www.wikimint.com/${category.slug}`
+        }
+      ]
+    }, null, 2)}
+  />
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": `Posts in ${category.data.title}`,
+      "itemListElement": categoryPosts
+        .sort((a, b) => new Date(b.data.date) - new Date(a.data.date)) // sort by date desc
+        .slice(0, 6) // latest 6
+        .map((post, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "url": `https://www.wikimint.com/${post.slug}`,
+          "name": post.data.title
+        }))
+    }, null, 2)}
+  />
+  <script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    "@type": "Person",
+            "@id": "https://sk.wikimint.com#author",
+            "name": "Selvakumaran Krishnan",
+            "url": "https://sk.wikimint.com",
+            "image": "https://www.wikimint.com/assets/images/authors/selvakumaran-krishnan.webp",
+            "sameAs": [
+              "https://linkedin.com/in/selvakumaran-krishnan",
+              "https://facebook.com/selvakumarank",
+              "https://twitter.com/selvakumarankri",
+              "https://profiles.wordpress.org/selvaklnc/"
+            ],
+            "jobTitle": "Full Stack Developer, Blogger, Creative Writer, Founder of Wikimint",
+            "alumniOf": [{ "@type": "EducationalOrganization", "name": "Annamalai University", "sameAs": "https://annamalaiuniversity.ac.in/index.php" }],
+            "knowsAbout": [
+              { "@type": "Thing", "name": "Web Development" },
+              { "@type": "Thing", "name": "Digital Marketing" },
+              { "@type": "Thing", "name": "SEO" },
+              { "@type": "Thing", "name": "Blogging" },
+              { "@type": "Thing", "name": "Content Marketing" },
+              { "@type": "Thing", "name": "Personal Finance" },
+              { "@type": "Thing", "name": "Business Strategy" },
+              { "@type": "Thing", "name": "Entrepreneurship" },
+              { "@type": "Thing", "name": "Investing" },
+              { "@type": "Thing", "name": "Stock Market" },
+              { "@type": "Thing", "name": "Cryptocurrency" },
+              { "@type": "Thing", "name": "Online Business" },
+              { "@type": "Thing", "name": "E-commerce" },
+              { "@type": "Thing", "name": "Affiliate Marketing" },
+              { "@type": "Thing", "name": "Passive Income" },
+              { "@type": "Thing", "name": "Financial Literacy" }
+            ]
+
+  }, null, 2)}
+/>
+
+</Fragment>
+
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
     <main class="col-span-12 md:col-span-7 prose lg:prose-xl max-w-none">
       
