@@ -6,7 +6,7 @@ h1: "Key Business and Financial Lessons from Think and Grow Rich"
 image: "think-and-grow-rich-book-summary-lessons.webp"
 date: "2025-03-16"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","economy"]
 summary: "If someone asked me what book changed my entire mindset about money, success, and creating wealth, my answer would be simple - Think and Grow Rich by Napoleon Hill. Not just because it's a classic. But because it actually works when you truly apply the principles."
 ---

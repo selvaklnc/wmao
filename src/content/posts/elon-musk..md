@@ -6,7 +6,7 @@ h1: "Elon Musk: Innovator, Entrepreneur, and Leader in Technology"
 image: "elon-musk-press-conference.webp"
 date: "2021-10-09"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Celebrity"
 tags: ["business","celebrity","economy"]
 summary: "Elon Reeve Musk, the founder and CEO of TESLA and SpaceX made a big revolution in the technological world. He studied Rocket Science himself by reading textbooks in his spare time. Unlike common people, he can complete reading around 2 books per day."
 faq:

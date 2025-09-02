@@ -6,7 +6,7 @@ h1: "Understanding Dividends: Stock Market Strategies, Types, and Benefits"
 image: "dividend-stock-market-investment.webp"
 date: "2024-01-08"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","economy","money"]
 summary: "In the dynamic realm of the stock market, investors often seek not only capital appreciation but also a steady stream of income. One avenue that fulfills this quest is through dividends. In this article, we will explore the nuances of dividends, shedding light on their significance, types, and the considerations investors should bear in mind."
 faq:

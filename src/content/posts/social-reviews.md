@@ -6,7 +6,7 @@ h1: "How to Use Social Reviews in LeadsLeap to Increase Leads"
 image: "understanding-social-reviews.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "In today's crowded digital space, credibility is everything. You can have the best product, the flashiest funnel, or the most compelling offer, but if people don't trust you, they won't click. That's where LeadsLeap's Social Review system comes in."
 faq:

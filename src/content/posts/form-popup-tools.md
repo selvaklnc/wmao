@@ -6,7 +6,7 @@ h1: "Maximize Lead Capture with Forms and Popups Using a Popup Manager"
 image: "form-popup-tools.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "When it comes to turning visitors into subscribers or buyers, timing and placement are everything. And that's exactly where LeadsLeap's Form/Popup Manager shines."
 faq:

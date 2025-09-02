@@ -6,7 +6,7 @@ h1: "Increase Website Traffic and Conversions with Attention Ad Bars"
 image: "advertising-bar-ad-bar.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "You've probably heard the phrase, “Don't put all your eggs in one basket.” In online marketing, that translates to: Don't waste an opportunity to promote more than one offer at a time."
 faq:

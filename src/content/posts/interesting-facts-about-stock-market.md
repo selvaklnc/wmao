@@ -6,7 +6,7 @@ h1: "25 Fascinating Facts About the Stock Market Every Investor Should Know"
 image: "interesting-facts-about-the-stock-market.webp"
 date: "2024-01-10"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Economy"
 tags: ["business","economy"]
 summary: "Welcome to the fascinating world of the stock market, a dynamic realm where financial intricacies and investor sentiments intertwine. Beyond the charts and ticker symbols, the stock market pulsates with interesting facts that unveil the historical, cultural, and economic dimensions of this financial ecosystem."
 ---

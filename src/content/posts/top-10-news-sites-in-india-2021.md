@@ -6,7 +6,7 @@ h1: "Top 10 Indian News Websites You Should Follow in 2021"
 image: "top-10-indian-news-sites-2021.webp"
 date: "2021-11-07"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "General"
 tags: ["business","general"]
 summary: "After analysing deeply some important factors, we have listed top 10 Indian news websites for the year 2021."
 ---

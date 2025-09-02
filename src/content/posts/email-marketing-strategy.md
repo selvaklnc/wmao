@@ -6,7 +6,7 @@ h1: "Complete Guide to Email Marketing for Business Lead Generation"
 image: "effective-email-marketing-strategies-for-business-leads.webp"
 date: "2025-02-15"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","internet","marketing","skills"]
 summary: "Email marketing remains one of the most powerful tools for generating business leads. But sending random emails won't work, you need a well-structured strategy. In this guide, you'll learn how to create an email marketing strategy that attracts, nurtures, and converts leads."
 faq:

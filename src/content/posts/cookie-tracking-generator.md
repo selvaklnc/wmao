@@ -6,7 +6,7 @@ h1: "Personalized Form Creation and Audience Targeting with Cookie Generators"
 image: "cookie-generator-personalize-forms-smart-audience-targeting.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Technology"
 tags: ["business","marketing"]
 summary: "Personalized marketing has become essential, not just an option. Whether you're running lead-gen campaigns or affiliate offers, delivering the right message to the right audience at the right time can make all the difference in your conversions."
 faq:

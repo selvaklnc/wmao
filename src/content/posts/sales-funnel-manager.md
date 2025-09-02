@@ -6,7 +6,7 @@ h1: "Organize and Optimize Your Marketing Funnel with Funnel Manager"
 image: "funnel-manager-organize-strategize-marketing-flow.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "If you've been building multiple pages for different products, offers, or campaigns in LeadsLeap, your Page Manager might start to feel like a messy desktop with too many open tabs. That's where the Funnel Manager comes in, a feature built specifically to help you stay organized, focused, and scalable."
 faq:

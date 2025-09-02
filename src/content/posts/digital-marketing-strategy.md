@@ -6,7 +6,7 @@ h1: "How to Build an Effective Digital Marketing Strategy for Your Business"
 image: "how-to-build-strong-digital-marketing-strategy.webp"
 date: "2025-02-14"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","internet","marketing"]
 summary: "A strong digital marketing strategy is the backbone of any successful online business. But with so many channels, tools, and techniques available, where should you start? In this guide, we'll break it all down step by step. You'll learn how to define your goals, identify your audience, choose the right marketing channels, and track your success. Whether you're a beginner or a business owner looking to refine your approach, this guide will help you build a results-driven digital marketing strategy."
 faq:

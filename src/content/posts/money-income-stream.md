@@ -6,7 +6,7 @@ h1: "How to Make Money Online with LeadsLeap's Money Making Program"
 image: "money-making-program-earn-money-online.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","marketing","money"]
 summary: "Up until now, we've been laser-focused on LeadsLeap as a powerful online marketing platform, with tools for tracking, list building, page creation, and automation. But here's something you might not know:"
 faq:

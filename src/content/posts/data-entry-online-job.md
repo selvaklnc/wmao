@@ -6,7 +6,7 @@ h1: "Start Earning Online with a Data Entry Business: Simple Steps and Tips"
 image: "online-data-entry-jobs.webp"
 date: "2024-12-30"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business"]
 summary: "Starting an online business has never been easier. A great and easy way to make money online is by doing data entry. It's an ideal option for those looking to work from home, especially if you're just starting out in the world of online business. In this article, we'll explore how to start a data entry business, how to find clients, and why it can be a great addition to your income stream."
 faq:

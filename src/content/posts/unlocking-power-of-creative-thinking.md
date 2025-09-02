@@ -6,7 +6,7 @@ h1: "How to Develop Creative Thinking for Innovation and Success"
 image: "Thinking_woman.webp"
 date: "2023-09-24"
 author: "selvakumaran-krishnan"
-category: "General"
+category: "Skills"
 tags: ["general","skills"]
 summary: "Creativity is the lifeblood of innovation, a wellspring of original ideas, and the spark that drives progress in various aspects of life."
 ---

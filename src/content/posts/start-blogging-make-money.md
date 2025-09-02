@@ -6,7 +6,7 @@ h1: "How to Start a Blog and Turn It into a Profitable Online Business"
 image: "make-money-blogging-blog-marketing.webp"
 date: "2025-01-01"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","marketing","money","skills"]
 summary: "Blogging isn't just about sharing thoughts and ideas anymore, it's a legitimate way to earn money online. With the right strategies, blogging can turn into a profitable online business. Whether you're a beginner or an experienced writer, the opportunity to make money blogging is huge."
 faq:

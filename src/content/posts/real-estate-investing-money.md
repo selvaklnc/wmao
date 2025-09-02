@@ -6,7 +6,7 @@ h1: "How to Start Investing in Real Estate for Maximum Profit"
 image: "real-estate-investing-make-money-guide.webp"
 date: "2025-03-18"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","finance","money"]
 summary: "If you're looking to build long-term wealth, real estate is one of the most reliable and rewarding investment options out there. But the big question is: How do you actually invest in real estate and make money from it? Whether you're a beginner or just looking for new strategies, this guide breaks it all down for you - step-by-step."
 faq:

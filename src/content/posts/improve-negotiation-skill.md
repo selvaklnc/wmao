@@ -6,7 +6,7 @@ h1: "Develop Effective Negotiation Skills: Tips and Strategies for Success"
 image: "learn-negotiation-skills.webp"
 date: "2023-09-22"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","skills"]
 summary: "Negotiation is a fundamental skill that transcends professions and permeates various aspects of life. Negotiation skill is a must if you are in to a business or startup. Whether you're discussing a business deal, haggling over a purchase, or even resolving a conflict with a loved one, the ability to negotiate effectively can be a powerful asset."
 ---

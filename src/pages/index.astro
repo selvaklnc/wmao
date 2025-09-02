@@ -21,104 +21,72 @@ const allPosts = (await getCollection("posts"))
   tags: ["about", "business", "finance"],
   author: "Wikimint Team",
 };
+const currentUrl = Astro.url.href; // full URL of the current page
+
 ---
-<BaseLayout title={frontmatter.title} description={frontmatter.description}>
+<BaseLayout title={frontmatter.title} description={frontmatter.description} image={frontmatter.image}>
   <Fragment slot="head">
-
-
-    <script type='application/ld+json'>
+    <script
+    type="application/ld+json"
+    set:html={JSON.stringify(
       {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "WebSite",
             "@id": "https://www.wikimint.com#website",
-            "url": "https://www.wikimint.com",
-            "name": "Wikimint",
-            "description": "Mastering Financial Freedom, Personal Finance and Business Strategies",
-            "inLanguage": "en-US",
-            "publisher": { "@id": "https://www.wikimint.com#organization" },
-            "potentialAction": {
+            url: "https://www.wikimint.com",
+            name: "Wikimint",
+            description:
+              "Mastering Financial Freedom, Personal Finance and Business Strategies",
+            inLanguage: "en-US",
+            publisher: {
+              "@id": "https://www.wikimint.com#organization"
+            },
+            potentialAction: {
               "@type": "SearchAction",
-              "target": {
+              target: {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://www.wikimint.com/search?q={search_term_string}"
+                urlTemplate:
+                  "https://www.wikimint.com/search?q={search_term_string}"
               },
               "query-input": "required name=search_term_string"
             }
           },
           {
-            "@type": "Organization",
-            "@id": "https://www.wikimint.com#organization",
-            "name": "Wikimint",
-            "url": "https://www.wikimint.com",
-            "logo": {
-              "@type": "ImageObject",
-              "@id": "https://www.wikimint.com#organizationLogo",
-              "url": "https://www.wikimint.com/assets/images/wikimint.webp",
-              "width": 520,
-              "height": 130,
-              "caption": "Wikimint Logo"
+            "@type": "WebPage",
+            "@id": currentUrl + "#webpage",
+            url: currentUrl,
+            name: frontmatter.title,
+            description: frontmatter.description,
+            isPartOf: { "@id": "https://www.wikimint.com#website" },
+            primaryImageOfPage: { "@id": currentUrl + "#primaryimage" },
+            author: {
+              "@type": "Organization",
+              name: frontmatter.author
             },
-            "image": { "@id": "https://www.wikimint.com#organizationLogo" },
-            "sameAs": [
-              "https://www.facebook.com/wikimintofficial",
-              "https://twitter.com/wikimint",
-              "https://instagram.com/wikimintofficial",
-              "https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA",
-              "https://www.linkedin.com/company/wikimintofficial",
-              "https://github.com/wikimint"
-            ],
-            "email": "support@wikimint.com",
-            "founder": { "@id": "https://sk.wikimint.com#author" }
+            inLanguage: "en"
           },
+          {
+            "@type": "ImageObject",
+            "@id": currentUrl + "#primaryimage",
+            url: new URL(frontmatter.image, Astro.site).href,
+            caption: frontmatter.title
+          }
+        ]
+      },
+      null,
+      2
+    )}
+  />
+    <script type='application/ld+json'>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
           {
             "@type": "BreadcrumbList",
             "@id": "https://www.wikimint.com#breadcrumblist",
             "itemListElement": [ { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.wikimint.com" }, { "@type": "ListItem", "position": 2, "name": "Personal Finance", "item": "https://www.wikimint.com/personal-finance-wealth-guide" }, { "@type": "ListItem", "position": 3, "name": "Passive Income Ideas", "item": "https://www.wikimint.com/passive-income-ideas" }, { "@type": "ListItem", "position": 4, "name": "Business Guide", "item": "https://www.wikimint.com/startup-business-guide" }, { "@type": "ListItem", "position": 5, "name": "Online Business Ideas", "item": "https://www.wikimint.com/best-online-business-ideas" }, { "@type": "ListItem", "position": 6, "name": "Investment Strategies", "item": "https://www.wikimint.com/investment-strategies-future-growth" }, { "@type": "ListItem", "position": 7, "name": "Digital marketing", "item": "https://www.wikimint.com/digital-marketing-strategy" } ]
-          },
-          {
-            "@type": "WebPage",
-            "@id": "https://www.wikimint.com#webpage",
-            "name": "Wikimint",
-            "url": "https://www.wikimint.com",
-            "description": "Wikimint is one of the largest personal finance, business and digital marketing related reference resource site...",
-            "inLanguage": "en-US",
-            "publisher": { "@id": "https://www.wikimint.com#organization" }
-          },
-          {
-            "@type": "Person",
-            "@id": "https://sk.wikimint.com#author",
-            "name": "Selvakumaran Krishnan",
-            "url": "https://sk.wikimint.com",
-            "image": "https://www.wikimint.com/assets/images/authors/selvakumaran-krishnan.webp",
-            "sameAs": [
-              "https://linkedin.com/in/selvakumaran-krishnan",
-              "https://facebook.com/selvakumarank",
-              "https://twitter.com/selvakumarankri",
-              "https://profiles.wordpress.org/selvaklnc/"
-            ],
-            "jobTitle": "Full Stack Developer, Blogger, Creative Writer, Founder of Wikimint",
-            "alumniOf": [{ "@type": "EducationalOrganization", "name": "Annamalai University", "sameAs": "https://annamalaiuniversity.ac.in/index.php" }],
-            "knowsAbout": [
-              { "@type": "Thing", "name": "Web Development" },
-              { "@type": "Thing", "name": "Digital Marketing" },
-              { "@type": "Thing", "name": "SEO" },
-              { "@type": "Thing", "name": "Blogging" },
-              { "@type": "Thing", "name": "Content Marketing" },
-              { "@type": "Thing", "name": "Personal Finance" },
-              { "@type": "Thing", "name": "Business Strategy" },
-              { "@type": "Thing", "name": "Entrepreneurship" },
-              { "@type": "Thing", "name": "Investing" },
-              { "@type": "Thing", "name": "Stock Market" },
-              { "@type": "Thing", "name": "Cryptocurrency" },
-              { "@type": "Thing", "name": "Online Business" },
-              { "@type": "Thing", "name": "E-commerce" },
-              { "@type": "Thing", "name": "Affiliate Marketing" },
-              { "@type": "Thing", "name": "Passive Income" },
-              { "@type": "Thing", "name": "Financial Literacy" }
-            ]
-
           }
         ]
       }
@@ -191,58 +159,75 @@ const allPosts = (await getCollection("posts"))
   <!-- Feed + Sidebar -->
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
     <div class="col-span-12 md:col-span-7">
-      <h2 class="border-b border-gray-300 pb-2 text-xl font-bold">
+      <h2 class="text-2xl md:text-3xl font-bold pb-4 border-b border-gray-400 mb-8">
         Your Trusted Source for Business Insights and Strategies
       </h2>
             <p>Discover the latest in business trends, insights, and innovations with Wikimint magazine. Stay ahead with expert articles, industry news, and in-depth analyses tailored for business professionals and entrepreneurs.
       </p>
-      <ul id="posts-container" class="mt-12 space-y-10 not-prose">
-        {posts
-          .filter((post) => !post.data.noindex)
-          .sort(
-            (a, b) =>
-              new Date(b.data.date ?? 0).getTime() -
-              new Date(a.data.date ?? 0).getTime()
-          )
-          .slice(0, 6)
-          .map((post) => (
-            <li class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
-              <div class="col-span-12 md:col-span-4">
-                <img
-                  src={
-                    post.data.image
-                      ? post.data.image.startsWith("http")
-                        ? post.data.image
-                        : `/assets/images/blog/200/${post.data.image}`
-                      : "/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp"
-                  }
-                  alt={post.data.title}
-                  class="w-full h-full object-cover rounded-lg"
-                />
-              </div>
-      
-              <div class="col-span-12 md:col-span-8 flex flex-col justify-center">
-                <a href={`/${post.slug}`} class="hover:text-wmblue">
-                  <h3 class="text-lg md:text-xl font-semibold mb-1 text-black line-clamp-2">
-                    {post.data.title}
-                  </h3>
-                </a>
-      
-                <p class="text-sm md:text-base text-gray-500 mb-2 line-clamp-2">
-                  By {post?.data?.author ?? "Unknown Author"} ·{" "}
-                  {post?.data?.date ? new Date(post.data.date ?? 0).toDateString() : ""}
-                </p>
-      
-                <p class="text-sm md:text-base text-gray-900 line-clamp-2">
-                  {post.data.description}
-                </p>
-              </div>
-            </li>
-          ))}
-      </ul>
-      
-      
-      
+      <ul id="posts-container" class="mt-12 space-y-10 not-prose"
+      itemscope itemtype="https://schema.org/CollectionPage">
+  
+    <meta itemprop="name" content="Wikimint – Latest Insights & Articles" />
+    <meta itemprop="description" content="Stay updated with the latest articles on business, finance, marketing, technology, lifestyle, and growth strategies from Wikimint." />
+    <meta itemprop="url" content="https://www.wikimint.com/" />
+  
+    {posts
+      .filter((post) => !post.data.noindex)
+      .sort(
+        (a, b) =>
+          new Date(b.data.date ?? 0).getTime() -
+          new Date(a.data.date ?? 0).getTime()
+      )
+      .slice(0, 6)
+      .map((post) => (
+        <li 
+            class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto"
+            itemprop="mainEntity" itemscope itemtype="https://schema.org/Article">
+          
+          <!-- IMAGE -->
+          <div class="col-span-12 md:col-span-4">
+            <img
+              src={post.data.image
+                ? post.data.image.startsWith("http")
+                  ? post.data.image
+                  : `/assets/images/blog/200/${post.data.image}`
+                : "/assets/images/business-motivation-marketing-strategy-personal-finance-strategy.webp"}
+              alt={post.data.title}
+              class="w-full h-full object-cover rounded-lg"
+              itemprop="image"
+            />
+          </div>
+  
+          <!-- CONTENT -->
+          <div class="col-span-12 md:col-span-8 flex flex-col justify-center">
+            <a href={`/${post.slug}`} itemprop="url" class="hover:text-wmblue">
+              <h3 class="text-lg md:text-xl font-semibold mb-1 text-black line-clamp-2" itemprop="headline">
+                {post.data.title}
+              </h3>
+            </a>
+  
+            <p class="text-sm md:text-base text-gray-500 mb-2 line-clamp-2">
+              <span itemprop="author">
+                {(post?.data?.author ?? "Unknown Author")
+                  .replace(/-/g, " ")
+                  .replace(/\b\w/g, (c) => c.toUpperCase())}
+              </span> ·{" "}
+              {post?.data?.date && (
+                <time itemprop="datePublished" datetime={new Date(post.data.date).toISOString()}>
+                  {new Date(post.data.date).toDateString()}
+                </time>
+              )}
+            </p>
+  
+            <p class="text-sm md:text-base text-gray-900 line-clamp-2" itemprop="description">
+              {post.data.description}
+            </p>
+          </div>
+  
+        </li>
+      ))}
+  </ul>
+  
       
       <div class="text-center mt-10">
         <button id="load-more" class="px-4 py-2 bg-wmblue text-white rounded-md w-full">
@@ -257,9 +242,157 @@ const allPosts = (await getCollection("posts"))
   </div>
 </div>
 
+
+<section class="my-10" itemscope itemtype="https://schema.org/ItemList">
+  <h2 class="text-2xl md:text-3xl font-bold pb-4 border-b border-gray-400 mb-8">
+    Explore Categories</h2>
+  <meta itemprop="name" content="Wikimint Blog Categories" />
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+    
+    <!-- LEFT COLUMN -->
+    <div class="space-y-6">
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="1" />
+        <a href="/business" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Business</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Actionable strategies and insights to start, grow, and scale your business successfully.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="2" />
+        <a href="/celebrity" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Celebrity</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Latest stories, lifestyle updates, and success journeys from celebrities worldwide.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="3" />
+        <a href="/economy" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Economy</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Understand global and Indian economic trends, policies, and financial markets.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="4" />
+        <a href="/entertainment" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Entertainment</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Movies, music, shows, and everything that keeps you entertained and inspired.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="5" />
+        <a href="/fashion" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Fashion</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Trendy styles, outfit inspirations, and fashion advice for modern lifestyles.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="6" />
+        <a href="/finance" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Finance</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Practical personal finance tips, investment ideas, and money management guides.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="7" />
+        <a href="/general" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">General</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">General lifestyle articles, useful knowledge, and everyday inspiration.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="8" />
+        <a href="/health" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Health</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Wellness tips, nutrition advice, and fitness strategies for a healthy life.</p>
+        </a>
+      </div>
+    </div>
+    
+    <!-- RIGHT COLUMN -->
+    <div class="space-y-6">
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="9" />
+        <a href="/internet" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Internet</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Trends, innovations, and guides about the online world and digital future.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="10" />
+        <a href="/marketing" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Marketing</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Digital marketing, SEO, and growth strategies for businesses and creators.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="11" />
+        <a href="/money" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Money</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Smart money habits, savings tips, and financial freedom ideas.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="12" />
+        <a href="/nature" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Nature</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Explore environment, wildlife, and natural wonders around the world.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="13" />
+        <a href="/science" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Science</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Scientific discoveries, research updates, and innovations shaping the future.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="14" />
+        <a href="/skills" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Skills</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Guides to learn professional, creative, and life skills for success.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="15" />
+        <a href="/technology" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Technology</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Latest updates in technology, gadgets, AI, and digital innovations.</p>
+        </a>
+      </div>
+      
+      <div class="border p-4 shadow-sm hover:shadow-md transition" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="16" />
+        <a href="/travel" itemprop="url" class="text-xl font-semibold text-blue-600 hover:underline">
+          <h3 itemprop="name">Travel</h3>
+          <p class="text-gray-600 mt-2 min-h-[4rem]">Travel guides, destination tips, and adventure ideas for explorers.</p>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
   <div class='highlight mt-10'>
     <h2 class="border-b border-gray-400 pb-3 mb-3">Why Personal Finance Literacy?</h2>
-    <p>Take charge of your financial future with simple strategies and expert tips. Whether you&#39;re a doctor, engineer, or entrepreneur, understanding personal finance is crucial for a secure life. Mastering money helps you build lasting wealth and freedom. So, no matter your profession or business, learning personal finance is an essential skill for everyone. It&#8217;s key to securing your financial future and making informed decisions. Start now and make your financial dreams come true!</p></div>
+    <p>Take charge of your financial future with simple strategies and expert tips. Whether you&#39;re a doctor, engineer, or entrepreneur, understanding personal finance is crucial for a secure life. Mastering money helps you build lasting wealth and freedom. So, no matter your profession or business, learning personal finance is an essential skill for everyone. It&#8217;s key to securing your financial future and making informed decisions. Start now and make your financial dreams come true!</p>
+  </div>
     
 
     <section class="bg-gray-100 px-8 py-8 mb-10 mt-10 rounded-xl border border-gray-300">
@@ -532,6 +665,114 @@ const allPosts = (await getCollection("posts"))
       </a>
   </div>
 </div>
+
+
+
+<section class="py-8 mb-10" itemscope itemtype="https://schema.org/FAQPage">
+  <div class="container mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold pb-4 border-b border-gray-400 mb-8">
+      Frequently Asked Questions</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- FAQ 1 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          What is the best way to start saving money for beginners?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            The easiest way is to track your expenses, create a simple budget, and start saving at least 10% of your income each month. Tools like budgeting apps can make the process easier.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          How can small businesses grow quickly online?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            Small businesses can scale faster by focusing on digital marketing strategies such as SEO, social media ads, and email campaigns to reach and retain customers.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          Can passive income really replace a full-time job?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            Yes, but it requires time and effort to build income streams like blogging, affiliate marketing, or investments. With consistency, passive income can provide long-term financial freedom.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          What marketing strategy works best for new blogs?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            SEO-optimized content, consistent publishing, and promoting posts on social platforms like LinkedIn, Facebook, and Pinterest are highly effective for new blogs.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          How can I manage personal finances effectively?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            By setting clear financial goals, avoiding unnecessary debt, building an emergency fund, and investing wisely, you can achieve better control over your finances.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          Which digital marketing skills are in high demand?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            Skills like SEO, content marketing, social media strategy, paid advertising, and data analytics are highly valuable for marketers today.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          What is the safest way to invest money in 2025?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            Safer investment options include index funds, government bonds, fixed deposits, and diversified mutual funds. Risk level depends on your goals and time horizon.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="p-5 bg-gray-100 shadow">
+        <h3 itemprop="name" class="font-semibold text-lg mb-2">
+          How can I build multiple income streams?
+        </h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text" class="text-gray-700">
+            Start with one stable income source, then expand to freelancing, affiliate marketing, digital products, or investments to build multiple streams over time.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 

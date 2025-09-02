@@ -6,7 +6,7 @@ h1: "Simplify Hosting and Delivery with an Image & PDF Manager"
 image: "image-pdf-manager-simplify-hosting-visuals-lead-magnets.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Technology"
 tags: ["business","marketing"]
 summary: "If you've ever tried to send an email with a custom image or deliver a lead magnet via PDF, you know the struggle, uploading files to third-party platforms, copying messy URLs, and worrying about broken links or storage limits."
 faq:

@@ -6,7 +6,7 @@ h1: "How to Use Email Broadcasting to Connect with Your Audience Instantly"
 image: "email-broadcasting.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "So far in this series, we've covered automation tools like the Email Series to help you nurture leads hands-free. But what if you need to make an announcement right now? Or share a blog post, product launch, or limited-time promo with your list today?"
 faq:

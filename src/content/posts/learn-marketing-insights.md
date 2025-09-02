@@ -6,7 +6,7 @@ h1: "Gain Marketing Insights with Digital Reports and Built-In Learning Tools"
 image: "digital-marketing-learning-insights.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "Welcome to one of the most powerful yet often overlooked features of LeadsLeap, the Built-in Education Tools. If you've ever felt stuck trying to create ads that convert or build your lead list consistently, this chapter will show you how LeadsLeap helps you become a better marketer with proven, easy-to-follow training right inside the platform."
 faq:

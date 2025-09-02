@@ -6,7 +6,7 @@ h1: "What is Bioluminescence? Insights into Glowing Organisms and Nature"
 image: "Bioluminescent-dinoflagellates.webp"
 date: "2023-10-28"
 author: "selvakumaran-krishnan"
-category: "Nature"
+category: "Science"
 tags: ["nature","science"]
 summary: "Bioluminescence is a captivating phenomenon that illuminates the natural world with its magical glow. It is the ability of certain organisms to produce light through a chemical reaction within their bodies. In this article, we will embark on a journey to uncover the mysteries surrounding bioluminescent creatures and delve into the mesmerizing allure they possess."
 ---

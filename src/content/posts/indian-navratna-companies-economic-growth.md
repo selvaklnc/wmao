@@ -6,7 +6,7 @@ h1: "Leading Navratna Companies in India and Their Economic Impact"
 image: "indian-navratna-companies.webp"
 date: "2025-01-10"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Economy"
 tags: ["business","economy"]
 summary: "Indian Navratna Companies are top-performing government-owned public sector enterprises driving India's economic growth. Navratna companies are recognized for their autonomy, profitability, and strategic importance. They operate in critical sectors like defense, oil, aerospace, infrastructure and engineering. Navratna status grants them autonomy for operational freedom, investments and global expansion. Challenges include bureaucratic hurdles, technological upgrades, and global competition. These companies significantly contribute to GDP, infrastructure, and employment."
 faq:

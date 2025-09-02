@@ -6,7 +6,7 @@ h1: "How to Earn Passive Income and Make Money While You Sleep"
 image: "passive-income-ideas-earn-while-you-sleep.webp"
 date: "2025-03-17"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","finance","money","skills"]
 summary: "Let your money work while you rest. What if you could wake up richer than you were the night before? Sounds like a dream, right? But with the right passive income ideas, it's absolutely possible. Whether you're a student, a stay-at-home parent, or a full-time worker looking to supplement your earnings, creating income streams that run on autopilot is the key to true financial freedom."
 ---

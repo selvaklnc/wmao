@@ -6,7 +6,7 @@ h1: "Effective Strategies to Save Tax Legally in India and Abroad"
 image: "legal-tax-saving-methods-guide.webp"
 date: "2025-03-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Finance"
 tags: ["business","economy","finance","money"]
 summary: "Nobody enjoys handing over more money than necessary to the taxman. Whether you're an employee, freelancer, or business owner, understanding how to legally save on taxes can keep more money in your pocket and help you plan better financially."
 ---

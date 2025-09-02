@@ -6,7 +6,7 @@ h1: "Grow Your Email List Quickly with SendSteed List Manager"
 image: "list-manager-email-marketing.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "If you've spent any time in digital marketing, you've likely come across the phrase:"
 faq:

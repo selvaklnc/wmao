@@ -6,7 +6,7 @@ h1: "Digital Marketing Mastery: Using LeadsLeap for Better Lead Generation"
 image: "master-digital-marketing-practical-workflow-guide.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "Welcome to a hands-on blog series built for modern marketers who want to grow smarter, not harder. After years of bouncing between digital marketing tools, testing platforms, and optimizing real campaigns, I discovered a game-changer for online marketers that's often overlooked, LeadsLeap. In this guide, we're diving deep into how you can use it not just as another tool, but as a complete marketing ecosystem that actually works."
 faq:

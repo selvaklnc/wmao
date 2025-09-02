@@ -6,7 +6,7 @@ h1: "Momentum Investing: How to Profit Using Trend-Based Stock Strategies"
 image: "what-is-momentum-investing-basic-understanding.webp"
 date: "2025-01-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","economy"]
 summary: "Momentum investing is a powerful strategy for maximizing profits by capitalizing on stock price trends. If you've ever wondered, What is momentum investing, and how do I use it? this guide has you covered. Whether you're a beginner or an experienced trader, this article will explain everything about momentum investing, from strategies to examples, and how it compares to other investment methods like value investing."
 faq:

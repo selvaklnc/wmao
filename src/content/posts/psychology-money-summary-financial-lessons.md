@@ -6,7 +6,7 @@ h1: "Chapterwise Financial Lessons from The Psychology of Money"
 image: "psychology-of-money-book-summary-financial-lessons.webp"
 date: "2025-03-16"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","economy"]
 summary: "Money isn't just about math - it's about behavior, emotions, and decisions. The Psychology of Money by Morgan Housel explores this in a refreshingly human way. If you've ever wondered why some people with average income grow wealthy while high earners go broke, this book explains it all - with stories, real-life examples, and timeless lessons."
 ---

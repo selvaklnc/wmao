@@ -6,7 +6,7 @@ h1: "Comprehensive Analysis of Nifty 50 Companies and Investment Insights"
 image: "nifty-50-companies-indian-economy.webp"
 date: "2023-12-25"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Economy"
 tags: ["business","economy"]
 summary: "The Nifty 50 index is a benchmark index in the Indian stock market that comprises 50 well-established and financially sound companies listed on the National Stock Exchange of India (NSE). In this article, we will explore the significance of the Nifty 50, shed light on some of its prominent companies, and delve into the factors that make them stand out in the dynamic world of finance."
 ---

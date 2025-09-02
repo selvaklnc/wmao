@@ -6,7 +6,7 @@ h1: "Comprehensive Financial Lessons from Rich Dad Poor Dad"
 image: "rich-dad-poor-dad-complete-lessons-summary-action-guide.webp"
 date: "2025-03-11"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business","economy"]
 summary: "If you've ever felt stuck in the paycheck-to-paycheck cycle or wondered why schools don't teach real-world money skills, Rich Dad Poor Dad is a life-changing book. Written by Robert T. Kiyosaki, this personal finance classic reveals the stark contrast between two mindsets about money - one that struggles, and one that thrives."
 faq:

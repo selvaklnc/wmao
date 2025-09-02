@@ -6,7 +6,7 @@ h1: "Automate Your Email Follow-Ups: Mastering Series with SendSteed"
 image: "email-series-automation.webp"
 date: "2025-05-19"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing"]
 summary: "Ever feel like you're always chasing leads, sending the same emails over and over, or struggling to keep up with follow-ups?"
 faq:

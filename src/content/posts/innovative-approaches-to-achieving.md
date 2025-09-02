@@ -6,7 +6,7 @@ h1: "How Businesses Can Achieve Carbon Neutrality Through Innovation"
 image: "SAVE_WATEER_SAVE_LIFE.webp"
 date: "2023-09-24"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Economy"
 tags: ["business","nature"]
 summary: "As the world grapples with the urgent need to address climate change, businesses are increasingly being called upon to take bold and innovative steps toward carbon neutrality. Achieving carbon neutrality, where a business balances the amount of carbon dioxide it emits with an equivalent amount removed from the atmosphere, has become a critical goal for companies looking to reduce their environmental impact."
 ---

@@ -6,7 +6,7 @@ h1: "Master Personal Finance: Guide to Wealth Creation and Money Management"
 image: "learn-personal-finance-basics.webp"
 date: "2025-03-20"
 author: "selvakumaran-krishnan"
-category: "Economy"
+category: "Finance"
 tags: ["economy","finance","money","skills"]
 summary: "Personal finance isn't just about numbers - it's about freedom, confidence, and making smart choices with your money. Whether you're saving for a rainy day, planning for retirement, or aiming to buy your first home, understanding personal finance is the key to building lasting wealth."
 ---

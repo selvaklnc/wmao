@@ -6,7 +6,7 @@ h1: "List of Top IT Companies in Chennai to Know in 2025"
 image: "top-it-companies-in-chennai.webp"
 date: "2025-07-15"
 author: "wikimint"
-category: "Business"
+category: "Technology"
 tags: ["personal finance","budgeting"]
 summary: "In the heart of South India lies a city that pulses with technology>, ambition, and innovation, Chennai. Once known for its strong roots in automobile and manufacturing industries, the city has transformed into a rising star in the world of IT and digital transformation. Whether you're a job seeker dreaming of joining a dynamic workplace, a business leader looking for the best IT service providers, or just someone mapping Chennai's tech landscape, this guide is your one-stop resource."
 faq:

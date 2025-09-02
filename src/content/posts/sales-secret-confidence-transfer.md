@@ -6,7 +6,7 @@ h1: "Master the Art of Confidence Transfer to Boost Your Sales"
 image: "sales-confidence-boost-sales-secret.webp"
 date: "2025-06-11"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Marketing"
 tags: ["business","marketing","skills"]
 summary: "The Secret Behind Every Sale: It's All About Transferring Confidence"
 faq:

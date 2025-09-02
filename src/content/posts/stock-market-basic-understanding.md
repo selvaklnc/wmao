@@ -6,7 +6,7 @@ h1: "Beginner's Guide to Understanding the Indian Stock Market"
 image: "stock-market-basics.webp"
 date: "2024-01-09"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Economy"
 tags: ["business","economy"]
 summary: "The stock market, often referred to as the equity market, is a platform where buyers and sellers trade shares of publicly listed companies. In India, the major stock exchanges are the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE)."
 faq:

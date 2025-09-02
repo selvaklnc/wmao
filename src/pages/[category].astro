@@ -28,6 +28,8 @@ const categoryPosts = posts.filter(
 
 // 👇 use render() helper
 const { Content } = await render(category);
+const currentUrl = Astro.url.href; // full URL of the current page
+
 ---
 
 
@@ -39,6 +41,46 @@ const { Content } = await render(category);
   image={`/assets/images/blog/${category.data.image}`}
 >
 <Fragment slot="head">
+  <script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.wikimint.com#website",
+        url: "https://www.wikimint.com",
+        name: "Wikimint",
+        publisher: {
+          "@type": "Organization",
+          name: "Wikimint",
+          url: "https://www.wikimint.com"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": currentUrl + "#webpage",
+        url: currentUrl,
+        name: category.data.title,
+        description: category.data.description,  // ✅ fixed
+        isPartOf: {
+          "@id": "https://www.wikimint.com#website"
+        },
+        primaryImageOfPage: {
+          "@id": currentUrl + "#primaryimage"   // ✅ made per-page unique
+        }
+      },
+      {
+  "@type": "ImageObject",
+  "@id": currentUrl + "#primaryimage", // tied to current page
+  url: `/assets/images/blog/${category.data.image}`,
+  caption: category.data.title
+}
+
+    ]
+  })}
+/>
+
   <script
     type="application/ld+json"
     set:html={JSON.stringify({
@@ -65,28 +107,6 @@ const { Content } = await render(category);
     type="application/ld+json"
     set:html={JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.wikimint.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": category.data.title,
-          "item": `https://www.wikimint.com/${category.slug}`
-        }
-      ]
-    }, null, 2)}
-  />
-
-  <script
-    type="application/ld+json"
-    set:html={JSON.stringify({
-      "@context": "https://schema.org",
       "@type": "ItemList",
       "name": `Posts in ${category.data.title}`,
       "itemListElement": categoryPosts
@@ -100,48 +120,42 @@ const { Content } = await render(category);
         }))
     }, null, 2)}
   />
-  <script
-  type="application/ld+json"
-  set:html={JSON.stringify({
-    "@type": "Person",
-            "@id": "https://sk.wikimint.com#author",
-            "name": "Selvakumaran Krishnan",
-            "url": "https://sk.wikimint.com",
-            "image": "https://www.wikimint.com/assets/images/authors/selvakumaran-krishnan.webp",
-            "sameAs": [
-              "https://linkedin.com/in/selvakumaran-krishnan",
-              "https://facebook.com/selvakumarank",
-              "https://twitter.com/selvakumarankri",
-              "https://profiles.wordpress.org/selvaklnc/"
-            ],
-            "jobTitle": "Full Stack Developer, Blogger, Creative Writer, Founder of Wikimint",
-            "alumniOf": [{ "@type": "EducationalOrganization", "name": "Annamalai University", "sameAs": "https://annamalaiuniversity.ac.in/index.php" }],
-            "knowsAbout": [
-              { "@type": "Thing", "name": "Web Development" },
-              { "@type": "Thing", "name": "Digital Marketing" },
-              { "@type": "Thing", "name": "SEO" },
-              { "@type": "Thing", "name": "Blogging" },
-              { "@type": "Thing", "name": "Content Marketing" },
-              { "@type": "Thing", "name": "Personal Finance" },
-              { "@type": "Thing", "name": "Business Strategy" },
-              { "@type": "Thing", "name": "Entrepreneurship" },
-              { "@type": "Thing", "name": "Investing" },
-              { "@type": "Thing", "name": "Stock Market" },
-              { "@type": "Thing", "name": "Cryptocurrency" },
-              { "@type": "Thing", "name": "Online Business" },
-              { "@type": "Thing", "name": "E-commerce" },
-              { "@type": "Thing", "name": "Affiliate Marketing" },
-              { "@type": "Thing", "name": "Passive Income" },
-              { "@type": "Thing", "name": "Financial Literacy" }
-            ]
-
-  }, null, 2)}
-/>
-
+ 
 </Fragment>
 
   <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
     <main class="col-span-12 md:col-span-7 prose lg:prose-xl max-w-none">
+      
+      <nav class="breadcrumbs border-b border-gray-400 pb-4 mb-5" 
+      itemscope itemtype="https://schema.org/BreadcrumbList">
+   
+   <!-- Home -->
+   <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+     <a href="https://www.wikimint.com" itemprop="item">
+       <span itemprop="name" class="text-wmblue">Home</span>
+     </a>
+     <meta itemprop="position" content="1" />
+   </span>
+ 
+   <span> » </span>
+ 
+   <!-- Category -->
+   <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <span>
+      {category.slug.charAt(0).toUpperCase() + category.slug.slice(1)}
+    </span>
+    <a href={`https://www.wikimint.com/${category.slug}`} itemprop="item">
+      <span class="sr-only" itemprop="name">{category.data.title}<span/>
+    </a>
+     <!-- Structured data -->
+     <meta itemprop="position" content="2" />
+     <!-- Visible label: capitalized slug -->
+
+    
+   </span>
+ 
+ </nav>
+ 
       
       <!-- Category Metadata -->
       <h1 class="text-3xl font-bold mb-2">{category.data.h1}</h1>

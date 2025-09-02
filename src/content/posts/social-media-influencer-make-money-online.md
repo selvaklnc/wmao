@@ -6,7 +6,7 @@ h1: "How to Grow Your Income as a Social Media Influencer"
 image: "social-media-influencer-make-money.webp"
 date: "2025-01-02"
 author: "selvakumaran-krishnan"
-category: "Business"
+category: "Money"
 tags: ["business"]
 summary: "In today's digital world, social media has become more than just a platform to share updates or connect with friends. It's a booming online business! Social media influencers are leveraging platforms like Instagram, YouTube, TikTok, and Twitter to make a living—and sometimes even millions."
 faq:

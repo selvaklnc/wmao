@@ -6,7 +6,7 @@ h1: "Anaconda Snakes: Species, Behavior, and Natural Habitat"
 image: "Green_Anaconda_001.webp"
 date: "2021-10-08"
 author: "selvakumaran-krishnan"
-category: "Nature"
+category: "Science"
 tags: ["nature","science"]
 summary: "The snake, Anaconda is also called as green anaconda, common anaconda, giant anaconda, common water boa or sucuri. The generic name of anaconda is Eunectes murinus."
 ---
