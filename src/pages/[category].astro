@@ -73,7 +73,7 @@ const currentUrl = Astro.url.href; // full URL of the current page
       {
   "@type": "ImageObject",
   "@id": currentUrl + "#primaryimage", // tied to current page
-  url: `/assets/images/blog/${category.data.image}`,
+  url: `https://www.wikimint.com/assets/images/blog/${category.data.image}`,
   caption: category.data.title
 }
 
@@ -166,23 +166,25 @@ const currentUrl = Astro.url.href; // full URL of the current page
         Posts in {category.data.title}
       </h2>
       <ul class="space-y-6">
-        {categoryPosts.map((post: Post) => (
-          <li class="border-b pb-4">
-            <a href={`/${post.slug}`} class="text-lg font-semibold hover:underline">
-              {post.data.title}
-            </a>
-            {post.data.description && (
-              <p class="text-gray-600 mt-1">{post.data.description}</p>
-            )}
-            {post.data.date && (
-              <p class="text-sm text-gray-500">
-                {new Date(post.data.date).toDateString()}
-              </p>
-            )}
-          </li>
-        ))}
-        
+        {categoryPosts
+          .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+          .map((post: Post) => (
+            <li class="border-b pb-4">
+              <a href={`/${post.slug}`} class="text-lg font-semibold hover:underline">
+                {post.data.title}
+              </a>
+              {post.data.description && (
+                <p class="text-gray-600 mt-1">{post.data.description}</p>
+              )}
+              {post.data.date && (
+                <p class="text-sm text-gray-500">
+                  {new Date(post.data.date).toDateString()}
+                </p>
+              )}
+            </li>
+          ))}
       </ul>
+      
 
       <!-- Render markdown content from category file -->
       <Content />
