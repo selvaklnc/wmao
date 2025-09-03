@@ -40,20 +40,20 @@ faq:
 
 However, the real secret that often goes unmentioned is that the value of a list comes from the relationships within it.
 
-And that's exactly the mindset LeadsLeap's **List Manager**, also known as SendSteed, is built on.
+And that's exactly the mindset <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s **List Manager**, also known as <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, is built on.
 
 ![Build and manage your email list effectively using SendSteed's List Manager, an all-in-one tool for automation, segmentation, and subscriber engagement.  ](/assets/images/blog/list-manager-email-marketing.webp "Building Your List with the List Manager (SendSteed)")
 
-SendSteed's List Manager helps you grow and nurture your email list with powerful tools for automation, broadcast, and audience segmentation.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s List Manager helps you grow and nurture your email list with powerful tools for automation, broadcast, and audience segmentation.
 
-In this chapter of Mastering [Digital Marketing](/digital-marketing-strategy) with LeadsLeap, we'll explore how SendSteed helps you build, nurture, and monetize your email list the right way, without spammy shortcuts or overpriced tools.
+In this chapter of Mastering [Digital Marketing](/digital-marketing-strategy) with LeadsLeap, we'll explore how <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> helps you build, nurture, and monetize your email list the right way, without spammy shortcuts or overpriced tools.
 
-As someone who has tested various autoresponders over the years, from Mailchimp to GetResponse, I can confidently say that SendSteed simplifies the entire process without compromising on features. Whether you're a seasoned or a beginner email marketer, you'll appreciate the control and compliance SendSteed offers.
+As someone who has tested various autoresponders over the years, from Mailchimp to GetResponse, I can confidently say that <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> simplifies the entire process without compromising on features. Whether you're a seasoned or a beginner email marketer, you'll appreciate the control and compliance <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> offers.
 
 What Is SendSteed?
 ------------------
 
-**SendSteed** is LeadsLeap's built-in, fully functional **email autoresponder and list management system**. It's free for all members and designed to help you:
+**SendSteed** is <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s built-in, fully functional **email autoresponder and list management system**. It's free for all members and designed to help you:
 
 *   Collect leads using opt-in forms
 *   Send automated follow-up emails (Email Series)
@@ -61,18 +61,18 @@ What Is SendSteed?
 *   Maintain legal compliance with double opt-in
 *   Build trust and long-term engagement
 
-I've personally used SendSteed to build multiple niche-specific lists and run high-conversion campaigns. Its reliability and ease of use have helped me grow an engaged subscriber base without needing expensive third-party platforms.
+I've personally used <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> to build multiple niche-specific lists and run high-conversion campaigns. Its reliability and ease of use have helped me grow an engaged subscriber base without needing expensive third-party platforms.
 
 You might know similar tools by other names:
 
-Autoresponders, email automation systems, CRM tools, or list managers. SendSteed does what platforms like Aweber, Mailchimp, and GetResponse do, without the monthly fees.
+Autoresponders, email automation systems, CRM tools, or list managers. <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> does what platforms like Aweber, Mailchimp, and GetResponse do, without the monthly fees.
 
 Why Every Marketer Needs a List
 -------------------------------
 
 Let's be clear: list building is not optional if you're serious about long-term success. Paid ads can disappear. Social media platforms can ban or throttle your reach. But your email list is an owned audience.
 
-Before jumping into SendSteed, though, ask yourself:
+Before jumping into <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, though, ask yourself:
 
 *   What niche should I build my list in?
 *   What value am I offering to subscribers?
@@ -85,7 +85,7 @@ Remember: **building a list is building a relationship**, not a hit-and-run prom
 How SendSteed Works
 -------------------
 
-Here's a simplified flow of how SendSteed supports your list-building and email marketing:
+Here's a simplified flow of how <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> supports your list-building and email marketing:
 
 ### Subscribers Opt-In
 
@@ -112,11 +112,11 @@ LeadsLeap doesn't share or resell any emails. The leads you collect are yours an
 
 ### Legitimate, Quality List Only
 
-SendSteed encourages you to build your own genuine list, not a safelist, shared list, or purchased list. That's essential for maintaining compliance with CAN-SPAM and GDPR regulations.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> encourages you to build your own genuine list, not a safelist, shared list, or purchased list. That's essential for maintaining compliance with CAN-SPAM and GDPR regulations.
 
 ### Powerful Email Editor
 
-SendSteed comes with an intuitive editor with custom features like:
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> comes with an intuitive editor with custom features like:
 
 *   **Preview mode** to see your email exactly as it will appear
 *   **Send test** to yourself before going live
@@ -126,7 +126,7 @@ SendSteed comes with an intuitive editor with custom features like:
 
 Everything you need to **create professional, engaging emails**, right inside the LeadsLeap dashboard.
 
-In today's digital landscape, ethical list building isn't just good practice, it's essential. SendSteed enforces double opt-in and gives you full control over your subscribers, which means better deliverability, lower spam complaints, and stronger subscriber trust.
+In today's digital landscape, ethical list building isn't just good practice, it's essential. <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> enforces double opt-in and gives you full control over your subscribers, which means better deliverability, lower spam complaints, and stronger subscriber trust.
 
 Understanding Different Types of Lists (And What NOT to Do)
 -----------------------------------------------------------
@@ -153,11 +153,11 @@ Bought from someone else. Legally risky, poor deliverability, and often outright
 
 Subscribers who opt in to your specific offer, know who you are, and have verified their email address.
 
-One of my lists built entirely using SendSteed now brings in a steady stream of affiliate sales each month. It didn't happen overnight, but by consistently providing value and using the tools inside SendSteed, that list became an asset I can count on.
+One of my lists built entirely using <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> now brings in a steady stream of affiliate sales each month. It didn't happen overnight, but by consistently providing value and using the tools inside <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, that list became an asset I can count on.
 
 This is the only kind of list that gives you real influence, trust, and [long-term income potential](/passive-income-ideas).
 
-For example, I created a simple opt-in funnel offering a free SEO checklist. Using SendSteed's tools, I followed up with a 5-part email series on website optimization. The result? A 38% open rate and multiple requests for consulting, proving how effective well-managed lists can be.
+For example, I created a simple opt-in funnel offering a free SEO checklist. Using <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s tools, I followed up with a 5-part email series on website optimization. The result? A 38% open rate and multiple requests for consulting, proving how effective well-managed lists can be.
 
 Best Practices for Building and Managing Your List
 --------------------------------------------------
@@ -167,16 +167,16 @@ Best Practices for Building and Managing Your List
 *   **Be transparent**, tell people what they're signing up for.
 *   **Use segmentation** and personalization whenever possible.
 *   **Test and tweak** your Email Series and broadcasts for better performance.
-*   **Always provide an unsubscribe option** (SendSteed handles this automatically).
+*   **Always provide an unsubscribe option** (<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> handles this automatically).
 
 Final Thoughts
 --------------
 
-SendSteed is more than just an email tool, it's your direct line to a community of potential buyers, fans, and brand advocates. By building your list with integrity and offering real value, you set yourself up for consistent, long-term success.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> is more than just an email tool, it's your direct line to a community of potential buyers, fans, and brand advocates. By building your list with integrity and offering real value, you set yourself up for consistent, long-term success.
 
 And the best part? You can begin without investing any money upfront.
 
-Unlike many platforms that lure you in with a free plan and then aggressively upsell, LeadsLeap's SendSteed remains transparent. You get full functionality as a free member, with optional upgrades only when you're ready to scale.
+Unlike many platforms that lure you in with a free plan and then aggressively upsell, LeadsLeap's <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> remains transparent. You get full functionality as a free member, with optional upgrades only when you're ready to scale.
 
 In the next chapter, we'll cover Email Series, how to keep your list warm and engaged with automated pre-created series of emails periodically.
 

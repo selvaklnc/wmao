@@ -36,13 +36,13 @@ faq:
 
 ---
 
-As someone who's used dozens of page builders over the years, I can confidently say that SendSteed's Page Manager is one of the most intuitive tools available for beginners and pros alike.
+As someone who's used dozens of page builders over the years, I can confidently say that <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s Page Manager is one of the most intuitive tools available for beginners and pros alike.
 
 Good news: LeadsLeap's **Page Manager** (aka Page Builder) is built for exactly that.
 
 ![Create stunning, high-converting landing pages easily with SendSteed's Page Manager, customize designs, boost conversions, and grow your online presence effectively.](/assets/images/blog/page-manager-build-high-converting-pages.webp "Page Manager: Build Beautiful, High-Converting Pages with Ease")
 
-SendSteed's Page Manager lets you design attractive and conversion-optimized pages effortlessly to capture leads, increase sales, and enhance your marketing results.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s Page Manager lets you design attractive and conversion-optimized pages effortlessly to capture leads, increase sales, and enhance your marketing results.
 
 In this chapter of Mastering Online Marketing with LeadsLeap, we're diving into one of the most flexible and beginner-friendly tools on the platform. Whether you're launching a new offer or just need a place to send traffic, **Page Manager makes it quick, simple, and effective**.
 
@@ -151,7 +151,7 @@ What Sets It Apart?
 
 Unlike other page builders that charge monthly fees or require domain setup, **LeadsLeap's Page Manager is fast, hosted, and completely integrated** with the rest of your LeadsLeap tools, like email lists, popups, and link trackers.
 
-Having worked with various marketing platforms, I appreciate how seamlessly Page Manager integrates with tools like SendSteed email marketing and the LeadsLeap ecosystem.
+Having worked with various marketing platforms, I appreciate how seamlessly Page Manager integrates with tools like <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> email marketing and the LeadsLeap ecosystem.
 
 Plus, it's perfect for marketers who want to **launch fast, test quickly**, and keep costs down.
 

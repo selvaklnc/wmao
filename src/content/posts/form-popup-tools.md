@@ -36,31 +36,31 @@ faq:
 
 ---
 
-In this chapter of [Mastering digital Marketing](/digital-marketing-strategy) with LeadsLeap, we'll explore how to create flexible, eye-catching **opt-in forms** and **attention-grabbing popups** that you can embed almost anywhere, on your blog, website, tracked link, or even inside your LeadsLeap pages.
+In this chapter of [Mastering digital Marketing](/digital-marketing-strategy) with LeadsLeap, we'll explore how to create flexible, eye-catching **opt-in forms** and **attention-grabbing popups** that you can embed almost anywhere, on your blog, website, tracked link, or even inside your <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> pages.
 
 ![Use LeadsLeap's form popup tools to capture leads, grow your email list, and boost conversions with engaging, customizable popup forms for any website.](/assets/images/blog/form-popup-tools.webp "Form Popup Tools in LeadsLeap")
 
-LeadsLeap's form popup tools help marketers build mailing lists and drive actions with attention-grabbing forms that integrate easily into any website.
+<span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s form popup tools help marketers build mailing lists and drive actions with attention-grabbing forms that integrate easily into any website.
 
-Over the years, I've tested dozens of popup and opt-in tools, some too complex, others too rigid. What stands out with LeadsLeap is how intuitive and marketer-friendly it is. Whether you're a seasoned email marketer or just starting, the simplicity here doesn't come at the cost of power or flexibility.
+Over the years, I've tested dozens of popup and opt-in tools, some too complex, others too rigid. What stands out with <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> is how intuitive and marketer-friendly it is. Whether you're a seasoned email marketer or just starting, the simplicity here doesn't come at the cost of power or flexibility.
 
 No coding? No problem. LeadsLeap makes it simple for anyone to create, customize, and launch forms that convert like crazy.
 
 What Is the Form/Popup Manager?
 -------------------------------
 
-The Form/Popup Manager is a tool in LeadsLeap that lets you create:
+The Form/Popup Manager is a tool in <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> that lets you create:
 
 *   **Inline Forms** – embedded directly in the content
 *   **Popups** – appear over the content to catch attention
-*   **Lead capture forms** – connected to your SendSteed list
+*   **Lead capture forms** – connected to your <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> list
 *   **Promotional popups** – promote offers without collecting emails
 
 So, is a form a popup?
 
 Yes... and no.
 
-In LeadsLeap, the term “form” refers to both inline forms and popups. But from a design standpoint:
+In <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>, the term “form” refers to both inline forms and popups. But from a design standpoint:
 
 *   A form is usually an opt-in field users fill out.
 *   A popup can be a form or just a promo box with a button.
@@ -120,7 +120,7 @@ You can create a variety of popups and forms using this manager:
 
 ### Opt-In Popups
 
-Collect name and email for your SendSteed list. Great for:
+Collect name and email for your <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> list. Great for:
 
 *   Lead magnets
 *   Newsletter signups
@@ -178,7 +178,7 @@ The Form/Popup Manager is a highly versatile tool that gives you the power to co
 
 Use it to embed opt-in forms into blog content, create irresistible popups on your landing pages, or layer bonus offers onto tracked links. It's quick, flexible, and powerful.
 
-And the best part? It integrates seamlessly with SendSteed, making list-building a breeze.
+And the best part? It integrates seamlessly with <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, making list-building a breeze.
 
 In the next chapter, we'll unlock the power of the List Manager, your go-to tool for building, organizing, and monetizing your email list inside LeadsLeap. Once you get the traffic right, it's all about keeping those leads warm and converting.
 

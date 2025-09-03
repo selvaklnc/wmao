@@ -36,7 +36,7 @@ faq:
 
 ---
 
-We've encountered the same bottlenecks when running marketing campaigns, broken image links and unreliable file hosts were costing us leads. That's why LeadsLeap's **Image Manager** and **PDF Manager** are a game-changer for serious marketers. They're designed to host your media files securely, and make it easy to use those files across your Pages, Forms, and Emails, all in one ecosystem.
+We've encountered the same bottlenecks when running marketing campaigns, broken image links and unreliable file hosts were costing us leads. That's why <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s **Image Manager** and **PDF Manager** are a game-changer for serious marketers. They're designed to host your media files securely, and make it easy to use those files across your Pages, Forms, and Emails, all in one ecosystem.
 
 Having used LeadsLeap for over 5 years, we can confidently say these tools eliminate common headaches and boost workflow efficiency.
 
@@ -49,9 +49,9 @@ In this chapter of Mastering Online Marketing with LeadsLeap, we'll show you how
 What Is the Image Manager?
 --------------------------
 
-The Image Manager is a tool available exclusively to Pro Members of LeadsLeap. It provides a central place to upload, store, and manage images that you want to use throughout the platform.
+The Image Manager is a tool available exclusively to Pro Members of <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>. It provides a central place to upload, store, and manage images that you want to use throughout the platform.
 
-This feature is part of LeadsLeap's premium suite, developed by a platform that's been trusted by marketers since 2008.
+This feature is part of <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s premium suite, developed by a platform that's been trusted by marketers since 2008.
 
 ### Where You Can Use Hosted Images:
 
@@ -59,9 +59,9 @@ This feature is part of LeadsLeap's premium suite, developed by a platform that'
 *   In **Form/Popup Creator** (e.g., branded opt-in forms)
 *   In **SendSteed emails** (adding visuals to boost engagement)
 
-No more relying on free image hosts or embedding from social media platforms. With LeadsLeap, your visuals live securely within your marketing system, and they load fast, too.
+No more relying on free image hosts or embedding from social media platforms. With <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>, your visuals live securely within your marketing system, and they load fast, too.
 
-Unlike public hosting platforms, LeadsLeap ensures stable URLs and secure hosting within a closed, ad-free system.
+Unlike public hosting platforms, <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> ensures stable URLs and secure hosting within a closed, ad-free system.
 
 ### Features of the Image Manager:
 
@@ -88,7 +88,7 @@ We've personally used the PDF Manager to deliver lead magnets instantly, no down
 ### Where You Can Use Hosted PDFs:
 
 *   In your **Page Builder pages** (thank-you or delivery pages)
-*   In SendSteed follow-up emails or broadcasts
+*   In <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> follow-up emails or broadcasts
 *   Inside Forms or Popups offering a downloadable resource
 
 This means you can **automatically deliver your PDF lead magnets** the moment someone subscribes, using your hosted file link, no external storage needed.

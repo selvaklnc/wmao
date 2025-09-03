@@ -36,15 +36,15 @@ faq:
 
 ---
 
-From my own experience running email campaigns, having both automation and instant-send options is a must, and SendSteed delivers both without the typical tech headaches.
+From my own experience running email campaigns, having both automation and instant-send options is a must, and <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> delivers both without the typical tech headaches.
 
-That's where **Email Broadcasting** steps in, and LeadsLeap's SendSteed makes it super easy.
+That's where **Email Broadcasting** steps in, and <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s SendSteed makes it super easy.
 
 ![Stay connected with your audience in real time using SendSteed's email broadcasting, share updates, announcements, and offers instantly with your list.](/assets/images/blog/email-broadcasting.webp "Email Broadcasting: Stay Connected in Real Time")
 
-SendSteed's Email Broadcasting feature helps you engage your audience immediately with one-time emails for announcements, promotions, and urgent updates.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s Email Broadcasting feature helps you engage your audience immediately with one-time emails for announcements, promotions, and urgent updates.
 
-In this chapter of [Mastering Digital Marketing](/digital-marketing-strategy) with LeadsLeap, we'll show you how to use broadcasting to send real-time messages, and we'll also dive into two powerful automation tools: **Blog to Broadcast** and **YouTube to Broadcast**.
+In this chapter of [Mastering Digital Marketing](/digital-marketing-strategy) with <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>, we'll show you how to use broadcasting to send real-time messages, and we'll also dive into two powerful automation tools: **Blog to Broadcast** and **YouTube to Broadcast**.
 
 What Is Email Broadcasting?
 ---------------------------
@@ -73,7 +73,7 @@ Email your latest blog post, video, or resource directly to your subscribers whi
 
 ### Track Engagement
 
-SendSteed lets you track open and click rates on your broadcasts so you can monitor how your content is performing and tweak future emails for better results.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> lets you track open and click rates on your broadcasts so you can monitor how your content is performing and tweak future emails for better results.
 
 One of my favorite features is the ability to see what's working in real-time, open rates and click-throughs help refine the strategy for better results over time.
 
@@ -128,7 +128,7 @@ This keeps your email subscribers in sync with your video content, no social med
 Why Broadcasts Only Go to Active Subscribers (By Default)
 ---------------------------------------------------------
 
-When using automated broadcasts (like Blog to Broadcast or YouTube to Broadcast), LeadsLeap targets **Active subscribers only**. This is to stay within system limits and ensure deliverability.
+When using automated broadcasts (like Blog to Broadcast or YouTube to Broadcast), <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> targets **Active subscribers only**. This is to stay within system limits and ensure deliverability.
 
 From a deliverability standpoint, this is a smart move, I've seen better inbox placement and fewer spam complaints by focusing on engaged subscribers.
 
@@ -150,11 +150,11 @@ Final Thoughts
 
 Email Broadcasting is your go-to tool when you want **instant communication and full control**. Whether you're promoting a flash deal, dropping new content, or re-engaging dormant subscribers, this feature keeps your list warm and your message timely.
 
-Having used multiple email tools over the years, I find SendSteed strikes a great balance between simplicity and performance, ideal for marketers at any stage.
+Having used multiple email tools over the years, I find <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> strikes a great balance between simplicity and performance, ideal for marketers at any stage.
 
 Plus, with Blog to Broadcast and YouTube to Broadcast, you get effortless automation for your content strategy, ensuring your best work doesn't go unseen. Overall, this email broadcast helps to ease the process of your [email marketing](/email-marketing-strategy) strategy.
 
-In the next chapter, we'll explore the Page Manager, LeadsLeap's easy-to-use landing page builder that helps you turn traffic into leads, no coding required.
+In the next chapter, we'll explore the Page Manager, <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s easy-to-use landing page builder that helps you turn traffic into leads, no coding required.
 
 
 

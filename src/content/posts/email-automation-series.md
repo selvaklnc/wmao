@@ -36,20 +36,20 @@ faq:
 
 ---
 
-That's where automation becomes your best friend, and LeadsLeap's **Email Series** feature, powered by SendSteed, makes it simple, powerful, and effective.
+That's where automation becomes your best friend, and LeadsLeap's **Email Series** feature, powered by <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, makes it simple, powerful, and effective.
 
 In this chapter of Mastering [Digital Marketing](/digital-marketing-strategy) with LeadsLeap, we're diving into Email Series, what it is, why you need it, and how it helps you build stronger relationships with your subscribers while saving you loads of time.
 
 ![Master email automation with SendSteed's Email Series feature, schedule follow-ups, nurture leads, and convert subscribers into loyal customers effortlessly.](/assets/images/blog/email-series-automation.webp "Mastering Email Series: Automate Your Follow-Ups with SendSteed")
 
-SendSteed's Email Series lets you automate follow-ups and build stronger relationships with subscribers through consistent and targeted communication.
+<span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>'s Email Series lets you automate follow-ups and build stronger relationships with subscribers through consistent and targeted communication.
 
 Backed by Years of Proven Results in Email Marketing
 ----------------------------------------------------
 
 Email Series campaigns have been a cornerstone of digital marketing for over a decade. Industry leaders, including content marketers, affiliate professionals, and online educators, consistently use automated sequences to increase engagement, conversions, and brand trust.
 
-LeadsLeap's SendSteed platform, designed by internet marketing experts, simplifies this process while giving you the same powerful automation tools that top marketers rely on.
+<span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> platform, designed by internet marketing experts, simplifies this process while giving you the same powerful automation tools that top marketers rely on.
 
 What is an Email Series?
 ------------------------
@@ -127,7 +127,7 @@ Every email should have a purpose: visit a page, download something, reply, or t
 Share Codes: Clone Your Success & Empower Your Team
 ---------------------------------------------------
 
-Here's where LeadsLeap really shines: Share Codes.
+Here's where <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span> really shines: Share Codes.
 
 A Share Code is a unique feature that allows you to share your entire Email Series with others. This is ideal for:
 
@@ -135,7 +135,7 @@ A Share Code is a unique feature that allows you to share your entire Email Seri
 *   **Coaches or mentors**: Share a structured follow-up series for clients or students.
 *   **Affiliate marketers**: Provide value to your referrals by giving them ready-to-use sequences.
 
-Anyone with your Share Code can instantly import your Email Series into their own SendSteed dashboard, saving hours of work and ensuring message consistency across your team or brand.
+Anyone with your Share Code can instantly import your Email Series into their own <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span> dashboard, saving hours of work and ensuring message consistency across your team or brand.
 
 **Pro Tip**: You can combine your Email Series Share Code with Page Builder and Funnel Manager Share Codes for a fully integrated, duplicatable marketing system.
 
@@ -163,7 +163,7 @@ Marketing veterans often say, **The money is in the follow-up**. With Email Seri
 Final Thoughts
 --------------
 
-If you're not using Email Series, you're leaving both money and momentum on the table. With LeadsLeap's built-in automation through SendSteed, you can easily turn subscribers into raving fans and customers, without burning yourself out.
+If you're not using Email Series, you're leaving both money and momentum on the table. With <span data-link="https://leadsleap.com?r=selvaklnc">LeadsLeap</span>'s built-in automation through <span data-link="https://sendsteed.com/?r=selvaklnc">SendSteed</span>, you can easily turn subscribers into raving fans and customers, without burning yourself out.
 
 Whether you're a solo creator or leading a team, Email Series gives you a smart, scalable way to stay connected, build trust, and generate sales.
 
