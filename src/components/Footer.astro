@@ -23,68 +23,78 @@ const categories = posts.reduce((acc: Record<string, number>, post) => {
     <div class="col-span-1 md:col-span-4 md:pe-5">
       <div class="h-card text-sm leading-loose" itemscope itemtype="http://schema.org/Organization">
         <a href="https://www.wikimint.com" class="text-xl font-bold text-wmblue-600">
-          <img 
-            alt="Master Personal Finance, Business Growth, Digital Marketing" 
-            class="u-logo" 
-            data-height="46" 
-            data-width="200" 
-            width="165" 
-            height="38"
-            src="/assets/images/wikimint-logo-200x46.webp"
-            itemprop="logo" 
-            itemscope 
-            itemtype="https://schema.org/ImageObject"
-          >
-          <meta itemprop="@id" content="https://www.wikimint.com#organizationLogo">
-          <meta itemprop="url" content="https://www.wikimint.com/assets/images/wikimint-logo-200x46.webp">
+          <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <img 
+              alt="Master Personal Finance, Business Growth, Digital Marketing" 
+              class="u-logo" 
+              data-height="46" 
+              data-width="200" 
+              width="165" 
+              height="38"
+              src="/assets/images/wikimint-logo-200x46.webp"
+              itemprop="contentUrl"
+            >
+            <meta itemprop="url" content="https://www.wikimint.com/assets/images/wikimint-logo-200x46.webp">
+          </span>
+    
+          <!-- Add a generic image for the Organization (fixes 'Missing field "image"') -->
+          <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://www.wikimint.com/assets/images/wikimint.webp">
+            <meta itemprop="contentUrl" content="https://www.wikimint.com/assets/images/wikimint.webp">
+            <meta itemprop="width" content="200">
+            <meta itemprop="height" content="46">
+          </span>
         </a>
           
-          <p class="mt-4 p-adr h-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <span class="p-name org" itemprop="name">Wikimint</span>, 
-            <span class="p-street-address" itemprop="streetAddress">Saraswathi Nagar, Neelankarai</span>, 
-            <span class="p-locality" itemprop="addressLocality">Chennai</span>,  
-            <span class="p-region" itemprop="addressRegion">Tamil Nadu</span>,  
-            <span class="p-postal-code" itemprop="postalCode">600115</span>, 
-            <span class="p-country-name" itemprop="addressCountry">India</span>
-          </p>
+        <p class="mt-4 p-adr h-adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span class="p-name org" itemprop="name">Wikimint</span>, 
+          <span class="p-street-address" itemprop="streetAddress">Saraswathi Nagar, Neelankarai</span>, 
+          <span class="p-locality" itemprop="addressLocality">Chennai</span>,  
+          <span class="p-region" itemprop="addressRegion">Tamil Nadu</span>,  
+          <span class="p-postal-code" itemprop="postalCode">600115</span>, 
+          <span>India</span>
+          <span class="p-country-name sr-only" itemprop="addressCountry">IN</span>
+        </p>
     
-          <hr class="border my-2"/>
+        <hr class="border my-2"/>
     
-          <p class="flex items-center gap-1">
-            <img loading="lazy" src="/assets/svg/envelope.svg" alt="Mail to Wikimint - Contact" width="100" height="100" class="w-[20px]"/>
-            <a class="u-email ms-2" href="mailto:support&#64;wikimint&#46;com" itemprop="email">
-              support&#64;wikimint&#46;com
-            </a>
-          </p>
+        <!-- Email -->
+        <p class="flex items-center gap-1">
+          <img loading="lazy" src="/assets/svg/envelope.svg" alt="Mail to Wikimint - Contact" width="100" height="100" class="w-[20px]"/>
+          <a class="u-email ms-2" href="mailto:support&#64;wikimint&#46;com">
+            support&#64;wikimint&#46;com
+          </a>
+          <meta itemprop="email" content="support@wikimint.com">
+        </p>
     
-          <p class="flex items-center gap-1">
-            <img loading="lazy" src="/assets/svg/phone.svg" alt="Call Wikimint - Support" width="100" height="100" class="w-[20px]"/>
-            <a class="p-tel ms-2" 
-               href="tel:+91&#52;&#52;&#51;&#53;&#55;&#48;&#55;&#48;&#49;&#52;" 
-               itemprop="telephone">
-              +91 &#52;&#52; &#51;&#53;&#55;&#48; &#55;&#48;&#49;&#52;
-            </a>
-          </p>
+        <!-- Phone -->
+        <p class="flex items-center gap-1">
+          <img loading="lazy" src="/assets/svg/phone.svg" alt="Call Wikimint - Support" width="100" height="100" class="w-[20px]"/>
+          <a class="p-tel ms-2" href="tel:+914435707014">
+            +91 44 3570 7014
+          </a>
+          <meta itemprop="telephone" content="+914435707014">
+        </p>
     
-          <!-- Organization Metadata -->
-          <meta itemprop="name" content="Wikimint">
-          <meta itemprop="url" content="https://www.wikimint.com">
-          <meta itemprop="logo" content="https://www.wikimint.com/assets/images/wikimint.webp">
+        <!-- Organization Metadata -->
+        <meta itemprop="name" content="Wikimint">
+        <meta itemprop="url" content="https://www.wikimint.com">
     
-          <!-- Founder -->
-          <div itemprop="founder" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="name" content="Selvakumaran Krishnan">
-            <meta itemprop="url" content="https://sk.wikimint.com">
-          </div>
+        <!-- Founder -->
+        <div itemprop="founder" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Selvakumaran Krishnan">
+          <meta itemprop="url" content="https://sk.wikimint.com">
+        </div>
     
-          <!-- Social Profiles -->
-          <meta itemprop="sameAs" content="https://twitter.com/wikimint">
-          <meta itemprop="sameAs" content="https://www.facebook.com/wikimintofficial">
-          <meta itemprop="sameAs" content="https://www.instagram.com/wikimintofficial">
-          <meta itemprop="sameAs" content="https://www.linkedin.com/company/wikimintofficial">
-          <meta itemprop="sameAs" content="https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA">
+        <!-- Social Profiles -->
+        <meta itemprop="sameAs" content="https://twitter.com/wikimint">
+        <meta itemprop="sameAs" content="https://www.facebook.com/wikimintofficial">
+        <meta itemprop="sameAs" content="https://www.instagram.com/wikimintofficial">
+        <meta itemprop="sameAs" content="https://www.linkedin.com/company/wikimintofficial">
+        <meta itemprop="sameAs" content="https://www.youtube.com/channel/UCWxiax3p4uu8qQhfVPak2VA">
       </div>
     </div>
+    
     
     
 

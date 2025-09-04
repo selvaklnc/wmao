@@ -49,7 +49,9 @@ const relatedPosts = allPosts
 
 <BaseLayout title={post.data.title} description={post.data.description} image={`/assets/images/blog/${post.data.image}`}>
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify({
+    <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Article",
       "mainEntityOfPage": {
@@ -62,8 +64,8 @@ const relatedPosts = allPosts
         "@type": "ImageObject",
         "url": `https://www.wikimint.com/assets/images/blog/${post.data.image}`,
         "contentUrl": `https://www.wikimint.com/assets/images/blog/${post.data.image}`,
-        "width": 800,   // optional if you know it
-        "height": 600   // optional if you know it
+        "width": 800,   // optional
+        "height": 600   // optional
       },
       "publisher": {
         "@type": "Organization",
@@ -73,10 +75,18 @@ const relatedPosts = allPosts
           "url": "https://www.wikimint.com/assets/images/wikimint.webp"
         }
       },
+      "author": {
+        "@type": "Person",
+        "name": (post?.data?.author ?? "Wikimint")
+          .replace(/-/g, " ")
+          .replace(/\b\w/g, (c) => c.toUpperCase()),
+        "url": "https://www.wikimint.com/write-for-us"
+      },
       "datePublished": post.data.date,
       "dateModified": post.data.updated ?? post.data.date
-    }, null, 2)}>
-    </script>
+    }, null, 2)}
+  ></script>
+  
   </Fragment>
   
 

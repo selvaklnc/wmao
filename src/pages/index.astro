@@ -207,11 +207,17 @@ const currentUrl = Astro.url.href; // full URL of the current page
             </a>
   
             <p class="text-sm md:text-base text-gray-500 mb-2 line-clamp-2">
-              <span itemprop="author">
-                {(post?.data?.author ?? "Unknown Author")
-                  .replace(/-/g, " ")
-                  .replace(/\b\w/g, (c) => c.toUpperCase())}
-              </span> ·{" "}
+
+              <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <a href="https://www.wikimint.com/write-for-us" itemprop="url">
+                <span itemprop="name">
+                  {(post?.data?.author ?? "Unknown Author")
+                    .replace(/-/g, " ")
+                    .replace(/\b\w/g, (c) => c.toUpperCase())}
+                </span>
+               </a>
+              </span>
+            ·{" "}
               {post?.data?.date && (
                 <time itemprop="datePublished" datetime={new Date(post.data.date).toISOString()}>
                   {new Date(post.data.date).toDateString()}
