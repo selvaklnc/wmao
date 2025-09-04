@@ -1,6 +1,6 @@
 ---
-title: "Earn with LeadsLeap – Money Making Program Beyond Marketing Tools"
-description: "Discover how to earn with LeadsLeap's Money Making Program. Learn strategies, tips, and opportunities to generate income beyond using marketing tools."
+title: "5 Proven Money Income Streams in 2025 | Earn with LeadsLeap"
+description: "Discover the best money income streams in 2025. Learn passive & active ways to grow wealth, earn side income, and secure your financial future."
 h1: "How to Make Money Online with LeadsLeap's Money Making Program"
 
 image: "money-making-program-earn-money-online.webp"
