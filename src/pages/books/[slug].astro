@@ -102,13 +102,13 @@ const relatedBooks = allBooks
 
         <div class="flex gap-4">
           <button
-          id="read"
+          id="readBook"
           class="flex items-center gap-2 bg-white border-2 border-wmblue text-wmblue px-6 py-2 mt-5 hover:bg-wmblue hover:text-white transition"
                 >
           Read Online
                 </button>
           <button
-          id="download"
+          id="downloadBook"
           class="flex items-center gap-2 border-2 border-wmblue bg-wmblue text-white px-6 py-2 mt-5 hover:bg-gray-500 transition"
                 >
           Download eBook
@@ -233,60 +233,7 @@ class="fixed inset-0 bg-black/70 flex items-center justify-center hidden z-50"
   ></iframe>
 </div>
 </div>
-
+<script src="/assets/js/book.js" defer></script>
 </BooksLayout>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const readBtn = document.getElementById("read");
-    const downloadBtn = document.getElementById("download");
-    const modal = document.getElementById("pdfModal");
-    const closeModal = document.getElementById("closeModal");
-    const pdfViewer = document.getElementById("pdfViewer");
-
-    // Get current slug (last part of URL)
-    const slug = window.location.pathname.split("/").filter(Boolean).pop();
-    const pdfFile = `https://s.wikimint.com/ebooks/${slug}.pdf`; // <-- Adjust folder path
-
-    // READ (Open Modal with PDF)
-    readBtn.addEventListener("click", () => {
-      pdfViewer.src = pdfFile;
-      modal.classList.remove("hidden");
-      document.body.classList.add("overflow-hidden"); // 🔒 disable scroll
-    });
-
-    // CLOSE MODAL
-    closeModal.addEventListener("click", () => {
-      modal.classList.add("hidden");
-      pdfViewer.src = ""; // clear to stop loading
-      document.body.classList.remove("overflow-hidden"); // 🔓 re-enable scroll
-    });
-
-    // DOWNLOAD
-    downloadBtn.addEventListener("click", () => {
-      const originalText = downloadBtn.textContent;
-      downloadBtn.textContent = "Downloading...";
-      downloadBtn.disabled = true;
-
-      setTimeout(() => {
-        // Create a hidden link
-        const link = document.createElement("a");
-        link.href = pdfFile;
-        link.download = slug + ".pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-
-        // Reset button
-        downloadBtn.textContent = originalText;
-        downloadBtn.disabled = false;
-      }, 3000); // 3 seconds delay
-    });
-  });
-
-
-
-
-  
-</script>
 
