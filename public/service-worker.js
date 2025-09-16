@@ -1,5 +1,5 @@
 const CACHE_NAME = "wikimint-cache-v1";
-const urlsToCache = ["/", "/about", "/global.css", "/favicon.ico"];
+const urlsToCache = ["/", "/about", "/favicon.ico"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
