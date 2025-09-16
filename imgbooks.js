@@ -3,8 +3,8 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 
-const rawDir = path.join(process.cwd(), "raw/blog");
-const outDir800 = path.join(process.cwd(), "public/assets/images/blog");
+const rawDir = path.join(process.cwd(), "raw/books");
+const outDir800 = path.join(process.cwd(), "public/assets/images/books");
 const outDir200 = path.join(outDir800, "200");
 
 // Ensure output directories exist

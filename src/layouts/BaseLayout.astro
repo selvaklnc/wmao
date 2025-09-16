@@ -54,6 +54,15 @@ const seoDescription = truncate(description, 160);
 <meta content="#3079ED" name="theme-color"/>
 <meta content="#3079ED" name="msapplication-navbutton-color"/>
 
+<link rel="icon" href="/favicon.ico" sizes="any"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0d6efd">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<meta name="coinzilla" content="ac16149457b398dcde27a3000bd3d642" />
 <slot name="head" />
 <meta name="generator" content="Ghost" />
 
@@ -70,23 +79,11 @@ const seoDescription = truncate(description, 160);
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7784071102690039"
      crossorigin="anonymous"></script>
 
-     <script async type="application/javascript"
-        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
-<script>
-  (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
-    basicSubscriptions.init({
-      type: "NewsArticle",
-      isPartOfType: ["Product"],
-      isPartOfProductId: "CAowm42kDA:openaccess",
-      clientOptions: { theme: "light", lang: "en" },
-    });
-  });
-</script>//
    </>
   )}
 
 
-<link rel="manifest" href="/manifest.webmanifest">
+
 <script>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/service-worker.js")
