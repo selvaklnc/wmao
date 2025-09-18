@@ -1,0 +1,63 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import "../styles/global.css";
+
+const { frontmatter, url } = Astro.props;
+const {
+  title, description, date, updatedDate, image, canonical,
+  tags, toc, learnPoints, relatedResources, faq, author, noindex
+} = frontmatter;
+const currentUrl = Astro.url.href; // full URL of the current page
+
+---
+<BaseLayout title={`${title}`} description={description} image={image} noindex={noindex}>
+
+  <Fragment slot="head">
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.wikimint.com#website",
+            url: "https://www.wikimint.com",
+            name: "Wikimint",
+            publisher: {
+              "@type": "Organization",
+              name: "Wikimint",
+              url: "https://www.wikimint.com"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": currentUrl + "#webpage",
+            url: currentUrl,
+            name: title,
+            description,
+            isPartOf: {
+              "@id": "https://www.wikimint.com#website"
+            },
+            primaryImageOfPage: {
+              "@id": "https://www.wikimint.com#primaryimage"
+            }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.wikimint.com#primaryimage",
+            url: `https://www.wikimint.com${image}`,
+            caption: title
+          }
+        ]
+      })}
+    />
+  </Fragment>
+
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 max-w-7xl mx-auto">
+    <main class="col-span-12">
+    <article class="prose lg:prose-xl max-w-none">
+        <slot /> {/* Markdown content */}
+      </article>
+    </main>
+  </div>
+</BaseLayout>
