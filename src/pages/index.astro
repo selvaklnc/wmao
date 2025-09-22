@@ -6,7 +6,7 @@ import Sidebar from "../components/Sidebar.astro";
 import { Image } from 'astro:assets';
 import { getImage } from "astro:assets";
 
-
+const version = Date.now();
 
 // Load posts
 const posts = await getCollection("posts");
@@ -821,6 +821,6 @@ const currentUrl = Astro.url.href; // full URL of the current page
 
 
 <!-- Simple client-side paginator using prebuilt JSON -->
-<script src="/assets/js/index.js" defer></script>
+<script src={`/assets/js/index.js?v=${version}`} defer></script>
 
 </BaseLayout>

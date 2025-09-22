@@ -1,6 +1,6 @@
 ---
 import LandingLayout from "../layouts/LandingLayout.astro";
-
+const version = Date.now();
 const frontmatter = {
   title: "Ultimate Digital Assets Bundle – Templates, Tools & Guides for Business",
   description: "Access ready-to-use business, marketing, branding, and productivity templates, guides, PLR content, graphics, and software – all in one lifetime bundle.",
@@ -164,7 +164,7 @@ const frontmatter = {
 </div>
 
 
-  <script src="/assets/js/toolkit.js" defer></script>
+  <script src={`/assets/js/toolkit.js?v=${version}`} defer></script>
 
 
 

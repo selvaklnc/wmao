@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import BooksLayout from "../../layouts/BooksLayout.astro";
 import Sidebar from "../../components/Sidebar.astro";
-
+const version = Date.now();
 // 1. Generate a path for every book file
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -233,7 +233,7 @@ class="fixed inset-0 bg-black/70 flex items-center justify-center hidden z-50"
   ></iframe>
 </div>
 </div>
-<script src="/assets/js/book.js" defer></script>
+<script src={`/assets/js/book.js?v=${version}`} defer></script>
 </BooksLayout>
 
 

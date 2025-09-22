@@ -12,7 +12,7 @@ const frontmatter = {
   tags: ["about", "business", "finance"],
   author: "Wikimint Team",
 };
-
+const version = Date.now();
 ---
 
     <BaseLayout title={frontmatter.title} description={frontmatter.description} image={frontmatter.image}>
@@ -88,5 +88,5 @@ const frontmatter = {
   </div>
 )}
 
-<script src="/assets/js/books.js" defer></script>
+<script src={`/assets/js/books.js?v=${version}`} defer></script>
 </BaseLayout>
