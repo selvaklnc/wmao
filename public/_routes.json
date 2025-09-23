@@ -23,6 +23,11 @@
         "status": 301
       },
       {
+        "pattern": "/da",
+        "dest": "/digital-assets",
+        "status": 301
+      },
+      {
         "pattern": "/author/:slug",
         "dest": "/author/:slug",
         "status": 200

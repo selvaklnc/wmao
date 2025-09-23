@@ -57,6 +57,7 @@
 a{
   text-decoration:none ! important;
 }
+[data-link]{cursor:pointer;}
 .post-content [data-link]
 {
   color:#0d6efd;
