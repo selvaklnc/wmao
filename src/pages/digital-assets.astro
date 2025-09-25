@@ -1,10 +1,6 @@
 ---
 import LandingLayout from "../layouts/LandingLayout.astro";
 const version = Date.now();
-const discountedPriceInr = import.meta.env.PUBLIC_DISCOUNT_PRICE_INR;
-const originalPriceInr = import.meta.env.PUBLIC_ORIGINAL_PRICE_INR;
-const originalPriceUsd = import.meta.env.PUBLIC_ORIGINAL_PRICE_USD;
-const discountedPriceUsd = import.meta.env.PUBLIC_DISCOUNT_PRICE_USD;
 
 const frontmatter = {
   title: "Ultimate Digital Assets Bundle – Templates, Tools & Guides for Business",
@@ -65,12 +61,12 @@ const frontmatter = {
 
         <!-- Original Price -->
         <span class="price line-through text-lg sm:text-xl font-normal">
-          ₹{originalPriceInr}
+          ₹299
         </span>
       
         <!-- Discounted Price -->
         <span class="price text-white bg-wmblue px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
-          ₹{discountedPriceInr}
+          ₹98
         </span>
       
         <!-- Discount Badge -->
@@ -225,12 +221,12 @@ const frontmatter = {
 
         <!-- Original Price -->
         <span class="price line-through text-lg sm:text-xl font-normal">
-          ₹{originalPriceInr}
+          ₹299
         </span>
       
         <!-- Discounted Price -->
         <span class="price text-white bg-wmblue px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
-          ₹{discountedPriceInr}
+          ₹98
         </span>
       
         <!-- Discount Badge -->
