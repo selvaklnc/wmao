@@ -1,6 +1,11 @@
 ---
 import LandingLayout from "../layouts/LandingLayout.astro";
 const version = Date.now();
+const discountedPriceInr = import.meta.env.PUBLIC_DISCOUNT_PRICE_INR;
+const originalPriceInr = import.meta.env.PUBLIC_ORIGINAL_PRICE_INR;
+const originalPriceUsd = import.meta.env.PUBLIC_ORIGINAL_PRICE_USD;
+const discountedPriceUsd = import.meta.env.PUBLIC_DISCOUNT_PRICE_USD;
+
 const frontmatter = {
   title: "Ultimate Digital Assets Bundle – Templates, Tools & Guides for Business",
   description: "Access ready-to-use business, marketing, branding, and productivity templates, guides, PLR content, graphics, and software – all in one lifetime bundle.",
@@ -9,6 +14,7 @@ const frontmatter = {
   tags: ["about", "business", "finance"],
   author: "Wikimint Team",
 };
+
 ---
 
 <LandingLayout frontmatter={frontmatter}>
@@ -19,11 +25,11 @@ const frontmatter = {
         <h1><span class="text-small block border-b pb-5 mb-3">All-in-One Toolkit with Lifetime access</span> Digital Assets and Tools for Digital Productivity</h1>
 
 <p>Unlock a complete library of digital assets designed to accelerate your business growth. From business  templates to marketing and digital creatives such as videos, graphics, prompts, we have you covered. It's a productivity tools kit bundle for Business, Marketing & Growth Crafted for Entrepreneures, Freelancers, Agencies & Digital Marketers</p>
-<div class="flex gap-4">
+<div class="block md:flex gap-4 text-center">
   <!-- Filled Button -->
   <span 
     data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1"
-    class="px-10 py-2 bg-blue-600 text-white font-medium shadow-md 
+    class="block md:inline px-10 mb-3 py-2 bg-wmblue text-white font-medium shadow-md 
            hover:bg-blue-700 hover:shadow-lg transition-all duration-200">
     Buy Now
 </span>
@@ -31,7 +37,7 @@ const frontmatter = {
   <!-- Outlined Button -->
   <a 
     href="#assets"
-    class="px-10 py-2 border-2 border-blue-600 text-blue-600 font-medium 
+    class="block md:inline px-10 mb-3 py-2 border-2 border-wmblue text-blue-600 font-medium 
            hover:bg-blue-600 hover:text-white hover:shadow-md transition-all duration-200">
     Explore Assets Included
   </a>
@@ -55,27 +61,27 @@ const frontmatter = {
       <p>One bundle. Unlimited possibilities. Get lifetime access to a complete library of digital assets, tools, and resources built for entrepreneurs, freelancers, and marketers. Save time, grow faster, and unlock endless opportunities with just one purchase.</p>
 
    
-      <div data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1" class="flex flex-col sm:flex-row items-center justify-center gap-4 bg-blue-50 p-6 rounded-2xl shadow-2xl transform transition-all hover:scale-105">
+      <div data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1" class="flex sm:flex-row items-center justify-center gap-4 bg-blue-50 p-6 border-2 border-wmblue shadow-2xl transform transition-all hover:scale-105">
 
         <!-- Original Price -->
-        <span class="line-through text-lg sm:text-xl font-normal">
-          Rs.299/-
+        <span class="price line-through text-lg sm:text-xl font-normal">
+          ₹{originalPriceInr}
         </span>
       
         <!-- Discounted Price -->
-        <span class="text-white bg-[#0077b5] px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
-          Rs.98/-
+        <span class="price text-white bg-wmblue px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
+          ₹{discountedPriceInr}
         </span>
       
         <!-- Discount Badge -->
-        <span class="text-white bg-[#005f91] px-3 py-1 rounded-full font-semibold text-sm sm:text-base shadow-md">
+        <span class="text-white bg-[#555555] px-3 py-1 rounded-full font-semibold sm:text-base shadow-md">
           67% OFF
         </span>
       </div>
             
       <div 
       data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1"
-      class="mt-10 w-full px-10 py-3 bg-blue-600 text-center text-white font-medium shadow-md 
+      class="mt-10 w-full px-10 py-3 bg-wmblue text-center text-white font-medium shadow-md 
              hover:bg-blue-700 hover:shadow-lg transition-all duration-200">
       Buy Now
     </div>
@@ -123,9 +129,10 @@ const frontmatter = {
           <li><a href="/marketing-templates#marketing-budget">Marketing Budget</a></li>
           <li><a href="/marketing-templates#competitor-analysis">Competitor Analysis</a></li>
           <li><a href="/marketing-templates#buyer-personas">Buyer Personas</a></li>
-          <li><a href="/marketing-templates#content-calendar">Content Calendar</a> (Upcoming)</li>
+          <li><a href="/marketing-templates#newsletter-email-templates">Newsletter Email Templates</a></li>
+          <!-- <li><a href="/marketing-templates#content-calendar">Content Calendar</a> (Upcoming)</li>
           <li><a href="/marketing-templates#landing-page-checklist">Landing Page Checklist</a> (Upcoming)</li>
-          <li><a href="/marketing-templates#email-sequence-templates">Email Sequence Templates</a> (Upcoming)</li>
+          <li><a href="/marketing-templates#email-sequence-templates">Email Sequence Templates</a> (Upcoming)</li> -->
 
         </ol></div>
 
@@ -135,6 +142,7 @@ const frontmatter = {
           <li><a href="/productivity-toolkit-bundle#web-applications-bundle">Web Applications Bundle</a></li>
           <li><a href="/productivity-toolkit-bundle#productivity-software">Software Computer Applications</a></li>
           <li><a href="/productivity-toolkit-bundle#graphics-bundle">Multimedia Graphics Bundle</a></li>
+          <li><a href="/productivity-toolkit-bundle#ai-prompts-collection">AI Prompts Collection</a></li>
         </ol>
         </div>
 
@@ -213,34 +221,34 @@ const frontmatter = {
         <li>New here? <a href="https://store.wikimint.com/l/digital-toolkit" target="_blank" class="text-wmblue font-semibold">Get your one-time subscription</a> for lifetime access and updates.</li>
       </ul>
 
-      <div data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1" class="flex flex-col sm:flex-row items-center justify-center gap-4 bg-blue-50 p-6 rounded-2xl shadow-2xl transform transition-all hover:scale-105">
+      <div data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1" class="flex sm:flex-row items-center justify-center gap-4 bg-blue-50 p-6 border-2 border-wmblue shadow-2xl transform transition-all hover:scale-105">
 
         <!-- Original Price -->
-        <span class="line-through text-lg sm:text-xl font-normal">
-          Rs.299/-
+        <span class="price line-through text-lg sm:text-xl font-normal">
+          ₹{originalPriceInr}
         </span>
       
         <!-- Discounted Price -->
-        <span class="text-white bg-[#0077b5] px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
-          Rs.98/-
+        <span class="price text-white bg-wmblue px-4 py-2 rounded-xl font-extrabold text-3xl sm:text-4xl shadow-lg">
+          ₹{discountedPriceInr}
         </span>
       
         <!-- Discount Badge -->
-        <span class="text-white bg-[#005f91] px-3 py-1 rounded-full font-semibold text-sm sm:text-base shadow-md">
+        <span class="text-white bg-[#555555] px-3 py-1 rounded-full font-semibold sm:text-base shadow-md">
           67% OFF
         </span>
       </div>
 
       <div 
       data-link="https://gumroad.com/checkout?product=cynvlv&quantity=1"
-      class="mt-10 w-full px-10 py-3 bg-blue-600 text-center text-white font-medium shadow-md 
+      class="mt-10 w-full px-10 py-3 bg-wmblue text-center text-white font-medium shadow-md 
              hover:bg-blue-700 hover:shadow-lg transition-all duration-200">
       Buy Now
     </div>
       
     </div>
     <div class="text-center" id="download-title"></div>
-    <a href="#assets" target="_blank"
+    <a href="#assets"
     id="download-btn" style="display:none;color:white ! important;"
     class="px-10 my-5 py-3 bg-wmblue text-white font-semibold hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
   >
