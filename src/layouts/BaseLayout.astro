@@ -2,6 +2,7 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+const { disableAds } = Astro.props;
 
 const {
   title = "Wikimint",
@@ -75,8 +76,15 @@ const seoDescription = truncate(description, 160);
    })(window,document,'script','dataLayer','GTM-M5WJVVQ');
    </script>
    <!-- End Google Tag Manager -->
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7784071102690039"
-     crossorigin="anonymous"></script>
+
+   {/* ✅ Load AdSense only if disableAds is NOT true */}
+   {!disableAds && (
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7784071102690039"
+        crossorigin="anonymous">
+      </script>
+    )}
 
    </>
   )}
