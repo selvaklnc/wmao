@@ -19,8 +19,8 @@ const url = Astro.site
   const truncate = (str: string, len: number) =>
   str.length > len ? str.slice(0, len).trim() : str;
 
-  const seoTitle = truncate(title, 60);
-const seoDescription = truncate(description, 160);
+  const seoTitle = truncate(title, 90);
+const seoDescription = truncate(description, 180);
 ---
 
 <html lang="en">
